@@ -4,7 +4,530 @@
     <e p="C:\Users\marcr\.Rider2019.1\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\marcr\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_CNFrameworkAndroid.1914946055.00" t="ExcludeRecursive" />
     <e p="D:\CrowsNestGames\CNFrameworkAndroid" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Oculus" t="Include">
+          <e p="AudioManager" t="Include">
+            <e p="Scenes" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="TestScript.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="Audio" t="Include">
+                <e p="AmbienceEmitter.cs" t="Include" />
+                <e p="AudioManager.cs" t="Include" />
+                <e p="AudioManager_Sound.cs" t="Include" />
+                <e p="Editor" t="Include">
+                  <e p="AudioImportPostProcessor.cs" t="Include" />
+                  <e p="AudioManagerInspector.cs" t="Include" />
+                  <e p="MinMaxPropertyDrawer.cs" t="Include" />
+                  <e p="MixerSnapshotPropertyDrawer.cs" t="Include" />
+                  <e p="OSPPropsPropertyDrawer.cs" t="Include" />
+                  <e p="SoundFXPropertyDrawer.cs" t="Include" />
+                  <e p="SoundFXRefPropertyDrawer.cs" t="Include" />
+                </e>
+                <e p="MinMaxAttribute.cs" t="Include" />
+                <e p="SoundEmitter.cs" t="Include" />
+                <e p="SoundFX.cs" t="Include" />
+                <e p="SoundFXRef.cs" t="Include" />
+              </e>
+              <e p="Utils" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="DrawerInspectorNote.cs" t="Include" />
+                </e>
+                <e p="FastList.cs" t="Include" />
+                <e p="InspectorNoteAttribute.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Avatar" t="Include">
+            <e p="Resources" t="Include">
+              <e p="Materials" t="Include">
+                <e p="AvatarMaterialStateShader.cginc" t="Include" />
+                <e p="AvatarPBRV2Simple.shader" t="Include" />
+                <e p="AvatarSurfaceShader.shader" t="Include" />
+                <e p="AvatarSurfaceShaderPBS.shader" t="Include" />
+                <e p="AvatarSurfaceShaderPBSV2.shader" t="Include" />
+                <e p="AvatarSurfaceShaderSelfOccluding.shader" t="Include" />
+                <e p="Expressive" t="Include">
+                  <e p="Avatar_Mobile_CombinedMeshExpressive.shader" t="Include" />
+                  <e p="Avatar_Mobile_SingleComponentExpressive.shader" t="Include" />
+                  <e p="Avatar_PC_SingleComponentExpressive.shader" t="Include" />
+                  <e p="AvatarEyeLens.shader" t="Include" />
+                </e>
+                <e p="Version1.5" t="Include">
+                  <e p="Avatar_Mobile_CombinedMesh.shader" t="Include" />
+                  <e p="Avatar_Mobile_Loader.shader" t="Include" />
+                  <e p="Avatar_Mobile_SingleComponent.shader" t="Include" />
+                  <e p="Avatar_PC_SingleComponent.shader" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Samples" t="Include">
+              <e p="AvatarGallery" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="OvrAvatarTestDriver.cs" t="Include" />
+                </e>
+              </e>
+              <e p="CrossPlatform" t="Include">
+                <e p="README.txt" t="Include" />
+              </e>
+              <e p="GripPoses" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="PoseEditHelper.cs" t="Include" />
+                </e>
+              </e>
+              <e p="LocalAvatar" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="GazeTargetSpawner.cs" t="Include" />
+                </e>
+              </e>
+              <e p="RemoteLoopback" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="RemoteLoopbackManager.cs" t="Include" />
+                </e>
+              </e>
+              <e p="SocialStarter" t="Include">
+                <e p="Assets" t="Include">
+                  <e p="Scripts" t="Include">
+                    <e p="P2PManager.cs" t="Include" />
+                    <e p="PlayerController.cs" t="Include" />
+                    <e p="RemotePlayer.cs" t="Include" />
+                    <e p="RoomManager.cs" t="Include" />
+                    <e p="SocialPlatformManager.cs" t="Include" />
+                    <e p="VoipManager.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="README.txt" t="Include" />
+              </e>
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="GazeTarget.cs" t="Include" />
+              <e p="OvrAvatar.cs" t="Include" />
+              <e p="OvrAvatarAsset.cs" t="Include" />
+              <e p="OvrAvatarAssetMesh.cs" t="Include" />
+              <e p="OvrAvatarAssetTexture.cs" t="Include" />
+              <e p="OvrAvatarBase.cs" t="Include" />
+              <e p="OvrAvatarBody.cs" t="Include" />
+              <e p="OvrAvatarComponent.cs" t="Include" />
+              <e p="OvrAvatarDriver.cs" t="Include" />
+              <e p="OvrAvatarHand.cs" t="Include" />
+              <e p="OvrAvatarLocalDriver.cs" t="Include" />
+              <e p="OvrAvatarLogger.cs" t="Include" />
+              <e p="OvrAvatarMaterialManager.cs" t="Include" />
+              <e p="OvrAvatarPacket.cs" t="Include" />
+              <e p="OvrAvatarRemoteDriver.cs" t="Include" />
+              <e p="OvrAvatarRenderComponent.cs" t="Include" />
+              <e p="OvrAvatarSDKCAPI.cs" t="Include" />
+              <e p="OvrAvatarSDKManager.cs" t="Include" />
+              <e p="OvrAvatarSettings.cs" t="Include" />
+              <e p="OvrAvatarSettingsEditor.cs" t="Include" />
+              <e p="OvrAvatarSkinnedMeshRenderComponent.cs" t="Include" />
+              <e p="OvrAvatarSkinnedMeshRenderPBSComponent.cs" t="Include" />
+              <e p="OvrAvatarSkinnedMeshRenderPBSV2Component.cs" t="Include" />
+              <e p="OvrAvatarTextureCopyManager.cs" t="Include" />
+              <e p="OvrAvatarTouchController.cs" t="Include" />
+            </e>
+          </e>
+          <e p="LipSync" t="Include">
+            <e p="Editor" t="Include">
+              <e p="OVRLipSyncBuildPostProcessor.cs" t="Include" />
+              <e p="OVRLipSyncContextMorphTargetEditor.cs" t="Include" />
+              <e p="OVRLipSyncTool.cs" t="Include" />
+              <e p="OVRNamedArrayPropertyDrawer.cs" t="Include" />
+            </e>
+            <e p="Scenes" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="EnableSwitch.cs" t="Include" />
+                <e p="LipSyncDemo_Control.cs" t="Include" />
+                <e p="LipSyncDemo_SetCurrentTarget.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="Helpers" t="Include">
+                <e p="OVRLipSyncDebugConsole.cs" t="Include" />
+                <e p="OVRNamedArrayAttribute.cs" t="Include" />
+                <e p="OVRTouchpad.cs" t="Include" />
+              </e>
+              <e p="OVRLipSync.cs" t="Include" />
+              <e p="OVRLipSyncContext.cs" t="Include" />
+              <e p="OVRLipSyncContextBase.cs" t="Include" />
+              <e p="OVRLipSyncContextCanned.cs" t="Include" />
+              <e p="OVRLipSyncContextMorphTarget.cs" t="Include" />
+              <e p="OVRLipSyncContextTextureFlip.cs" t="Include" />
+              <e p="OVRLipSyncMicInput.cs" t="Include" />
+              <e p="OVRLipSyncSequence.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Platform" t="Include">
+            <e p="Editor" t="Include">
+              <e p="GUIHelper.cs" t="Include" />
+              <e p="OculusPlatformSettingsEditor.cs" t="Include" />
+              <e p="OculusPluginUpdaterStub.cs" t="Include" />
+              <e p="OculusStandalonePlatformResponse.cs" t="Include" />
+            </e>
+            <e p="Samples" t="Include">
+              <e p="EntitlementCheck" t="Include">
+                <e p="EntitlementCheck.cs" t="Include" />
+              </e>
+              <e p="NetChat" t="Include">
+                <e p="DataEntry.cs" t="Include" />
+              </e>
+              <e p="SimplePlatformSample" t="Include">
+                <e p="DataEntry.cs" t="Include" />
+              </e>
+              <e p="VrBoardGame" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="BoardPosition.cs" t="Include" />
+                  <e p="EyeCamera.cs" t="Include" />
+                  <e p="GameBoard.cs" t="Include" />
+                  <e p="GameController.cs" t="Include" />
+                  <e p="GamePiece.cs" t="Include" />
+                  <e p="IAPManager.cs" t="Include" />
+                  <e p="MatchmakingManager.cs" t="Include" />
+                  <e p="PlatformManager.cs" t="Include" />
+                </e>
+              </e>
+              <e p="VrHoops" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="AchievementsManager.cs" t="Include" />
+                  <e p="AIPlayer.cs" t="Include" />
+                  <e p="BallEjector.cs" t="Include" />
+                  <e p="Camera2DController.cs" t="Include" />
+                  <e p="DetectBasket.cs" t="Include" />
+                  <e p="FlyText.cs" t="Include" />
+                  <e p="GoalMover.cs" t="Include" />
+                  <e p="LeaderboardManager.cs" t="Include" />
+                  <e p="LocalPlayer.cs" t="Include" />
+                  <e p="MatchController.cs" t="Include" />
+                  <e p="MatchmakingManager.cs" t="Include" />
+                  <e p="P2PManager.cs" t="Include" />
+                  <e p="P2PNetworkBall.cs" t="Include" />
+                  <e p="P2PNetworkGoal.cs" t="Include" />
+                  <e p="PlatformManager.cs" t="Include" />
+                  <e p="Player.cs" t="Include" />
+                  <e p="PlayerArea.cs" t="Include" />
+                  <e p="RemotePlayer.cs" t="Include" />
+                  <e p="VREyeRaycaster.cs" t="Include" />
+                </e>
+              </e>
+              <e p="VrVoiceChat" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="P2PManager.cs" t="Include" />
+                  <e p="PlatformManager.cs" t="Include" />
+                  <e p="RoomManager.cs" t="Include" />
+                  <e p="VoipManager.cs" t="Include" />
+                  <e p="VREyeRaycaster.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="AbuseReportOptions.cs" t="Include" />
+              <e p="AbuseReportType.cs" t="Include" />
+              <e p="AchievementType.cs" t="Include" />
+              <e p="AndroidPlatform.cs" t="Include" />
+              <e p="ApplicationOptions.cs" t="Include" />
+              <e p="BufferedAudioStream.cs" t="Include" />
+              <e p="Callback.cs" t="Include" />
+              <e p="CallbackRunner.cs" t="Include" />
+              <e p="CAPI.cs" t="Include" />
+              <e p="CloudStorageDataStatus.cs" t="Include" />
+              <e p="CloudStorageUpdateStatus.cs" t="Include" />
+              <e p="Decoder.cs" t="Include" />
+              <e p="Encoder.cs" t="Include" />
+              <e p="IMicrophone.cs" t="Include" />
+              <e p="IVoipPCMSource.cs" t="Include" />
+              <e p="KeyValuePairType.cs" t="Include" />
+              <e p="LaunchType.cs" t="Include" />
+              <e p="LeaderboardFilterType.cs" t="Include" />
+              <e p="LeaderboardStartAt.cs" t="Include" />
+              <e p="LivestreamingAudience.cs" t="Include" />
+              <e p="LivestreamingMicrophoneStatus.cs" t="Include" />
+              <e p="LivestreamingStartStatus.cs" t="Include" />
+              <e p="MatchmakingCriterionImportance.cs" t="Include" />
+              <e p="MatchmakingOptions.cs" t="Include" />
+              <e p="MatchmakingStatApproach.cs" t="Include" />
+              <e p="MediaContentType.cs" t="Include" />
+              <e p="Message.cs" t="Include" />
+              <e p="MicrophoneInput.cs" t="Include" />
+              <e p="MicrophoneInputNative.cs" t="Include" />
+              <e p="Models" t="Include">
+                <e p="AbuseReportRecording.cs" t="Include" />
+                <e p="AchievementDefinition.cs" t="Include" />
+                <e p="AchievementProgress.cs" t="Include" />
+                <e p="AchievementUpdate.cs" t="Include" />
+                <e p="ApplicationVersion.cs" t="Include" />
+                <e p="AssetDetails.cs" t="Include" />
+                <e p="AssetFileDeleteResult.cs" t="Include" />
+                <e p="AssetFileDownloadCancelResult.cs" t="Include" />
+                <e p="AssetFileDownloadResult.cs" t="Include" />
+                <e p="AssetFileDownloadUpdate.cs" t="Include" />
+                <e p="CalApplicationFinalized.cs" t="Include" />
+                <e p="CalApplicationProposed.cs" t="Include" />
+                <e p="CalApplicationSuggestion.cs" t="Include" />
+                <e p="CloudStorageConflictMetadata.cs" t="Include" />
+                <e p="CloudStorageData.cs" t="Include" />
+                <e p="CloudStorageMetadata.cs" t="Include" />
+                <e p="CloudStorageUpdateResponse.cs" t="Include" />
+                <e p="DeserializeableList.cs" t="Include" />
+                <e p="Error.cs" t="Include" />
+                <e p="HttpTransferUpdate.cs" t="Include" />
+                <e p="InstalledApplication.cs" t="Include" />
+                <e p="LanguagePackInfo.cs" t="Include" />
+                <e p="LaunchBlockFlowResult.cs" t="Include" />
+                <e p="LaunchDetails.cs" t="Include" />
+                <e p="LaunchFriendRequestFlowResult.cs" t="Include" />
+                <e p="LaunchReportFlowResult.cs" t="Include" />
+                <e p="LaunchUnblockFlowResult.cs" t="Include" />
+                <e p="LeaderboardEntry.cs" t="Include" />
+                <e p="LinkedAccount.cs" t="Include" />
+                <e p="LivestreamingApplicationStatus.cs" t="Include" />
+                <e p="LivestreamingStartResult.cs" t="Include" />
+                <e p="LivestreamingStatus.cs" t="Include" />
+                <e p="LivestreamingVideoStats.cs" t="Include" />
+                <e p="MatchmakingAdminSnapshot.cs" t="Include" />
+                <e p="MatchmakingAdminSnapshotCandidate.cs" t="Include" />
+                <e p="MatchmakingBrowseResult.cs" t="Include" />
+                <e p="MatchmakingEnqueuedUser.cs" t="Include" />
+                <e p="MatchmakingEnqueueResult.cs" t="Include" />
+                <e p="MatchmakingEnqueueResultAndRoom.cs" t="Include" />
+                <e p="MatchmakingStats.cs" t="Include" />
+                <e p="NetworkingPeer.cs" t="Include" />
+                <e p="OrgScopedID.cs" t="Include" />
+                <e p="Party.cs" t="Include" />
+                <e p="PartyID.cs" t="Include" />
+                <e p="PartyUpdateNotification.cs" t="Include" />
+                <e p="Pid.cs" t="Include" />
+                <e p="PingResult.cs" t="Include" />
+                <e p="PlatformInitialize.cs" t="Include" />
+                <e p="Product.cs" t="Include" />
+                <e p="Purchase.cs" t="Include" />
+                <e p="Room.cs" t="Include" />
+                <e p="RoomInviteNotification.cs" t="Include" />
+                <e p="SdkAccount.cs" t="Include" />
+                <e p="ShareMediaResult.cs" t="Include" />
+                <e p="SystemPermission.cs" t="Include" />
+                <e p="SystemVoipState.cs" t="Include" />
+                <e p="Team.cs" t="Include" />
+                <e p="User.cs" t="Include" />
+                <e p="UserAndRoom.cs" t="Include" />
+                <e p="UserProof.cs" t="Include" />
+                <e p="UserReportID.cs" t="Include" />
+              </e>
+              <e p="Packet.cs" t="Include" />
+              <e p="PartyUpdateAction.cs" t="Include" />
+              <e p="PeerConnectionState.cs" t="Include" />
+              <e p="PermissionGrantStatus.cs" t="Include" />
+              <e p="PermissionType.cs" t="Include" />
+              <e p="Platform.cs" t="Include" />
+              <e p="PlatformInitializeResult.cs" t="Include" />
+              <e p="PlatformInternal.cs" t="Include" />
+              <e p="PlatformSettings.cs" t="Include" />
+              <e p="Request.cs" t="Include" />
+              <e p="RichPresenceExtraContext.cs" t="Include" />
+              <e p="RichPresenceOptions.cs" t="Include" />
+              <e p="RoomJoinability.cs" t="Include" />
+              <e p="RoomJoinPolicy.cs" t="Include" />
+              <e p="RoomMembershipLockStatus.cs" t="Include" />
+              <e p="RoomOptions.cs" t="Include" />
+              <e p="RoomType.cs" t="Include" />
+              <e p="SdkAccountType.cs" t="Include" />
+              <e p="SendPolicy.cs" t="Include" />
+              <e p="ServiceProvider.cs" t="Include" />
+              <e p="ShareMediaStatus.cs" t="Include" />
+              <e p="StandalonePlatform.cs" t="Include" />
+              <e p="StandalonePlatformSettings.cs" t="Include" />
+              <e p="SystemVoipStatus.cs" t="Include" />
+              <e p="TimeWindow.cs" t="Include" />
+              <e p="UserOptions.cs" t="Include" />
+              <e p="UserOrdering.cs" t="Include" />
+              <e p="UserPresenceStatus.cs" t="Include" />
+              <e p="VoipAudioSource.cs" t="Include" />
+              <e p="VoipAudioSourceHiLevel.cs" t="Include" />
+              <e p="VoipBitrate.cs" t="Include" />
+              <e p="VoipDtxState.cs" t="Include" />
+              <e p="VoipInput.cs" t="Include" />
+              <e p="VoipMuteState.cs" t="Include" />
+              <e p="VoipOptions.cs" t="Include" />
+              <e p="VoipPCMSourceNative.cs" t="Include" />
+              <e p="VoipSampleRate.cs" t="Include" />
+              <e p="WindowsPlatform.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Spatializer" t="Include">
+            <e p="Editor" t="Include">
+              <e p="ONSPAudioPluginUpdater.cs" t="Include" />
+              <e p="ONSPAudioPluginUpdaterStub.cs" t="Include" />
+              <e p="ONSPAudioSourceEditor.cs" t="Include" />
+              <e p="ONSPPropagationGeometryEditor.cs" t="Include" />
+              <e p="ONSPPropagationMaterialEditor.cs" t="Include" />
+              <e p="ONSPPropagationSerializationManager.cs" t="Include" />
+              <e p="ONSPReflectionCustomGUI.cs" t="Include" />
+            </e>
+            <e p="Scenes" t="Include">
+              <e p="Standard Assets" t="Include">
+                <e p="Character Controllers" t="Include">
+                  <e p="Sources" t="Include">
+                    <e p="Scripts" t="Include">
+                      <e p="MouseLook.cs" t="Include" />
+                    </e>
+                  </e>
+                </e>
+              </e>
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="Helpers" t="Include">
+                <e p="ONSPReflectionZone.cs" t="Include" />
+              </e>
+              <e p="OculusSpatializerUnity.cs" t="Include" />
+              <e p="ONSPAmbisonicsNative.cs" t="Include" />
+              <e p="ONSPAudioSource.cs" t="Include" />
+              <e p="ONSPProfiler.cs" t="Include" />
+              <e p="ONSPPropagationGeometry.cs" t="Include" />
+              <e p="ONSPPropagationInterface.cs" t="Include" />
+              <e p="ONSPPropagationMaterial.cs" t="Include" />
+              <e p="ONSPPropagationSettings.cs" t="Include" />
+              <e p="ONSPVersion.cs" t="Include" />
+            </e>
+          </e>
+          <e p="VoiceMod" t="Include">
+            <e p="Scenes" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="VoiceModDemo_Logic.cs" t="Include" />
+                <e p="VoiceModEnableSwitch.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="Helpers" t="Include">
+                <e p="OVRDebugConsole.cs" t="Include" />
+                <e p="OVRMessenger.cs" t="Include" />
+                <e p="OVRMicInput.cs" t="Include" />
+              </e>
+              <e p="OVRVoiceMod.cs" t="Include" />
+              <e p="OVRVoiceModContext.cs" t="Include" />
+            </e>
+          </e>
+          <e p="VR" t="Include">
+            <e p="Editor" t="Include">
+              <e p="AndroidManifest.OVRSubmission.xml" t="Include" />
+              <e p="Oculus.VR.Editor.asmdef" t="Include" />
+              <e p="OVRADBTool.cs" t="Include" />
+              <e p="OVRBuild.cs" t="Include" />
+              <e p="OVRConfig.cs" t="Include" />
+              <e p="OVRDeviceSelector.cs" t="Include" />
+              <e p="OVRDirectorySyncer.cs" t="Include" />
+              <e p="OVREngineConfigurationUpdater.cs" t="Include" />
+              <e p="OVRExpansionFileGenerator.cs" t="Include" />
+              <e p="OVRGradleGeneration.cs" t="Include" />
+              <e p="OVRLayerAttributeEditor.cs" t="Include" />
+              <e p="OVRLint.cs" t="Include" />
+              <e p="OVRManifestPreprocessor.cs" t="Include" />
+              <e p="OVRPlatformTool.cs" t="Include" />
+              <e p="OVRPlatformToolSettings.cs" t="Include" />
+              <e p="OVRPluginUpdater.cs" t="Include" />
+              <e p="OVRPluginUpdaterStub.cs" t="Include" />
+              <e p="OVRProjectConfig.cs" t="Include" />
+              <e p="OVRScreenshotWizard.cs" t="Include" />
+              <e p="OVRSystemProfilerPanel.cs" t="Include" />
+              <e p="PathHelper.cs" t="Include" />
+            </e>
+            <e p="LICENSE.txt" t="Include" />
+            <e p="NOTICE.txt" t="Include" />
+            <e p="Oculus.VR.asmdef" t="Include" />
+            <e p="Plugins" t="Include">
+              <e p="placeholder.txt" t="Include" />
+            </e>
+            <e p="Resources" t="Include">
+              <e p="Cubemap Blit.shader" t="Include" />
+              <e p="OVRMRCameraFrame.shader" t="Include" />
+              <e p="OVRMRCameraFrameLit.shader" t="Include" />
+              <e p="OVRMRChromaKey.cginc" t="Include" />
+              <e p="OVRMRClipPlane.shader" t="Include" />
+              <e p="OVRMRUnlit.shader" t="Include" />
+              <e p="OVRMRUnlitTransparent.shader" t="Include" />
+              <e p="Texture2D Blit.shader" t="Include" />
+              <e p="Underlay Impostor.shader" t="Include" />
+              <e p="Underlay Transparent Occluder.shader" t="Include" />
+              <e p="Unlit Transparent Color.shader" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="Composition" t="Include">
+                <e p="OVRCameraComposition.cs" t="Include" />
+                <e p="OVRComposition.cs" t="Include" />
+                <e p="OVRCompositionUtil.cs" t="Include" />
+                <e p="OVRDirectComposition.cs" t="Include" />
+                <e p="OVRExternalComposition.cs" t="Include" />
+                <e p="OVRSandwichComposition.cs" t="Include" />
+              </e>
+              <e p="Editor" t="Include">
+                <e p="Oculus.VR.Scripts.Editor.asmdef" t="Include" />
+                <e p="OVRManagerEditor.cs" t="Include" />
+                <e p="OVROverlayDestRectEditor.shader" t="Include" />
+                <e p="OVROverlayEditor.cs" t="Include" />
+                <e p="OVROverlaySrcRectEditor.shader" t="Include" />
+              </e>
+              <e p="OVRBoundary.cs" t="Include" />
+              <e p="OVRCameraRig.cs" t="Include" />
+              <e p="OVRCommon.cs" t="Include" />
+              <e p="OVRDebugHeadController.cs" t="Include" />
+              <e p="OVRDisplay.cs" t="Include" />
+              <e p="OVRHaptics.cs" t="Include" />
+              <e p="OVRHapticsClip.cs" t="Include" />
+              <e p="OVRHeadsetEmulator.cs" t="Include" />
+              <e p="OVRInput.cs" t="Include" />
+              <e p="OVRLayerAttribute.cs" t="Include" />
+              <e p="OVRManager.cs" t="Include" />
+              <e p="OVRMixedReality.cs" t="Include" />
+              <e p="OVROnCompleteListener.cs" t="Include" />
+              <e p="OVROverlay.cs" t="Include" />
+              <e p="OVRPlatformMenu.cs" t="Include" />
+              <e p="OVRPlugin.cs" t="Include" />
+              <e p="OVRProfile.cs" t="Include" />
+              <e p="OVRTracker.cs" t="Include" />
+              <e p="Util" t="Include">
+                <e p="OVRAudioSourceTest.cs" t="Include" />
+                <e p="OVRChromaticAberration.cs" t="Include" />
+                <e p="OVRControllerHelper.cs" t="Include" />
+                <e p="OVRCubemapCapture.cs" t="Include" />
+                <e p="OVRCursor.cs" t="Include" />
+                <e p="OVRDebugInfo.cs" t="Include" />
+                <e p="OVRGazePointer.cs" t="Include" />
+                <e p="OVRGearVrControllerTest.cs" t="Include" />
+                <e p="OVRGrabbable.cs" t="Include" />
+                <e p="OVRGrabber.cs" t="Include" />
+                <e p="OVRGridCube.cs" t="Include" />
+                <e p="OVRInputModule.cs" t="Include" />
+                <e p="OVRMixedRealityCaptureSettings.cs" t="Include" />
+                <e p="OVRModeParms.cs" t="Include" />
+                <e p="OVRMonoscopic.cs" t="Include" />
+                <e p="OVRNetwork.cs" t="Include" />
+                <e p="OVRPhysicsRaycaster.cs" t="Include" />
+                <e p="OVRPlayerController.cs" t="Include" />
+                <e p="OVRPointerEventData.cs" t="Include" />
+                <e p="OVRProfiler.cs" t="Include" />
+                <e p="OVRProgressIndicator.cs" t="Include" />
+                <e p="OVRRaycaster.cs" t="Include" />
+                <e p="OVRRecord.cs" t="Include" />
+                <e p="OVRResetOrientation.cs" t="Include" />
+                <e p="OVRSceneSampleController.cs" t="Include" />
+                <e p="OVRScreenFade.cs" t="Include" />
+                <e p="OVRSystemPerfMetrics.cs" t="Include" />
+                <e p="OVRWaitCursor.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="OVRColorRampAlpha.shader" t="Include" />
+              <e p="Unlit Crosshair.shader" t="Include" />
+            </e>
+            <e p="ThirdParty" t="Include">
+              <e p="openvr_api.cs" t="Include" />
+              <e p="SimpleJSON.cs" t="Include" />
+              <e p="SimpleJSONUnity.cs" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="VRTK" t="Include">
           <e p="Dependencies" t="Include">
             <e p="Zinnia.Unity" t="Include">
@@ -369,255 +892,6 @@
                 </e>
                 <e p="Zinnia.Runtime.asmdef" t="Include" />
               </e>
-              <e p="Tests" t="Include">
-                <e p="Editor" t="Include">
-                  <e p="Action" t="Include">
-                    <e p="ActionRegistrarTest.cs" t="Include" />
-                    <e p="AllActionTest.cs" t="Include" />
-                    <e p="AnyActionTest.cs" t="Include" />
-                    <e p="BooleanActionTest.cs" t="Include" />
-                    <e p="Collection" t="Include">
-                      <e p="ActionRegistrarSourceObservableListTest.cs" t="Include" />
-                    </e>
-                    <e p="FloatActionTest.cs" t="Include" />
-                    <e p="StateEmitterTest.cs" t="Include" />
-                    <e p="SurfaceChangeActionTest.cs" t="Include" />
-                    <e p="ToggleActionTest.cs" t="Include" />
-                    <e p="Vector2ActionTest.cs" t="Include" />
-                  </e>
-                  <e p="Association" t="Include">
-                    <e p="GameObjectsAssociationActivatorTest.cs" t="Include" />
-                  </e>
-                  <e p="Cast" t="Include">
-                    <e p="FixedLineCastTest.cs" t="Include" />
-                    <e p="ParabolicLineCastTest.cs" t="Include" />
-                    <e p="StraightLineCastTest.cs" t="Include" />
-                  </e>
-                  <e p="Data" t="Include">
-                    <e p="Collection" t="Include">
-                      <e p="Counter" t="Include">
-                        <e p="GameObjectObservableCounterTest.cs" t="Include" />
-                      </e>
-                      <e p="GameObjectRelationsTest.cs" t="Include" />
-                      <e p="List" t="Include">
-                        <e p="GameObjectObservableListTest.cs" t="Include" />
-                      </e>
-                      <e p="Stack" t="Include">
-                        <e p="GameObjectObservableStackTest.cs" t="Include" />
-                      </e>
-                    </e>
-                    <e p="Operation" t="Include">
-                      <e p="Extraction" t="Include">
-                        <e p="ComponentGameObjectExtractorTest.cs" t="Include" />
-                        <e p="GameObjectExtractorTest.cs" t="Include" />
-                        <e p="SurfaceDataCollisionPointExtractorTest.cs" t="Include" />
-                        <e p="TransformDataGameObjectExtractorTest.cs" t="Include" />
-                        <e p="TransformDirectionExtractorTest.cs" t="Include" />
-                        <e p="TransformEulerRotationExtractorTest.cs" t="Include" />
-                        <e p="TransformPositionExtractorTest.cs" t="Include" />
-                        <e p="TransformScaleExtractorTest.cs" t="Include" />
-                        <e p="Vector2ComponentExtractorTest.cs" t="Include" />
-                      </e>
-                      <e p="GameObjectClonerTest.cs" t="Include" />
-                      <e p="Mutation" t="Include">
-                        <e p="RigidbodyPropertyMutatorTest.cs" t="Include" />
-                        <e p="TransformEulerRotationMutatorTest.cs" t="Include" />
-                        <e p="TransformPositionMutatorTest.cs" t="Include" />
-                        <e p="TransformScaleMutatorTest.cs" t="Include" />
-                      </e>
-                    </e>
-                    <e p="Type" t="Include">
-                      <e p="FloatRangeTest.cs" t="Include" />
-                      <e p="SerializableTypeTest.cs" t="Include" />
-                      <e p="SurfaceDataTest.cs" t="Include" />
-                      <e p="Transformation" t="Include">
-                        <e p="Aggregation" t="Include">
-                          <e p="FloatAdderTest.cs" t="Include" />
-                          <e p="FloatMultiplierTest.cs" t="Include" />
-                          <e p="Vector2MultiplierTest.cs" t="Include" />
-                          <e p="Vector3MultiplierTest.cs" t="Include" />
-                          <e p="Vector3SubtractorTest.cs" t="Include" />
-                        </e>
-                        <e p="Conversion" t="Include">
-                          <e p="AngleToVector2DirectionTest.cs" t="Include" />
-                          <e p="BooleanToFloatTest.cs" t="Include" />
-                          <e p="FloatToBooleanTest.cs" t="Include" />
-                          <e p="FloatToVector2Test.cs" t="Include" />
-                          <e p="FloatToVector3Test.cs" t="Include" />
-                          <e p="Vector2ToAngleTest.cs" t="Include" />
-                          <e p="Vector2ToFloatTest.cs" t="Include" />
-                          <e p="Vector2ToVector3Test.cs" t="Include" />
-                          <e p="Vector3ToVector2Test.cs" t="Include" />
-                        </e>
-                        <e p="FloatRangeValueRemapperTest.cs" t="Include" />
-                        <e p="Vector3MagnitudeSetterTest.cs" t="Include" />
-                        <e p="Vector3RestrictorTest.cs" t="Include" />
-                      </e>
-                      <e p="TransformDataTest.cs" t="Include" />
-                      <e p="Vector3StateTest.cs" t="Include" />
-                    </e>
-                  </e>
-                  <e p="Event" t="Include">
-                    <e p="BehaviourEnabledObserverTest.cs" t="Include" />
-                    <e p="Proxy" t="Include">
-                      <e p="EmptyEventProxyEmitterTest.cs" t="Include" />
-                      <e p="FloatEventProxyEmitterTest.cs" t="Include" />
-                      <e p="GameObjectEventProxyEmitterTest.cs" t="Include" />
-                    </e>
-                  </e>
-                  <e p="Extension" t="Include">
-                    <e p="ArraySortExtensionsTest.cs" t="Include" />
-                    <e p="BehaviourExtensionsTest.cs" t="Include" />
-                    <e p="ColliderExtensionsTest.cs" t="Include" />
-                    <e p="ComponentExtensionsTest.cs" t="Include" />
-                    <e p="FloatExtensionsTest.cs" t="Include" />
-                    <e p="GameObjectExtensionsTest.cs" t="Include" />
-                    <e p="ICollectionExtensionsTest.cs" t="Include" />
-                    <e p="RuleContainerExtensionsTest.cs" t="Include" />
-                    <e p="TransformDataExtensionsTest.cs" t="Include" />
-                    <e p="TransformExtensionsTest.cs" t="Include" />
-                    <e p="Vector2ExtensionsTest.cs" t="Include" />
-                    <e p="Vector3ExtensionsTest.cs" t="Include" />
-                  </e>
-                  <e p="Pointer" t="Include">
-                    <e p="ObjectPointerTest.cs" t="Include" />
-                  </e>
-                  <e p="Process" t="Include">
-                    <e p="Component" t="Include">
-                      <e p="GameObjectSourceTargetProcessorTest.cs" t="Include" />
-                    </e>
-                    <e p="Moment" t="Include">
-                      <e p="MomentProcessTest.cs" t="Include" />
-                    </e>
-                  </e>
-                  <e p="Rule" t="Include">
-                    <e p="ActiveInHierarchyRuleTest.cs" t="Include" />
-                    <e p="AllRuleTest.cs" t="Include" />
-                    <e p="AnyBehaviourEnabledRuleTest.cs" t="Include" />
-                    <e p="AnyComponentTypeRuleTest.cs" t="Include" />
-                    <e p="AnyLayerRuleTest.cs" t="Include" />
-                    <e p="AnyRuleTest.cs" t="Include" />
-                    <e p="AnyTagRuleTest.cs" t="Include" />
-                    <e p="ListContainsRuleTest.cs" t="Include" />
-                    <e p="NegationRuleTest.cs" t="Include" />
-                    <e p="RulesMatcherTest.cs" t="Include" />
-                  </e>
-                  <e p="Tracking" t="Include">
-                    <e p="Collision" t="Include">
-                      <e p="Active" t="Include">
-                        <e p="ActiveCollisionConsumerTest.cs" t="Include" />
-                        <e p="ActiveCollisionPublisherTest.cs" t="Include" />
-                        <e p="ActiveCollisionsContainerTest.cs" t="Include" />
-                        <e p="CollisionPointContainerTest.cs" t="Include" />
-                        <e p="Event" t="Include">
-                          <e p="Proxy" t="Include">
-                            <e p="ActiveCollisionConsumerEventProxyEmitterTest.cs" t="Include" />
-                            <e p="ActiveCollisionsContainerEventProxyEmitterTest.cs" t="Include" />
-                          </e>
-                        </e>
-                        <e p="Operation" t="Include">
-                          <e p="Extraction" t="Include">
-                            <e p="NotifierContainerExtractorTest.cs" t="Include" />
-                            <e p="NotifierTargetExtractorTest.cs" t="Include" />
-                            <e p="PublisherContainerExtractorTest.cs" t="Include" />
-                          </e>
-                          <e p="NearestSorterTest.cs" t="Include" />
-                          <e p="OrderReverserTest.cs" t="Include" />
-                          <e p="SlicerTest.cs" t="Include" />
-                        </e>
-                      </e>
-                      <e p="CollisionIgnorerTest.cs" t="Include" />
-                      <e p="CollisionNotifierTest.cs" t="Include" />
-                      <e p="CollisionTrackerTest.cs" t="Include" />
-                      <e p="Event" t="Include">
-                        <e p="Proxy" t="Include">
-                          <e p="CollisionNotifierEventProxyEmitterTest.cs" t="Include" />
-                        </e>
-                      </e>
-                    </e>
-                    <e p="Follow" t="Include">
-                      <e p="Modifier" t="Include">
-                        <e p="FollowModifierTest.cs" t="Include" />
-                        <e p="Property" t="Include">
-                          <e p="Position" t="Include">
-                            <e p="RigidbodyVelocityTest.cs" t="Include" />
-                            <e p="TransformPositionTest.cs" t="Include" />
-                          </e>
-                          <e p="Rotation" t="Include">
-                            <e p="RigidbodyAngularVelocityTest.cs" t="Include" />
-                            <e p="TransformPositionDifferenceRotationTest.cs" t="Include" />
-                            <e p="TransformRotationTest.cs" t="Include" />
-                          </e>
-                          <e p="Scale" t="Include">
-                            <e p="TransformScaleTest.cs" t="Include" />
-                          </e>
-                        </e>
-                      </e>
-                      <e p="ObjectDistanceComparatorTest.cs" t="Include" />
-                      <e p="ObjectFollowerTest.cs" t="Include" />
-                      <e p="Operation" t="Include">
-                        <e p="Extraction" t="Include">
-                          <e p="ObjectDistanceComparatorEventDataExtractorTest.cs" t="Include" />
-                        </e>
-                      </e>
-                    </e>
-                    <e p="Modification" t="Include">
-                      <e p="ComponentEnabledStateModifierTest.cs" t="Include" />
-                      <e p="DirectionModifierTest.cs" t="Include" />
-                      <e p="GameObjectStateMirrorTest.cs" t="Include" />
-                      <e p="GameObjectStateSwitcherTest.cs" t="Include" />
-                      <e p="Operation" t="Include">
-                        <e p="Extraction" t="Include">
-                          <e p="TransformPropertyApplierEventDataExtractorTest.cs" t="Include" />
-                        </e>
-                      </e>
-                      <e p="PinchScalerTest.cs" t="Include" />
-                      <e p="PointNormalRotatorTest.cs" t="Include" />
-                      <e p="TransformPropertyApplierTest.cs" t="Include" />
-                    </e>
-                    <e p="Query" t="Include">
-                      <e p="FacingQueryTest.cs" t="Include" />
-                      <e p="ObscuranceQueryTest.cs" t="Include" />
-                    </e>
-                    <e p="SurfaceLocatorTest.cs" t="Include" />
-                    <e p="Velocity" t="Include">
-                      <e p="AverageVelocityEstimatorTest.cs" t="Include" />
-                      <e p="ComponentTrackerProxyTest.cs" t="Include" />
-                      <e p="VelocityApplierTest.cs" t="Include" />
-                      <e p="VelocityEmitterTest.cs" t="Include" />
-                      <e p="VelocityMultiplierTest.cs" t="Include" />
-                      <e p="VelocityTrackerProcessorTest.cs" t="Include" />
-                    </e>
-                  </e>
-                  <e p="Utility" t="Include">
-                    <e p="BezierCurveGeneratorTest.cs" t="Include" />
-                    <e p="CountdownTimerTest.cs" t="Include" />
-                  </e>
-                  <e p="Visual" t="Include">
-                    <e p="CameraColorOverlayTest.cs" t="Include" />
-                    <e p="PointsRendererTest.cs" t="Include" />
-                  </e>
-                  <e p="Zinnia.Tests.Editor.asmdef" t="Include" />
-                </e>
-                <e p="Utility" t="Include">
-                  <e p="Helper" t="Include">
-                    <e p="ActiveCollisionsHelper.cs" t="Include" />
-                    <e p="CollisionNotifierHelper.cs" t="Include" />
-                  </e>
-                  <e p="Mock" t="Include">
-                    <e p="UnityEventListenerMock.cs" t="Include" />
-                    <e p="UnityEventValueListenerMock.cs" t="Include" />
-                    <e p="VelocityTrackerMock.cs" t="Include" />
-                  </e>
-                  <e p="Stub" t="Include">
-                    <e p="FalseRuleStub.cs" t="Include" />
-                    <e p="RuleStub.cs" t="Include" />
-                    <e p="TrueRuleStub.cs" t="Include" />
-                  </e>
-                  <e p="TimeSettingOverride.cs" t="Include" />
-                  <e p="Zinnia.Tests.Utility.asmdef" t="Include" />
-                </e>
-              </e>
             </e>
           </e>
           <e p="Prefabs" t="Include">
@@ -942,6 +1216,9 @@
       </e>
       <e p="CNFrameworkAndroid.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
+      <e p="Oculus.VR.csproj" t="IncludeRecursive" />
+      <e p="Oculus.VR.Editor.csproj" t="IncludeRecursive" />
+      <e p="Oculus.VR.Scripts.Editor.csproj" t="IncludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Supyrb.Editor.csproj" t="IncludeRecursive" />
       <e p="Temp\bin" t="ExcludeRecursive" />
@@ -950,8 +1227,6 @@
       <e p="VRTK.Samples.Farm.Runtime.csproj" t="IncludeRecursive" />
       <e p="Zinnia.Editor.csproj" t="IncludeRecursive" />
       <e p="Zinnia.Runtime.csproj" t="IncludeRecursive" />
-      <e p="Zinnia.Tests.Editor.csproj" t="IncludeRecursive" />
-      <e p="Zinnia.Tests.Utility.csproj" t="IncludeRecursive" />
     </e>
   </component>
 </project>
