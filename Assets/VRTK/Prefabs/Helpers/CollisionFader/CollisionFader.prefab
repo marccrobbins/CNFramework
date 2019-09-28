@@ -57,18 +57,18 @@ MonoBehaviour:
   Added:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Visual.CameraColorOverlay+UnityEvent, Zinnia.Runtime, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
+  AddTransitioned:
+    m_PersistentCalls:
+      m_Calls: []
   Removed:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Visual.CameraColorOverlay+UnityEvent, Zinnia.Runtime, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
+  RemoveTransitioned:
+    m_PersistentCalls:
+      m_Calls: []
   Changed:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Visual.CameraColorOverlay+UnityEvent, Zinnia.Runtime, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!135 &1700884466427039420
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -112,13 +112,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Zinnia.Tracking.Collision.CollisionNotifier+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   CollisionChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: Zinnia.Tracking.Collision.CollisionNotifier+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   CollisionStopped:
     m_PersistentCalls:
       m_Calls:
@@ -133,8 +129,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: Zinnia.Tracking.Collision.CollisionNotifier+UnityEvent, Zinnia.Runtime,
-      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   stopCollisionsOnDisable: 1
 --- !u!54 &2751083140221478710
 Rigidbody:

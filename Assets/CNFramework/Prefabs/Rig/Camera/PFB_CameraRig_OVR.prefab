@@ -140,11 +140,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f27fc0668d79644c93af545a243c86a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  source: {fileID: 426489115117290879}
-  relativeTo: {fileID: 426489115117142117}
-  isEstimating: 1
-  velocityAverageFrames: 5
-  angularVelocityAverageFrames: 10
 --- !u!1 &426489115117294571
 GameObject:
   m_ObjectHideFlags: 0
@@ -189,11 +184,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f27fc0668d79644c93af545a243c86a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  source: {fileID: 426489115117294571}
-  relativeTo: {fileID: 426489115117142117}
-  isEstimating: 1
-  velocityAverageFrames: 5
-  angularVelocityAverageFrames: 10
 --- !u!1 &426489115117300001
 GameObject:
   m_ObjectHideFlags: 0
@@ -290,11 +280,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f27fc0668d79644c93af545a243c86a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  source: {fileID: 426489115117300001}
-  relativeTo: {fileID: 426489115117142117}
-  isEstimating: 1
-  velocityAverageFrames: 5
-  angularVelocityAverageFrames: 10
 --- !u!1 &426489115117300003
 GameObject:
   m_ObjectHideFlags: 0
@@ -455,7 +440,6 @@ GameObject:
   - component: {fileID: 426489115124391113}
   - component: {fileID: 426489115124391107}
   - component: {fileID: 323556873357642631}
-  - component: {fileID: 8095444969413780405}
   m_Layer: 0
   m_Name: PFB_CameraRig_OVR
   m_TagString: Untagged
@@ -566,26 +550,6 @@ MonoBehaviour:
   resetHmdPoseByMiddleMouseButton: 1
   activateKeys: 3201000031010000
   pitchKeys: 3401000033010000
---- !u!114 &8095444969413780405
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 426489115117300007}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34c0cb8bdc24787439e43b7f145ac31c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playArea: {fileID: 426489115117142117}
-  headset: {fileID: 426489115117300001}
-  headsetCamera: {fileID: 426489115119041243}
-  headsetVelocityTracker: {fileID: 2809597983684148949}
-  leftController: {fileID: 426489115117290879}
-  leftControllerVelocityTracker: {fileID: 925996270534449816}
-  rightController: {fileID: 426489115117294571}
-  rightControllerVelocityTracker: {fileID: 8483779861098982863}
 --- !u!1 &426780133571203323
 GameObject:
   m_ObjectHideFlags: 0
