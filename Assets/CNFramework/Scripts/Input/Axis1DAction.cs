@@ -10,7 +10,7 @@ namespace CNFramework
         [SerializeField] private float result;
 
         public event Action OnActivated;
-        public event Action OnDeactived;
+        public event Action OnDeactivated;
         public event Action<float> OnChanged;
 
         private bool wasActivated;
@@ -28,7 +28,7 @@ namespace CNFramework
             }
             else if (wasActivated && result < tolerance)
             {
-                OnDeactived?.Invoke();
+                OnDeactivated?.Invoke();
                 wasActivated = false;
             }
         }

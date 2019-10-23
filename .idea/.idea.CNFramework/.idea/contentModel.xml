@@ -7,6 +7,12 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="CNFramework" t="Include">
+          <e p="Hand" t="Include">
+            <e p="Hand.cs" t="Include" />
+          </e>
+          <e p="Interactions" t="Include">
+            <e p="Interactable.cs" t="Include" />
+          </e>
           <e p="Pointer" t="Include">
             <e p="Pointer.cs" t="Include" />
           </e>
@@ -21,6 +27,8 @@
             <e p="RigManager" t="Include">
               <e p="RigManager.cs" t="Include" />
             </e>
+            <e p="Spring.cs" t="Include" />
+            <e p="VelocityEstimator.cs" t="Include" />
           </e>
         </e>
       </e>
