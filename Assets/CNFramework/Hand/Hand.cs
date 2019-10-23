@@ -16,7 +16,7 @@ namespace CNFramework
         
         private void Start()
         {
-            CNInput.Register(hand, ControllerInput.GripAxis, Grab);
+            CNInput.Register(hand, ControllerInput.GripAxis, Grab, UnGrab);
             CNInput.Register(hand, ControllerInput.InnerFace, TestMenu);
         }
 
@@ -27,13 +27,12 @@ namespace CNFramework
 
         private void OnDisable()
         {
-            CNInput.Unregister(hand, ControllerInput.GripAxis, UnGrab);
+            CNInput.Unregister(hand, ControllerInput.GripAxis, UnGrab, UnGrab);
             CNInput.Unregister(hand, ControllerInput.InnerFace, TestMenu);
         }
 
         private void Grab(float result)
         {
-            Debug.Log("Grab");
             if (!hoveredInteractable) return;
 
             currentInteractable = hoveredInteractable;
@@ -43,7 +42,6 @@ namespace CNFramework
 
         private void UnGrab(float result)
         {
-            Debug.Log("Ungrab");
             if (!currentInteractable) return;
             
             currentInteractable.Detach(velocityEstimator.Velocity, velocityEstimator.AngularVelocity);

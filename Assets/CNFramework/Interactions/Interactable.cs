@@ -5,7 +5,6 @@ namespace CNFramework
 {
     public class Interactable : MonoBehaviour
     {
-        [SerializeField] private InteractableType interactableType;
         [SerializeField] private bool attachToPoint;
 
         private bool isAttached;
@@ -16,22 +15,6 @@ namespace CNFramework
         {
             rigidbody = GetComponent<Rigidbody>();
             attachPosition = transform.position;
-        }
-
-        private void Update()
-        {
-            switch (interactableType)
-            {
-                case InteractableType.Spring:
-                    if (isAttached) break;
-                    
-                    var distance = Vector3.Distance(transform.position, attachPosition);
-                    if (distance > 0.001f)
-                    {
-                        transform.position = Vector3.MoveTowards(transform.position, attachPosition, 5 * Time.deltaTime);
-                    }
-                    break;
-            }
         }
 
         public void Attach(Transform attachPoint, bool worldPositionStays = true)
@@ -51,21 +34,10 @@ namespace CNFramework
             transform.SetParent(null);
             rigidbody.isKinematic = false;
             
-            switch (interactableType)
-            {
-                case InteractableType.Normal:
-                    rigidbody.velocity = velocity;
-                    rigidbody.angularVelocity = angular;
-                    break;
-            }
+            rigidbody.velocity = velocity;
+            rigidbody.angularVelocity = angular;
             
             isAttached = false;
         }
-    }
-
-    public enum InteractableType
-    {
-        Normal = 0,
-        Spring
     }
 }
