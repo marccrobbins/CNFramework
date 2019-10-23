@@ -44,10 +44,5 @@ namespace CNFramework
         }
     }
 
-    public enum ButtonCondition
-    {
-        DownPress = 0,
-        UpPress,
-        Constant
-    }
+    
 }

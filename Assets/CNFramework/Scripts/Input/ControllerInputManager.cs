@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace CNFramework
 {
-    public class ControllerInput : MonoBehaviour
+    public class ControllerInputManager : MonoBehaviour
     {
         [SerializeField] private ButtonInputAction menuButton;
         public ButtonInputAction MenuButton => menuButton;

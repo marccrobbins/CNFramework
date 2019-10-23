@@ -57,13 +57,5 @@ namespace CNFramework
         protected virtual void ProcessAction() { }
     }
 
-    public enum Process
-    {
-        Update = 0,
-        LateUpdate,
-        FixedUpdate,
-        PreRender,
-        PostRender,
-        PreCull
-    }
+    
 }

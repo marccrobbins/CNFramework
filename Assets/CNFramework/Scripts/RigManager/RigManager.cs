@@ -8,11 +8,11 @@ namespace CNFramework
     {
         public static RigManager Instance;
 
-        [SerializeField] private ControllerInput leftHandInput;
-        public ControllerInput LeftHandInput => leftHandInput;
+        [SerializeField] private ControllerInputManager leftHandInput;
+        public ControllerInputManager LeftHandInput => leftHandInput;
 
-        [SerializeField] private ControllerInput rightHandInput;
-        public ControllerInput RightHandInput => rightHandInput;
+        [SerializeField] private ControllerInputManager rightHandInput;
+        public ControllerInputManager RightHandInput => rightHandInput;
 
         private void Awake()
         {

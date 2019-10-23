@@ -16,36 +16,24 @@ namespace CNFramework
         
         private void Start()
         {
-            switch (hand)
-            {
-                case Handedness.Left:
-                    RigManager.Instance.LeftHandInput.GripAxis.OnActivated += Grab;
-                    RigManager.Instance.LeftHandInput.GripAxis.OnDeactivated += UnGrab;
-                    break;
-                case Handedness.Right:
-                    RigManager.Instance.RightHandInput.GripAxis.OnActivated += Grab;
-                    RigManager.Instance.RightHandInput.GripAxis.OnDeactivated += UnGrab;
-                    break;
-            }
+            CNInput.Register(hand, ControllerInput.GripAxis, Grab);
+            CNInput.Register(hand, ControllerInput.InnerFace, TestMenu);
+        }
+
+        void TestMenu(bool result)
+        {
+            Debug.LogFormat("Menu button pressed: {0}", result);
         }
 
         private void OnDisable()
         {
-            switch (hand)
-            {
-                case Handedness.Left:
-                    RigManager.Instance.LeftHandInput.GripAxis.OnActivated -= Grab;
-                    RigManager.Instance.LeftHandInput.GripAxis.OnDeactivated -= UnGrab;
-                    break;
-                case Handedness.Right:
-                    RigManager.Instance.RightHandInput.GripAxis.OnActivated -= Grab;
-                    RigManager.Instance.RightHandInput.GripAxis.OnDeactivated -= UnGrab;
-                    break;
-            }
+            CNInput.Unregister(hand, ControllerInput.GripAxis, UnGrab);
+            CNInput.Unregister(hand, ControllerInput.InnerFace, TestMenu);
         }
 
-        private void Grab()
+        private void Grab(float result)
         {
+            Debug.Log("Grab");
             if (!hoveredInteractable) return;
 
             currentInteractable = hoveredInteractable;
@@ -53,8 +41,9 @@ namespace CNFramework
             currentInteractable.Attach(attachPoint ?? transform);
         }
 
-        private void UnGrab()
+        private void UnGrab(float result)
         {
+            Debug.Log("Ungrab");
             if (!currentInteractable) return;
             
             currentInteractable.Detach(velocityEstimator.Velocity, velocityEstimator.AngularVelocity);
@@ -72,9 +61,5 @@ namespace CNFramework
         }
     }
 
-    public enum Handedness
-    {
-        Left,
-        Right
-    }
+   
 }

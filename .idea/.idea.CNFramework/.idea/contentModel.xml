@@ -21,8 +21,11 @@
               <e p="Axis1DAction.cs" t="Include" />
               <e p="Axis2DAction.cs" t="Include" />
               <e p="ButtonInputAction.cs" t="Include" />
-              <e p="ControllerInput.cs" t="Include" />
+              <e p="ControllerInputManager.cs" t="Include" />
               <e p="InputAction.cs" t="Include" />
+              <e p="V2" t="Include">
+                <e p="CNInput.cs" t="Include" />
+              </e>
             </e>
             <e p="RigManager" t="Include">
               <e p="RigManager.cs" t="Include" />
