@@ -139,8 +139,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bef812bd20fc78a4a9f5cd3098722d8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftHandInput: {fileID: 0}
-  rightHandInput: {fileID: 0}
 --- !u!1 &9098847469112040967
 GameObject:
   m_ObjectHideFlags: 0
@@ -310,11 +308,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6595096187763034705, guid: f1dcae2e1ca52494ca79a701a42e1d44,
-        type: 3}
-      propertyPath: m_PoseSource
-      value: 4
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1dcae2e1ca52494ca79a701a42e1d44, type: 3}
 --- !u!4 &5168041417535725733 stripped
@@ -401,6 +394,11 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8049171581093247637, guid: f1dcae2e1ca52494ca79a701a42e1d44,
+        type: 3}
+      propertyPath: hand
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2133115394591362890, guid: f1dcae2e1ca52494ca79a701a42e1d44,
         type: 3}
       propertyPath: hand
       value: 1

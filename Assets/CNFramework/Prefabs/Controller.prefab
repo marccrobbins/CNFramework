@@ -91,7 +91,7 @@ Transform:
   m_GameObject: {fileID: 1792230171612475072}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.02, y: 0, z: 0}
-  m_LocalScale: {x: 0.005, y: 0.005, z: 0.005}
+  m_LocalScale: {x: 0.009846, y: 0.009846, z: 0.009846}
   m_Children: []
   m_Father: {fileID: 6239737658178693759}
   m_RootOrder: 0
@@ -247,7 +247,7 @@ Transform:
   m_GameObject: {fileID: 2800544904711313299}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.00843, z: -0.01992}
-  m_LocalScale: {x: 0.005, y: 0.005, z: 0.005}
+  m_LocalScale: {x: 0.0067205, y: 0.0067205, z: 0.0067205}
   m_Children: []
   m_Father: {fileID: 4154928479494562533}
   m_RootOrder: 0
@@ -307,6 +307,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4154928479494562533}
+  - component: {fileID: 2133115394591362890}
   m_Layer: 0
   m_Name: Debug
   m_TagString: Untagged
@@ -332,6 +333,24 @@ Transform:
   m_Father: {fileID: 4621056865156404675}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2133115394591362890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3386928574572050908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11a04f301162df64f89e68e9100c73b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hand: 0
+  dpad: {fileID: 579396279565851132}
+  touchSphere: {fileID: 2795466442825143996}
+  gripSpheres: {fileID: 6034414473246659453}
+  menuSphere: {fileID: 2800544904711313299}
+  triggerSphere: {fileID: 8784728705265591420}
 --- !u!1 &3503135434064953589
 GameObject:
   m_ObjectHideFlags: 0
@@ -359,7 +378,7 @@ Transform:
   m_GameObject: {fileID: 3503135434064953589}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.0199, y: 0, z: 0}
-  m_LocalScale: {x: 0.005, y: 0.005, z: 0.005}
+  m_LocalScale: {x: 0.009846, y: 0.009846, z: 0.009846}
   m_Children: []
   m_Father: {fileID: 6239737658178693759}
   m_RootOrder: 1
@@ -857,11 +876,6 @@ MonoBehaviour:
   hand: 0
   attachPoint: {fileID: 8510618668314026272}
   velocityEstimator: {fileID: 5646530460714797405}
-  dpad: {fileID: 579396279565851132}
-  touchSphere: {fileID: 2795466442825143996}
-  gripSpheres: {fileID: 6034414473246659453}
-  menuSphere: {fileID: 2800544904711313299}
-  triggerSphere: {fileID: 8784728705265591420}
 --- !u!114 &5646530460714797405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -992,7 +1006,7 @@ Transform:
   m_GameObject: {fileID: 8784728705265591420}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -0.02957, z: -0.04578}
-  m_LocalScale: {x: 0.005, y: 0.005, z: 0.005}
+  m_LocalScale: {x: 0.011863, y: 0.011863, z: 0.011863}
   m_Children: []
   m_Father: {fileID: 4154928479494562533}
   m_RootOrder: 3
