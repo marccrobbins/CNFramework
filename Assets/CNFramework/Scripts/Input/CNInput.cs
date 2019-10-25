@@ -302,10 +302,13 @@ namespace CNFramework
             
             switch (input)
             {
-                case ControllerInput.InnerFace:
-                    keyCode = hand == Handedness.Left ? KeyCode.JoystickButton2 : KeyCode.JoystickButton0;
+                case ControllerInput.Start:
+                    keyCode = KeyCode.Joystick1Button7;
                     break;
                 case ControllerInput.OuterFace:
+                    keyCode = hand == Handedness.Left ? KeyCode.JoystickButton2 : KeyCode.JoystickButton0;
+                    break;
+                case ControllerInput.InnerFace:
                     keyCode = hand == Handedness.Left ? KeyCode.JoystickButton3 : KeyCode.JoystickButton1;
                     break;
                 case ControllerInput.ThumbStickPress:
@@ -474,10 +477,13 @@ namespace CNFramework
     
     public enum ControllerInput
     {
-        /// <summary>Input value most commonly used for the menu button.
+        /// <summary>Input value used for the Button.Start on OVR input</summary>
+        /// Mapped to <see cref="KeyCode.JoystickButton7"/>
+        Start,
+        /// <summary>Input value most commonly used for the A and X buttons[Menu buttons on Vive].
         /// Mapped to <see cref="KeyCode.JoystickButton0"/>(Right) and <see cref="KeyCode.JoystickButton2"/>(Left) </summary>
         InnerFace,
-        /// <summary>Input value used on Valve Knuckle controllers for a second face button.
+        /// <summary>Input value most commonly used for the B and Y buttons.
         /// Mapped to <see cref="KeyCode.JoystickButton1"/>(Right) and <see cref="KeyCode.JoystickButton3"/>(Left) </summary>
         OuterFace,
         /// <summary>Input value used when the thumb stick is press down(touch pad on Vive controllers).
