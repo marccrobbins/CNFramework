@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcec98b2-565d-4642-90a9-d59d571ed2de" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CNFrameworkAndroid/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CNFrameworkAndroid/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CNFrameworkAndroid/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CNFrameworkAndroid/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Prefabs/Rig/Controllers/QuestAndS/PFB_LeftController.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Prefabs/Rig/Controllers/QuestAndS/PFB_LeftController.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Prefabs/Rig/Controllers/QuestAndS/PFB_RightController.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Prefabs/Rig/Controllers/QuestAndS/PFB_RightController.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Scripts/Input/CNInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Scripts/Input/CNInput.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Prefabs/OVRControllerPrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Prefabs/OVRControllerPrefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/OVRBuildConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/OVRBuildConfig.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -368,7 +363,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Input/Debug/OVRDebugHandVisuals.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="363">
-              <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
               <folding>
                 <marker date="1572033218896" expanded="true" signature="6:37" ph="..." />
                 <marker date="1572033218896" expanded="true" signature="87:2623" ph="{...}" />
@@ -407,94 +402,94 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Input/CNInput.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="305" column="55" lean-forward="true" selection-start-line="305" selection-start-column="55" selection-end-line="305" selection-end-column="55" />
+            <state relative-caret-position="364">
+              <caret line="310" column="46" selection-start-line="310" selection-start-column="37" selection-end-line="310" selection-end-column="46" />
               <folding>
-                <marker date="1572033057304" expanded="false" signature="6:66" ph="..." />
-                <marker date="1572033057304" expanded="true" signature="89:26146" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="132:21876" ph="{...}" />
-                <marker date="1572033057304" expanded="false" signature="771:2304" ph="MonoBehaviour" />
-                <marker date="1572033057304" expanded="true" signature="822:1276" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="1082:1265" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="1312:1445" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="1375:1435" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="1476:1604" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="1534:1594" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="1639:1771" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="1701:1761" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="1807:1938" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="1868:1928" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="1975:2107" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="2037:2097" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="2141:2270" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="2200:2260" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="2314:6840" ph="Registration" />
-                <marker date="1572033057304" expanded="true" signature="2344:3029" ph="/// Registers an action to the CNInput system ... " />
-                <marker date="1572033057304" expanded="true" signature="3216:3332" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="3350:4038" ph="/// Registers an action to the CNInput system ... " />
-                <marker date="1572033057304" expanded="true" signature="4228:4344" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="4362:4776" ph="/// Registers an action to the CNInput system ... " />
-                <marker date="1572033057304" expanded="true" signature="4892:4974" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="5152:6807" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="5339:5507" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="5640:5807" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="5878:6522" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="5934:6071" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="6132:6275" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="6316:6447" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="6539:6797" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="6619:6781" ph="{...}" />
-                <marker date="1572033057304" expanded="false" signature="6858:11022" ph="Unregistration" />
-                <marker date="1572033057304" expanded="true" signature="6898:7625" ph="/// Unregisters an action previously registered to the CNInput system ... " />
-                <marker date="1572033057304" expanded="true" signature="7814:7932" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="7950:8680" ph="/// Unregisters an action previously registered to the CNInput system ... " />
-                <marker date="1572033057304" expanded="true" signature="8872:8990" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="9008:9448" ph="/// Unregisters an action previously registered to the CNInput system ... " />
-                <marker date="1572033057304" expanded="true" signature="9559:9643" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="9823:10979" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="10012:10182" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="10375:10427" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="10466:10590" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="10631:10761" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="10798:10916" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="11032:21355" ph="Processing" />
-                <marker date="1572033057304" expanded="true" signature="11095:14954" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="15030:18503" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="15150:16306" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="16394:16646" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="16663:18493" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="16985:18479" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="17110:17391" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="17420:17709" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="17843:18118" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="18147:18430" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="18579:20710" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="18658:19789" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="20087:20353" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="20425:20700" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="20763:21316" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="21442:21742" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="21643:21706" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="21837:21870" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="21986:22144" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="22150:26143" ph="Enumeration" />
-                <marker date="1572033057304" expanded="true" signature="22206:24948" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="22221:22354" ph="///Input value used for the Button.Start on OVR input ... " />
-                <marker date="1572033057304" expanded="true" signature="22378:22594" ph="///Input value most commonly used for the A and X buttons[Menu buttons on Vive]. ... " />
-                <marker date="1572033057304" expanded="true" signature="22622:22816" ph="///Input value most commonly used for the B and Y buttons. ... " />
-                <marker date="1572033057304" expanded="true" signature="22844:23065" ph="///Input value used when the thumb stick is press down(touch pad on Vive controllers). ... " />
-                <marker date="1572033057304" expanded="true" signature="23099:23319" ph="///Input value used when the thumb stick is touched(touch pad on Vive controllers). ... " />
-                <marker date="1572033057304" expanded="true" signature="23353:23552" ph="///Input value used when the thumb stick is moved(touch pad surface on Vive controllers). ... " />
-                <marker date="1572033057304" expanded="true" signature="23585:23770" ph="///Input value used when the trigger is touched. ... " />
-                <marker date="1572033057304" expanded="true" signature="23801:23928" ph="///Input value used when the trigger is squeezed. ... " />
-                <marker date="1572033057304" expanded="true" signature="23958:24085" ph="///Input value used when the grip is squeezed. ... " />
-                <marker date="1572033057304" expanded="true" signature="24112:24281" ph="///Input value used when the index finger is gripping the controller(Valve knuckles only). ... " />
-                <marker date="1572033057304" expanded="true" signature="24322:24492" ph="///Input value used when the middle finger is gripping the controller(Valve knuckles only). ... " />
-                <marker date="1572033057304" expanded="true" signature="24534:24702" ph="///Input value used when the ring finger is gripping the controller(Valve knuckles only). ... " />
-                <marker date="1572033057304" expanded="true" signature="24742:24911" ph="///Input value used when the pinky finger is gripping the controller(Valve knuckles only). ... " />
-                <marker date="1572033057304" expanded="true" signature="24977:25584" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="25621:25902" ph="{...}" />
-                <marker date="1572033057304" expanded="true" signature="25934:26111" ph="{...}" />
+                <marker date="1572034351789" expanded="false" signature="6:66" ph="..." />
+                <marker date="1572034351789" expanded="true" signature="89:26146" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="132:21876" ph="{...}" />
+                <marker date="1572034351789" expanded="false" signature="771:2304" ph="MonoBehaviour" />
+                <marker date="1572034351789" expanded="true" signature="822:1276" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="1082:1265" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="1312:1445" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="1375:1435" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="1476:1604" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="1534:1594" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="1639:1771" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="1701:1761" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="1807:1938" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="1868:1928" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="1975:2107" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="2037:2097" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="2141:2270" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="2200:2260" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="2314:6840" ph="Registration" />
+                <marker date="1572034351789" expanded="true" signature="2344:3029" ph="/// Registers an action to the CNInput system ... " />
+                <marker date="1572034351789" expanded="true" signature="3216:3332" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="3350:4038" ph="/// Registers an action to the CNInput system ... " />
+                <marker date="1572034351789" expanded="true" signature="4228:4344" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="4362:4776" ph="/// Registers an action to the CNInput system ... " />
+                <marker date="1572034351789" expanded="true" signature="4892:4974" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="5152:6807" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="5339:5507" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="5640:5807" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="5878:6522" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="5934:6071" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="6132:6275" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="6316:6447" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="6539:6797" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="6619:6781" ph="{...}" />
+                <marker date="1572034351789" expanded="false" signature="6858:11022" ph="Unregistration" />
+                <marker date="1572034351789" expanded="true" signature="6898:7625" ph="/// Unregisters an action previously registered to the CNInput system ... " />
+                <marker date="1572034351789" expanded="true" signature="7814:7932" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="7950:8680" ph="/// Unregisters an action previously registered to the CNInput system ... " />
+                <marker date="1572034351789" expanded="true" signature="8872:8990" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="9008:9448" ph="/// Unregisters an action previously registered to the CNInput system ... " />
+                <marker date="1572034351789" expanded="true" signature="9559:9643" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="9823:10979" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="10012:10182" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="10375:10427" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="10466:10590" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="10631:10761" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="10798:10916" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="11032:21355" ph="Processing" />
+                <marker date="1572034351789" expanded="true" signature="11095:14954" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="15030:18503" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="15150:16306" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="16394:16646" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="16663:18493" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="16985:18479" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="17110:17391" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="17420:17709" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="17843:18118" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="18147:18430" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="18579:20710" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="18658:19789" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="20087:20353" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="20425:20700" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="20763:21316" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="21442:21742" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="21643:21706" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="21837:21870" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="21986:22144" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="22150:26143" ph="Enumeration" />
+                <marker date="1572034351789" expanded="true" signature="22206:24948" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="22221:22354" ph="///Input value used for the Button.Start on OVR input ... " />
+                <marker date="1572034351789" expanded="true" signature="22378:22594" ph="///Input value most commonly used for the A and X buttons[Menu buttons on Vive]. ... " />
+                <marker date="1572034351789" expanded="true" signature="22622:22816" ph="///Input value most commonly used for the B and Y buttons. ... " />
+                <marker date="1572034351789" expanded="true" signature="22844:23065" ph="///Input value used when the thumb stick is press down(touch pad on Vive controllers). ... " />
+                <marker date="1572034351789" expanded="true" signature="23099:23319" ph="///Input value used when the thumb stick is touched(touch pad on Vive controllers). ... " />
+                <marker date="1572034351789" expanded="true" signature="23353:23552" ph="///Input value used when the thumb stick is moved(touch pad surface on Vive controllers). ... " />
+                <marker date="1572034351789" expanded="true" signature="23585:23770" ph="///Input value used when the trigger is touched. ... " />
+                <marker date="1572034351789" expanded="true" signature="23801:23928" ph="///Input value used when the trigger is squeezed. ... " />
+                <marker date="1572034351789" expanded="true" signature="23958:24085" ph="///Input value used when the grip is squeezed. ... " />
+                <marker date="1572034351789" expanded="true" signature="24112:24281" ph="///Input value used when the index finger is gripping the controller(Valve knuckles only). ... " />
+                <marker date="1572034351789" expanded="true" signature="24322:24492" ph="///Input value used when the middle finger is gripping the controller(Valve knuckles only). ... " />
+                <marker date="1572034351789" expanded="true" signature="24534:24702" ph="///Input value used when the ring finger is gripping the controller(Valve knuckles only). ... " />
+                <marker date="1572034351789" expanded="true" signature="24742:24911" ph="///Input value used when the pinky finger is gripping the controller(Valve knuckles only). ... " />
+                <marker date="1572034351789" expanded="true" signature="24977:25584" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="25621:25902" ph="{...}" />
+                <marker date="1572034351789" expanded="true" signature="25934:26111" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -950,8 +945,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/VRTK/Dependencies/Zinnia.Unity/Tests/Editor/Tracking/Velocity/VelocityTrackerProcessorTest.cs" />
-        <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/Input/CNInput.cs" />
         <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/Input/Debug/OVRDebugHandVisuals.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/Input/CNInput.cs" />
       </list>
     </option>
   </component>
@@ -1032,12 +1027,12 @@
       <option name="presentableId" value="Default" />
       <updated>1569174321717</updated>
       <workItem from="1569174327452" duration="5238000" />
-      <workItem from="1572022534233" duration="8314000" />
+      <workItem from="1572022534233" duration="8982000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13552000" />
+    <option name="totallyTimeSpent" value="14220000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2053,7 +2048,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Input/Debug/OVRDebugHandVisuals.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
-          <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
           <folding>
             <marker date="1572033218896" expanded="true" signature="6:37" ph="..." />
             <marker date="1572033218896" expanded="true" signature="87:2623" ph="{...}" />
@@ -2070,94 +2065,94 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Input/CNInput.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="305" column="55" lean-forward="true" selection-start-line="305" selection-start-column="55" selection-end-line="305" selection-end-column="55" />
+        <state relative-caret-position="364">
+          <caret line="310" column="46" selection-start-line="310" selection-start-column="37" selection-end-line="310" selection-end-column="46" />
           <folding>
-            <marker date="1572033057304" expanded="false" signature="6:66" ph="..." />
-            <marker date="1572033057304" expanded="true" signature="89:26146" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="132:21876" ph="{...}" />
-            <marker date="1572033057304" expanded="false" signature="771:2304" ph="MonoBehaviour" />
-            <marker date="1572033057304" expanded="true" signature="822:1276" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="1082:1265" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="1312:1445" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="1375:1435" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="1476:1604" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="1534:1594" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="1639:1771" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="1701:1761" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="1807:1938" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="1868:1928" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="1975:2107" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="2037:2097" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="2141:2270" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="2200:2260" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="2314:6840" ph="Registration" />
-            <marker date="1572033057304" expanded="true" signature="2344:3029" ph="/// Registers an action to the CNInput system ... " />
-            <marker date="1572033057304" expanded="true" signature="3216:3332" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="3350:4038" ph="/// Registers an action to the CNInput system ... " />
-            <marker date="1572033057304" expanded="true" signature="4228:4344" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="4362:4776" ph="/// Registers an action to the CNInput system ... " />
-            <marker date="1572033057304" expanded="true" signature="4892:4974" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="5152:6807" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="5339:5507" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="5640:5807" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="5878:6522" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="5934:6071" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="6132:6275" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="6316:6447" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="6539:6797" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="6619:6781" ph="{...}" />
-            <marker date="1572033057304" expanded="false" signature="6858:11022" ph="Unregistration" />
-            <marker date="1572033057304" expanded="true" signature="6898:7625" ph="/// Unregisters an action previously registered to the CNInput system ... " />
-            <marker date="1572033057304" expanded="true" signature="7814:7932" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="7950:8680" ph="/// Unregisters an action previously registered to the CNInput system ... " />
-            <marker date="1572033057304" expanded="true" signature="8872:8990" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="9008:9448" ph="/// Unregisters an action previously registered to the CNInput system ... " />
-            <marker date="1572033057304" expanded="true" signature="9559:9643" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="9823:10979" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="10012:10182" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="10375:10427" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="10466:10590" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="10631:10761" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="10798:10916" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="11032:21355" ph="Processing" />
-            <marker date="1572033057304" expanded="true" signature="11095:14954" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="15030:18503" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="15150:16306" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="16394:16646" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="16663:18493" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="16985:18479" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="17110:17391" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="17420:17709" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="17843:18118" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="18147:18430" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="18579:20710" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="18658:19789" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="20087:20353" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="20425:20700" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="20763:21316" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="21442:21742" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="21643:21706" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="21837:21870" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="21986:22144" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="22150:26143" ph="Enumeration" />
-            <marker date="1572033057304" expanded="true" signature="22206:24948" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="22221:22354" ph="///Input value used for the Button.Start on OVR input ... " />
-            <marker date="1572033057304" expanded="true" signature="22378:22594" ph="///Input value most commonly used for the A and X buttons[Menu buttons on Vive]. ... " />
-            <marker date="1572033057304" expanded="true" signature="22622:22816" ph="///Input value most commonly used for the B and Y buttons. ... " />
-            <marker date="1572033057304" expanded="true" signature="22844:23065" ph="///Input value used when the thumb stick is press down(touch pad on Vive controllers). ... " />
-            <marker date="1572033057304" expanded="true" signature="23099:23319" ph="///Input value used when the thumb stick is touched(touch pad on Vive controllers). ... " />
-            <marker date="1572033057304" expanded="true" signature="23353:23552" ph="///Input value used when the thumb stick is moved(touch pad surface on Vive controllers). ... " />
-            <marker date="1572033057304" expanded="true" signature="23585:23770" ph="///Input value used when the trigger is touched. ... " />
-            <marker date="1572033057304" expanded="true" signature="23801:23928" ph="///Input value used when the trigger is squeezed. ... " />
-            <marker date="1572033057304" expanded="true" signature="23958:24085" ph="///Input value used when the grip is squeezed. ... " />
-            <marker date="1572033057304" expanded="true" signature="24112:24281" ph="///Input value used when the index finger is gripping the controller(Valve knuckles only). ... " />
-            <marker date="1572033057304" expanded="true" signature="24322:24492" ph="///Input value used when the middle finger is gripping the controller(Valve knuckles only). ... " />
-            <marker date="1572033057304" expanded="true" signature="24534:24702" ph="///Input value used when the ring finger is gripping the controller(Valve knuckles only). ... " />
-            <marker date="1572033057304" expanded="true" signature="24742:24911" ph="///Input value used when the pinky finger is gripping the controller(Valve knuckles only). ... " />
-            <marker date="1572033057304" expanded="true" signature="24977:25584" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="25621:25902" ph="{...}" />
-            <marker date="1572033057304" expanded="true" signature="25934:26111" ph="{...}" />
+            <marker date="1572034351789" expanded="false" signature="6:66" ph="..." />
+            <marker date="1572034351789" expanded="true" signature="89:26146" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="132:21876" ph="{...}" />
+            <marker date="1572034351789" expanded="false" signature="771:2304" ph="MonoBehaviour" />
+            <marker date="1572034351789" expanded="true" signature="822:1276" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="1082:1265" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="1312:1445" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="1375:1435" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="1476:1604" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="1534:1594" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="1639:1771" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="1701:1761" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="1807:1938" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="1868:1928" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="1975:2107" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="2037:2097" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="2141:2270" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="2200:2260" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="2314:6840" ph="Registration" />
+            <marker date="1572034351789" expanded="true" signature="2344:3029" ph="/// Registers an action to the CNInput system ... " />
+            <marker date="1572034351789" expanded="true" signature="3216:3332" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="3350:4038" ph="/// Registers an action to the CNInput system ... " />
+            <marker date="1572034351789" expanded="true" signature="4228:4344" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="4362:4776" ph="/// Registers an action to the CNInput system ... " />
+            <marker date="1572034351789" expanded="true" signature="4892:4974" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="5152:6807" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="5339:5507" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="5640:5807" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="5878:6522" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="5934:6071" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="6132:6275" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="6316:6447" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="6539:6797" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="6619:6781" ph="{...}" />
+            <marker date="1572034351789" expanded="false" signature="6858:11022" ph="Unregistration" />
+            <marker date="1572034351789" expanded="true" signature="6898:7625" ph="/// Unregisters an action previously registered to the CNInput system ... " />
+            <marker date="1572034351789" expanded="true" signature="7814:7932" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="7950:8680" ph="/// Unregisters an action previously registered to the CNInput system ... " />
+            <marker date="1572034351789" expanded="true" signature="8872:8990" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="9008:9448" ph="/// Unregisters an action previously registered to the CNInput system ... " />
+            <marker date="1572034351789" expanded="true" signature="9559:9643" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="9823:10979" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="10012:10182" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="10375:10427" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="10466:10590" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="10631:10761" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="10798:10916" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="11032:21355" ph="Processing" />
+            <marker date="1572034351789" expanded="true" signature="11095:14954" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="15030:18503" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="15150:16306" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="16394:16646" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="16663:18493" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="16985:18479" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="17110:17391" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="17420:17709" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="17843:18118" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="18147:18430" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="18579:20710" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="18658:19789" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="20087:20353" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="20425:20700" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="20763:21316" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="21442:21742" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="21643:21706" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="21837:21870" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="21986:22144" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="22150:26143" ph="Enumeration" />
+            <marker date="1572034351789" expanded="true" signature="22206:24948" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="22221:22354" ph="///Input value used for the Button.Start on OVR input ... " />
+            <marker date="1572034351789" expanded="true" signature="22378:22594" ph="///Input value most commonly used for the A and X buttons[Menu buttons on Vive]. ... " />
+            <marker date="1572034351789" expanded="true" signature="22622:22816" ph="///Input value most commonly used for the B and Y buttons. ... " />
+            <marker date="1572034351789" expanded="true" signature="22844:23065" ph="///Input value used when the thumb stick is press down(touch pad on Vive controllers). ... " />
+            <marker date="1572034351789" expanded="true" signature="23099:23319" ph="///Input value used when the thumb stick is touched(touch pad on Vive controllers). ... " />
+            <marker date="1572034351789" expanded="true" signature="23353:23552" ph="///Input value used when the thumb stick is moved(touch pad surface on Vive controllers). ... " />
+            <marker date="1572034351789" expanded="true" signature="23585:23770" ph="///Input value used when the trigger is touched. ... " />
+            <marker date="1572034351789" expanded="true" signature="23801:23928" ph="///Input value used when the trigger is squeezed. ... " />
+            <marker date="1572034351789" expanded="true" signature="23958:24085" ph="///Input value used when the grip is squeezed. ... " />
+            <marker date="1572034351789" expanded="true" signature="24112:24281" ph="///Input value used when the index finger is gripping the controller(Valve knuckles only). ... " />
+            <marker date="1572034351789" expanded="true" signature="24322:24492" ph="///Input value used when the middle finger is gripping the controller(Valve knuckles only). ... " />
+            <marker date="1572034351789" expanded="true" signature="24534:24702" ph="///Input value used when the ring finger is gripping the controller(Valve knuckles only). ... " />
+            <marker date="1572034351789" expanded="true" signature="24742:24911" ph="///Input value used when the pinky finger is gripping the controller(Valve knuckles only). ... " />
+            <marker date="1572034351789" expanded="true" signature="24977:25584" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="25621:25902" ph="{...}" />
+            <marker date="1572034351789" expanded="true" signature="25934:26111" ph="{...}" />
           </folding>
         </state>
       </provider>

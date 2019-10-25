@@ -305,10 +305,10 @@ namespace CNFramework
                 case ControllerInput.Start:
                     keyCode = KeyCode.Joystick1Button7;
                     break;
-                case ControllerInput.OuterFace:
+                case ControllerInput.InnerFace:
                     keyCode = hand == Handedness.Left ? KeyCode.JoystickButton2 : KeyCode.JoystickButton0;
                     break;
-                case ControllerInput.InnerFace:
+                case ControllerInput.OuterFace:
                     keyCode = hand == Handedness.Left ? KeyCode.JoystickButton3 : KeyCode.JoystickButton1;
                     break;
                 case ControllerInput.ThumbStickPress:
