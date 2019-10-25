@@ -97,7 +97,7 @@ namespace CNFramework
         /// <param name="activatedMethod">Action to call when input is activated, passing a <see cref="bool"/> as the result</param>
         /// /// <param name="deactivatedMethod">Action to call when input is deactivated, passing a <see cref="bool"/> as the result</param>
         /// /// <param name="changedMethod">Action to call when input is changed, passing a <see cref="bool"/> as the result</param>
-        public static void Register(Handedness hand, ControllerInput input, Action<bool> activatedMethod, Action<bool> deactivatedMethod = null, Action<bool> changedMethod = null)
+        public static void Register(Handedness hand, ControllerInput input, Action<bool> activatedMethod = null, Action<bool> deactivatedMethod = null, Action<bool> changedMethod = null)
         {
             RegisterDelegation(hand, input, activatedMethod, deactivatedMethod, changedMethod);
         }
@@ -110,7 +110,7 @@ namespace CNFramework
         /// <param name="activatedMethod">Action to call when input is activated, passing a <see cref="float"/> as the result</param>
         /// /// <param name="deactivatedMethod">Action to call when input is deactivated, passing a <see cref="float"/> as the result</param>
         /// /// <param name="changedMethod">Action to call when input is changed, passing a <see cref="float"/> as the result</param>
-        public static void Register(Handedness hand, ControllerInput input, Action<float> activatedMethod , Action<float> deactivatedMethod = null, Action<float> changedMethod = null)
+        public static void Register(Handedness hand, ControllerInput input, Action<float> activatedMethod = null, Action<float> deactivatedMethod = null, Action<float> changedMethod = null)
         {
             RegisterDelegation(hand, input, activatedMethod, deactivatedMethod, changedMethod);
         }
@@ -121,13 +121,22 @@ namespace CNFramework
         /// <param name="hand"><see cref="Handedness"/> used for the input</param>
         /// <param name="input"><see cref="ControllerInput"/> the system should be listening for</param>
         /// <param name="activatedMethod">Action to call when input is activated, passing a <see cref="Vector2"/> as the result</param>
-        public static void Register(Handedness hand, ControllerInput input, Action<Vector2> activatedMethod)
+        public static void Register(Handedness hand, ControllerInput input, Action<Vector2> activatedMethod = null)
         {
             RegisterDelegation(hand, input, activatedMethod);
         }
 
-        private static void RegisterDelegation(Handedness hand, ControllerInput input, Delegate activatedDel, Delegate deactivatedDel = null, Delegate changedDel = null)
+        private static void RegisterDelegation(Handedness hand, ControllerInput input, Delegate activatedDel = null, Delegate deactivatedDel = null, Delegate changedDel = null)
         {
+            //Validate that there is something to register
+            if (activatedDel == null &&
+                deactivatedDel == null &&
+                changedDel == null)
+            {
+                Debug.LogErrorFormat("There were no actions to register for {0} hand with {1} input", hand, input);
+                return;
+            }
+            
             if (!_instance.inputLookupDelegation.TryGetValue(hand, out Dictionary<ControllerInput, Delegation> lookup))
             {
                 lookup = new Dictionary<ControllerInput, Delegation>();
@@ -136,7 +145,11 @@ namespace CNFramework
 
             if (lookup.TryGetValue(input, out Delegation delegation))
             {
-                delegation.OnActivated = Delegate.Combine(delegation.OnActivated, activatedDel);
+                if (activatedDel != null)
+                {
+                    delegation.OnActivated = Delegate.Combine(delegation.OnActivated, activatedDel);
+                }
+                
                 if (deactivatedDel != null)
                 {
                     delegation.OnDeactivated = Delegate.Combine(delegation.OnDeactivated, deactivatedDel);
@@ -172,7 +185,7 @@ namespace CNFramework
         /// <param name="activatedMethod">Action that was called when input is activated, passing a <see cref="bool"/> as the result</param>
         /// /// <param name="deactivatedMethod">Action that was called when input is deactivated, passing a <see cref="bool"/> as the result</param>
         /// /// <param name="changedMethod">Action that was called when input is changed, passing a <see cref="bool"/> as the result</param>
-        public static void Unregister(Handedness hand, ControllerInput input, Action<bool> activatedMethod, Action<bool> deactivatedMethod = null, Action<bool> changedMethod = null)
+        public static void Unregister(Handedness hand, ControllerInput input, Action<bool> activatedMethod = null, Action<bool> deactivatedMethod = null, Action<bool> changedMethod = null)
         {
             UnregisterDelegation(hand, input, activatedMethod, deactivatedMethod, changedMethod);
         }
@@ -185,7 +198,7 @@ namespace CNFramework
         /// <param name="activatedMethod">Action that was called when input is activated, passing a <see cref="float"/> as the result</param>
         /// /// <param name="deactivatedMethod">Action that was called when input is deactivated, passing a <see cref="float"/> as the result</param>
         /// /// <param name="changedMethod">Action that was called when input is changed, passing a <see cref="float"/> as the result</param>
-        public static void Unregister(Handedness hand, ControllerInput input, Action<float> activatedMethod, Action<float> deactivatedMethod = null, Action<float> changedMethod = null)
+        public static void Unregister(Handedness hand, ControllerInput input, Action<float> activatedMethod = null, Action<float> deactivatedMethod = null, Action<float> changedMethod = null)
         {
             UnregisterDelegation(hand, input, activatedMethod, deactivatedMethod, changedMethod);
         }
@@ -201,16 +214,27 @@ namespace CNFramework
             UnregisterDelegation(hand, input, activatedMethod);
         }
 
-        private static void UnregisterDelegation(Handedness hand, ControllerInput input, Delegate activatedDel, Delegate deactivatedDel = null, Delegate changedDel = null)
+        private static void UnregisterDelegation(Handedness hand, ControllerInput input, Delegate activatedDel = null, Delegate deactivatedDel = null, Delegate changedDel = null)
         {
+            //Validate that there is something to unregister
+            if (activatedDel == null &&
+                deactivatedDel == null &&
+                changedDel == null)
+            {
+                Debug.LogErrorFormat("There were no actions to unregister for {0} hand with {1} input", hand, input);
+                return;
+            }
             if (!_instance.inputLookupDelegation.TryGetValue(hand, out Dictionary<ControllerInput, Delegation> lookup) ||
                 !lookup.TryGetValue(input, out Delegation delegation))
             {
                 return;
             }
 
-            delegation.OnActivated = Delegate.Remove(delegation.OnActivated, activatedDel);
-            
+            if (activatedDel != null)
+            {
+                delegation.OnActivated = Delegate.Remove(delegation.OnActivated, activatedDel);
+            }
+
             if (deactivatedDel != null)
             {
                 delegation.OnDeactivated = Delegate.Remove(delegation.OnDeactivated, deactivatedDel);
@@ -306,43 +330,49 @@ namespace CNFramework
                 var touchResult = Input.GetKey(keyCode);
                 touchChanged(touchResult);
             }
-            switch (pressCondition)
+            else
             {
-                case ButtonCondition.Constant:
-                    var constantAction = delegation.OnChanged as Action<bool>;
-                    if (constantAction == null) return;
-                    
-                    var result = Input.GetKey(keyCode);
-                    constantAction(result);
-                    break;
-                case ButtonCondition.DownPress:
-                    if (Input.GetKeyDown(keyCode))
-                    {
-                        var downActivated = delegation.OnActivated as Action<bool>;
-                         if (downActivated == null) return;
-                        downActivated(true);
-                    }
-                    else
-                    {
-                        var downDeactivated = delegation.OnDeactivated as Action<bool>;
-                        if (downDeactivated == null) return;
-                        downDeactivated(true);
-                    }
-                    break;
-                case ButtonCondition.UpPress:
-                    if (Input.GetKeyUp(keyCode))
-                    {
-                        var upActivated = delegation.OnActivated as Action<bool>;
-                        if (upActivated == null) return;
-                        upActivated(true);
-                    }
-                    else
-                    {
-                        var upDeactivated = delegation.OnDeactivated as Action<bool>;
-                        if (upDeactivated == null) return;
-                        upDeactivated(true);
-                    }
-                    break;
+                //Check for changed event, always
+                var changed = delegation.OnChanged as Action<bool>;
+                var result = Input.GetKey(keyCode);
+                changed?.Invoke(result);
+
+                //Check button press based on condition
+                switch (pressCondition)
+                {
+                    case ButtonCondition.DownPress:
+                        if (Input.GetKeyDown(keyCode))
+                        {
+                            var downActivated = delegation.OnActivated as Action<bool>;
+                            if (downActivated == null) return;
+                            
+                            downActivated(true);
+                        }
+                        else
+                        {
+                            var downDeactivated = delegation.OnDeactivated as Action<bool>;
+                            if (downDeactivated == null) return;
+                            
+                            downDeactivated(true);
+                        }
+                        break;
+                    case ButtonCondition.UpPress:
+                        if (Input.GetKeyUp(keyCode))
+                        {
+                            var upActivated = delegation.OnActivated as Action<bool>;
+                            if (upActivated == null) return;
+                            
+                            upActivated(true);
+                        }
+                        else
+                        {
+                            var upDeactivated = delegation.OnDeactivated as Action<bool>;
+                            if (upDeactivated == null) return;
+                            
+                            upDeactivated(true);
+                        }
+                        break;
+                }
             }
         }
 
@@ -358,13 +388,13 @@ namespace CNFramework
                 case ControllerInput.TriggerAxis:
                     axisName = hand == Handedness.Left ? "LeftTrigger" : "RightTrigger";
                     break;
-                case ControllerInput.IndexFingerCapacitance: 
+                case ControllerInput.IndexFingerCapacitance:
                     axisName = hand == Handedness.Left ? "LeftIndexCapacitance" : "RightIndexCapacitance";
                     break;
-                case ControllerInput.MiddleFingerCapacitance: 
+                case ControllerInput.MiddleFingerCapacitance:
                     axisName = hand == Handedness.Left ? "LeftMiddleCapacitance" : "RightMiddleCapacitance";
                     break;
-                case ControllerInput.RingFingerCapacitance: 
+                case ControllerInput.RingFingerCapacitance:
                     axisName = hand == Handedness.Left ? "LeftRingCapacitance" : "RightRingCapacitance";
                     break;
                 case ControllerInput.PinkyFingerCapacitance:
@@ -373,28 +403,27 @@ namespace CNFramework
             }
 
             var result = Input.GetAxis(axisName);
+            var delegation = RetrieveDelegation(hand, input);
 
-                var delegation = RetrieveDelegation(hand, input);
-                if (result >= axisTolerance && !delegation.wasActivated)
-                {
-                    var action = delegation.OnActivated as Action<float>;
-                    if (action == null) return;
-                    action(result);
-                    delegation.wasActivated = true;
-                }
-                else if(result < axisTolerance && delegation.wasActivated)
-                {
-                    var action = delegation.OnDeactivated as Action<float>;
-                    if (action == null) return;
-                    action(result);
-                    delegation.wasActivated = false;
-                }
-                else
-                {
-                    var action = delegation.OnChanged as Action<float>;
-                    if (action == null) return;
-                    action(result);
-                }
+            var changedAction = delegation.OnChanged as Action<float>;
+            changedAction?.Invoke(result);
+
+            if (result >= axisTolerance && !delegation.wasActivated)
+            {
+                delegation.wasActivated = true;
+                var activatedAction = delegation.OnActivated as Action<float>;
+                if (activatedAction == null) return;
+                
+                activatedAction(result);
+            }
+            else if (result < axisTolerance && delegation.wasActivated)
+            {
+                delegation.wasActivated = false;
+                var deactivatedAction = delegation.OnDeactivated as Action<float>;
+                if (deactivatedAction == null) return;
+                
+                deactivatedAction(result);
+            }
         }
 
         private void ProcessAxis2D(Handedness hand)
@@ -405,7 +434,7 @@ namespace CNFramework
             var delegation = RetrieveDelegation(hand, ControllerInput.ThumbStickAxis);
             var action = delegation.OnActivated as Action<Vector2>;
             if (action == null) return;
-            
+
             var xResult = Input.GetAxis(xAxisName);
             var yResult = Input.GetAxis(yAxisName);
 
@@ -423,6 +452,11 @@ namespace CNFramework
             }
 
             return null;
+        }
+
+        private void ValidateAction(ControllerInput inputUsed, ControllerInput[] validInputs)
+        {
+            
         }
     }
 

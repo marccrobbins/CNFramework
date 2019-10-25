@@ -45,9 +45,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 754e683b38df49b4ca9daa570b83d687, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hand: 1
   line: {fileID: 4246927597597670112}
   dot: {fileID: 2591378481841845861}
-  length: 1
+  length: 20
   validity:
     serializedVersion: 2
     m_Bits: 288

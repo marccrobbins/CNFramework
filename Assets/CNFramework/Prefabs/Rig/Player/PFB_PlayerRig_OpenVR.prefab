@@ -400,6 +400,11 @@ PrefabInstance:
       propertyPath: m_PoseSource
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 8049171581093247637, guid: f1dcae2e1ca52494ca79a701a42e1d44,
+        type: 3}
+      propertyPath: hand
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1dcae2e1ca52494ca79a701a42e1d44, type: 3}
 --- !u!4 &5565112194433887166 stripped

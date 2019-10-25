@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,11 +7,23 @@ namespace CNFramework
 {
     public class Pointer : MonoBehaviour
     {
+        [SerializeField] private Handedness hand;
+        
         [SerializeField] private Renderer line;
         [SerializeField] private Renderer dot;
         [SerializeField] private float length = 20;
         [SerializeField] private LayerMask validity;
-        
+
+        private void Start()
+        {
+            CNInput.Register(hand, ControllerInput.TriggerAxis, Select);
+        }
+
+        private void OnDisable()
+        {
+            CNInput.Unregister(hand, ControllerInput.TriggerAxis, Select);
+        }
+
         private void LateUpdate()
         {
             Vector3 originPosition = transform.position;
@@ -38,6 +51,11 @@ namespace CNFramework
             var linePosition = lineTransform.localPosition;
             linePosition.z = lineScale.z * 0.5f;
             lineTransform.localPosition = linePosition;
+        }
+
+        private void Select(float result)
+        {
+            Debug.LogFormat("{0} pointer selecting something", hand);
         }
     }
 }
