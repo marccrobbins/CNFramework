@@ -139,6 +139,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bef812bd20fc78a4a9f5cd3098722d8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  head: {fileID: 6910364173858722404}
+  leftHand: {fileID: 5168041417535725733}
+  rightHand: {fileID: 5565112194433887166}
 --- !u!1 &9098847469112040967
 GameObject:
   m_ObjectHideFlags: 0
@@ -350,12 +353,12 @@ PrefabInstance:
       propertyPath: m_PoseSource
       value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: 8049171581093247637, guid: f1dcae2e1ca52494ca79a701a42e1d44,
+    - target: {fileID: 2133115394591362890, guid: f1dcae2e1ca52494ca79a701a42e1d44,
         type: 3}
       propertyPath: hand
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2133115394591362890, guid: f1dcae2e1ca52494ca79a701a42e1d44,
+    - target: {fileID: 8049171581093247637, guid: f1dcae2e1ca52494ca79a701a42e1d44,
         type: 3}
       propertyPath: hand
       value: 1

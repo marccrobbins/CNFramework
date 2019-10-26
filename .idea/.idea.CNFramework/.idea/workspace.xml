@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd4bb4de-8281-4694-b209-72c70dc7b1df" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/HTCViveController/Controller.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/HTCViveController/Controller.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/HTCViveController/model.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/HTCViveController/model.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/HTCViveController/textures/DefaultMaterial_AO.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/HTCViveController/textures/DefaultMaterial_AO.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/HTCViveController/textures/DefaultMaterial_albedo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/HTCViveController/textures/DefaultMaterial_albedo.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/HTCViveController/textures/DefaultMaterial_emissive.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/HTCViveController/textures/DefaultMaterial_emissive.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/HTCViveController/textures/DefaultMaterial_metallic.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/HTCViveController/textures/DefaultMaterial_metallic.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/HTCViveController/textures/DefaultMaterial_normal.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/HTCViveController/textures/DefaultMaterial_normal.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/HTCViveController/textures/DefaultMaterial_roughness.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/HTCViveController/textures/DefaultMaterial_roughness.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Scripts/RigManager/RigManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Scripts/RigManager/RigManager.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +15,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/CNFramework/Hand/Hand.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
+            <state relative-caret-position="300">
               <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="26" selection-end-column="45" />
               <folding>
                 <marker date="1571965473171" expanded="true" signature="41:1431" ph="{...}" />
@@ -47,25 +31,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/RigManager/RigManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="300">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
-                <marker date="1571965473218" expanded="false" signature="6:78" ph="..." />
-                <marker date="1571965473218" expanded="true" signature="101:298" ph="{...}" />
-                <marker date="1571965473218" expanded="true" signature="147:296" ph="{...}" />
-                <marker date="1571965473218" expanded="true" signature="226:290" ph="{...}" />
+                <marker date="1572054484521" expanded="false" signature="6:78" ph="..." />
+                <marker date="1572054484521" expanded="true" signature="101:864" ph="{...}" />
+                <marker date="1572054484521" expanded="true" signature="147:862" ph="{...}" />
+                <marker date="1572054484521" expanded="true" signature="792:856" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Input/Debug/DebugHandVisuals.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
+            <state relative-caret-position="675">
               <caret line="53" column="116" selection-start-line="53" selection-start-column="116" selection-end-line="53" selection-end-column="116" />
               <folding>
                 <marker date="1571965473216" expanded="true" signature="6:92" ph="..." />
@@ -85,7 +69,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/CNFramework/Interactions/Interactable.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
+            <state relative-caret-position="360">
               <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
               <folding>
                 <marker date="1571965473172" expanded="true" signature="6:32" ph="..." />
@@ -103,7 +87,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/06452B71-9576-486B-AAA3-34B141B6537A/2e/6b8dee61/Delegate.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2925">
+            <state relative-caret-position="225">
               <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
             </state>
           </provider>
@@ -112,7 +96,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/CNFramework/Pointer/Pointer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
+            <state relative-caret-position="270">
               <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
               <folding>
                 <marker date="1571965473176" expanded="true" signature="6:92" ph="..." />
@@ -139,28 +123,22 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Interactions/Interactable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A1CE4CA8-4A94-4D8A-A5E2-3AA6FA322F2E/fc/5178b130/Collider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/VelocityEstimator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../VRTK/Library/PackageCache/io.extendreality.vrtk.prefabs@1.0.2/Interactions/Interactables/SharedResources/Scripts/InteractableFacade.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Pointer/Pointer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Input/Debug/DebugHandVisuals.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E3232360-D51C-46C7-86DD-547E2F0B3F8B/c1/0a477b8d/Transform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A1CE4CA8-4A94-4D8A-A5E2-3AA6FA322F2E/73/591dc06c/Rigidbody.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.2.6f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Layout/GridLayoutGroup.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Hand/Hand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../VRTK/Library/PackageCache/io.extendreality.vrtk.prefabs@1.0.2/CameraRig/UnityXRCameraRig/SharedResources/Scripts/Input/UnityAxis1DAction.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/RigManager/RigManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E3232360-D51C-46C7-86DD-547E2F0B3F8B/22/bc6b8168/Component.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6A8DC567-3A4E-4788-B5AC-1561569747AB/ad/d766489b/Input.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E3232360-D51C-46C7-86DD-547E2F0B3F8B/15/3990fb6c/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/06452B71-9576-486B-AAA3-34B141B6537A/2e/6b8dee61/Delegate.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Interactions/Interactable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A1CE4CA8-4A94-4D8A-A5E2-3AA6FA322F2E/fc/5178b130/Collider.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E3232360-D51C-46C7-86DD-547E2F0B3F8B/c1/0a477b8d/Transform.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6A8DC567-3A4E-4788-B5AC-1561569747AB/ad/d766489b/Input.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -185,9 +163,9 @@
         <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/Input/Debug/InputDebugger.cs" />
         <option value="$PROJECT_DIR$/Assets/CNFramework/Pointer/Pointer.cs" />
         <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/Input/V2/CNInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/RigManager/RigManager.cs" />
         <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/Input/Debug/DebugHandVisuals.cs" />
         <option value="$PROJECT_DIR$/Assets/CNFramework/Hand/Hand.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/RigManager/RigManager.cs" />
       </list>
     </option>
   </component>
@@ -199,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="1251" />
     <option name="width" value="1316" />
     <option name="height" value="1008" />
@@ -263,11 +241,12 @@
       <workItem from="1571270891995" duration="1284000" />
       <workItem from="1571317563521" duration="21416000" />
       <workItem from="1571709209877" duration="38613000" />
+      <workItem from="1572054086325" duration="406000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80959000" />
+    <option name="totallyTimeSpent" value="81365000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -279,8 +258,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1258" y="0" width="1302" height="1008" extended-state="1" />
-    <editor active="true" />
+    <frame x="1251" y="0" width="1316" height="1008" extended-state="1" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.26592356" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -403,19 +381,7 @@
     <entry file="file://$PROJECT_DIR$/../VRTK/Library/PackageCache/io.extendreality.vrtk.prefabs@1.0.2/CameraRig/UnityXRCameraRig/SharedResources/Scripts/Input/UnityAxis1DAction.cs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Input/Axis2DAction.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <marker date="1571602943975" expanded="true" signature="6:32" ph="..." />
-            <marker date="1571602943975" expanded="true" signature="55:523" ph="{...}" />
-            <marker date="1571602943975" expanded="true" signature="101:521" ph="{...}" />
-            <marker date="1571602943975" expanded="true" signature="371:515" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Input/Axis2DAction.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/RigManager/SteamRigManager.cs" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A1CE4CA8-4A94-4D8A-A5E2-3AA6FA322F2E/fc/5178b130/Collider.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -469,13 +435,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Spring.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Spring.cs" />
     <entry file="file://C:/Program Files/Unity/Hub/Editor/2019.2.6f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Layout/GridLayoutGroup.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -490,103 +450,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Input/InputAction.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="54" column="9" selection-start-line="8" selection-start-column="8" selection-end-line="54" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/06452B71-9576-486B-AAA3-34B141B6537A/2e/6b8dee61/Delegate.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2925">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Input/ButtonInputAction.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="29" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Input/Debug/InputDebugger.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Input/Axis1DAction.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Input/ControllerInputManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/CNFramework/Interactions/Interactable.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-          <folding>
-            <marker date="1571965473172" expanded="true" signature="6:32" ph="..." />
-            <marker date="1571965473172" expanded="true" signature="55:1124" ph="{...}" />
-            <marker date="1571965473172" expanded="true" signature="103:1122" ph="{...}" />
-            <marker date="1571965473172" expanded="true" signature="311:431" ph="{...}" />
-            <marker date="1571965473172" expanded="true" signature="514:801" ph="{...}" />
-            <marker date="1571965473172" expanded="true" signature="621:705" ph="{...}" />
-            <marker date="1571965473172" expanded="true" signature="864:1116" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Input/V2/CNInput.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5100">
-          <caret line="413" selection-start-line="413" selection-end-line="413" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/CNFramework/Pointer/Pointer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-          <folding>
-            <marker date="1571965473176" expanded="true" signature="6:92" ph="..." />
-            <marker date="1571965473176" expanded="true" signature="115:1939" ph="{...}" />
-            <marker date="1571965473176" expanded="true" signature="158:1937" ph="{...}" />
-            <marker date="1571965473176" expanded="true" signature="453:546" ph="{...}" />
-            <marker date="1571965473176" expanded="true" signature="580:675" ph="{...}" />
-            <marker date="1571965473176" expanded="true" signature="710:1798" ph="{...}" />
-            <marker date="1571965473176" expanded="true" signature="1841:1931" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/RigManager/RigManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <marker date="1571965473218" expanded="false" signature="6:78" ph="..." />
-            <marker date="1571965473218" expanded="true" signature="101:298" ph="{...}" />
-            <marker date="1571965473218" expanded="true" signature="147:296" ph="{...}" />
-            <marker date="1571965473218" expanded="true" signature="226:290" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Input/InputAction.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Input/ButtonInputAction.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Input/Debug/InputDebugger.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Input/Axis1DAction.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Input/ControllerInputManager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Input/V2/CNInput.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/CNFramework/Hand/Hand.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
+        <state relative-caret-position="300">
           <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="26" selection-end-column="45" />
           <folding>
             <marker date="1571965473171" expanded="true" signature="41:1431" ph="{...}" />
@@ -601,9 +473,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CNFramework/Interactions/Interactable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+          <folding>
+            <marker date="1571965473172" expanded="true" signature="6:32" ph="..." />
+            <marker date="1571965473172" expanded="true" signature="55:1124" ph="{...}" />
+            <marker date="1571965473172" expanded="true" signature="103:1122" ph="{...}" />
+            <marker date="1571965473172" expanded="true" signature="311:431" ph="{...}" />
+            <marker date="1571965473172" expanded="true" signature="514:801" ph="{...}" />
+            <marker date="1571965473172" expanded="true" signature="621:705" ph="{...}" />
+            <marker date="1571965473172" expanded="true" signature="864:1116" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/06452B71-9576-486B-AAA3-34B141B6537A/2e/6b8dee61/Delegate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CNFramework/Pointer/Pointer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <marker date="1571965473176" expanded="true" signature="6:92" ph="..." />
+            <marker date="1571965473176" expanded="true" signature="115:1939" ph="{...}" />
+            <marker date="1571965473176" expanded="true" signature="158:1937" ph="{...}" />
+            <marker date="1571965473176" expanded="true" signature="453:546" ph="{...}" />
+            <marker date="1571965473176" expanded="true" signature="580:675" ph="{...}" />
+            <marker date="1571965473176" expanded="true" signature="710:1798" ph="{...}" />
+            <marker date="1571965473176" expanded="true" signature="1841:1931" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Input/Debug/DebugHandVisuals.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
+        <state relative-caret-position="675">
           <caret line="53" column="116" selection-start-line="53" selection-start-column="116" selection-end-line="53" selection-end-column="116" />
           <folding>
             <marker date="1571965473216" expanded="true" signature="6:92" ph="..." />
@@ -615,6 +526,19 @@
             <marker date="1571965473216" expanded="true" signature="1640:1713" ph="{...}" />
             <marker date="1571965473216" expanded="true" signature="1778:1852" ph="{...}" />
             <marker date="1571965473216" expanded="true" signature="1896:2606" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/RigManager/RigManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <marker date="1572054484521" expanded="false" signature="6:78" ph="..." />
+            <marker date="1572054484521" expanded="true" signature="101:864" ph="{...}" />
+            <marker date="1572054484521" expanded="true" signature="147:862" ph="{...}" />
+            <marker date="1572054484521" expanded="true" signature="792:856" ph="{...}" />
           </folding>
         </state>
       </provider>
