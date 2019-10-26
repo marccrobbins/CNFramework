@@ -215,26 +215,26 @@ class OVREngineConfigurationUpdater
 	{
 		try
 		{
-			BindAxis(new Axis() { name = "Oculus_GearVR_LThumbstickX",  axis =  0,               });
-			BindAxis(new Axis() { name = "Oculus_GearVR_LThumbstickY",  axis =  1, invert = true });
-			BindAxis(new Axis() { name = "Oculus_GearVR_RThumbstickX",  axis =  2,               });
-			BindAxis(new Axis() { name = "Oculus_GearVR_RThumbstickY",  axis =  3, invert = true });
-			BindAxis(new Axis() { name = "Oculus_GearVR_DpadX",         axis =  4,               });
-			BindAxis(new Axis() { name = "Oculus_GearVR_DpadY",         axis =  5, invert = true });
-			BindAxis(new Axis() { name = "Oculus_GearVR_LIndexTrigger", axis = 12,               });
-			BindAxis(new Axis() { name = "Oculus_GearVR_RIndexTrigger", axis = 11,               });
-			BindAxis(new Axis() { name = "Oculus_CrossPlatform_Button2", positiveButton = "joystick button 0", gravity = 1000f, sensitivity = 1000f, type = 0 });
-			BindAxis(new Axis() { name = "Oculus_CrossPlatform_Button4", positiveButton = "joystick button 2", gravity = 1000f, sensitivity = 1000f, type = 0 });
-			BindAxis(new Axis() { name = "Oculus_CrossPlatform_PrimaryThumbstick", positiveButton = "joystick button 8", gravity = 0f, dead = 0f, sensitivity = 0.1f, type = 0 });
-			BindAxis(new Axis() { name = "Oculus_CrossPlatform_SecondaryThumbstick", positiveButton = "joystick button 9", gravity = 0f, dead = 0f, sensitivity = 0.1f, type = 0 });
-			BindAxis(new Axis() { name = "Oculus_CrossPlatform_PrimaryIndexTrigger", dead = 0.19f, type = 2, axis = 8, joyNum = 0 });
-			BindAxis(new Axis() { name = "Oculus_CrossPlatform_SecondaryIndexTrigger", dead = 0.19f, type = 2, axis = 9, joyNum = 0 });
-			BindAxis(new Axis() { name = "Oculus_CrossPlatform_PrimaryHandTrigger", dead = 0.19f, type = 2, axis = 10, joyNum = 0 });
-			BindAxis(new Axis() { name = "Oculus_CrossPlatform_SecondaryHandTrigger", dead = 0.19f, type = 2, axis = 11, joyNum = 0 });
-			BindAxis(new Axis() { name = "Oculus_CrossPlatform_PrimaryThumbstickHorizontal", dead = 0.19f, type = 2, axis = 0, joyNum = 0 });
-			BindAxis(new Axis() { name = "Oculus_CrossPlatform_PrimaryThumbstickVertical", dead = 0.19f, type = 2, axis = 1, joyNum = 0, invert = true });
-			BindAxis(new Axis() { name = "Oculus_CrossPlatform_SecondaryThumbstickHorizontal", dead = 0.19f, type = 2, axis = 3, joyNum = 0 });
-			BindAxis(new Axis() { name = "Oculus_CrossPlatform_SecondaryThumbstickVertical", dead = 0.19f, type = 2, axis = 4, joyNum = 0, invert = true });
+//			BindAxis(new Axis() { name = "Oculus_GearVR_LThumbstickX",  axis =  0,               });
+//			BindAxis(new Axis() { name = "Oculus_GearVR_LThumbstickY",  axis =  1, invert = true });
+//			BindAxis(new Axis() { name = "Oculus_GearVR_RThumbstickX",  axis =  2,               });
+//			BindAxis(new Axis() { name = "Oculus_GearVR_RThumbstickY",  axis =  3, invert = true });
+//			BindAxis(new Axis() { name = "Oculus_GearVR_DpadX",         axis =  4,               });
+//			BindAxis(new Axis() { name = "Oculus_GearVR_DpadY",         axis =  5, invert = true });
+//			BindAxis(new Axis() { name = "Oculus_GearVR_LIndexTrigger", axis = 12,               });
+//			BindAxis(new Axis() { name = "Oculus_GearVR_RIndexTrigger", axis = 11,               });
+//			BindAxis(new Axis() { name = "Oculus_CrossPlatform_Button2", positiveButton = "joystick button 0", gravity = 1000f, sensitivity = 1000f, type = 0 });
+//			BindAxis(new Axis() { name = "Oculus_CrossPlatform_Button4", positiveButton = "joystick button 2", gravity = 1000f, sensitivity = 1000f, type = 0 });
+//			BindAxis(new Axis() { name = "Oculus_CrossPlatform_PrimaryThumbstick", positiveButton = "joystick button 8", gravity = 0f, dead = 0f, sensitivity = 0.1f, type = 0 });
+//			BindAxis(new Axis() { name = "Oculus_CrossPlatform_SecondaryThumbstick", positiveButton = "joystick button 9", gravity = 0f, dead = 0f, sensitivity = 0.1f, type = 0 });
+//			BindAxis(new Axis() { name = "Oculus_CrossPlatform_PrimaryIndexTrigger", dead = 0.19f, type = 2, axis = 8, joyNum = 0 });
+//			BindAxis(new Axis() { name = "Oculus_CrossPlatform_SecondaryIndexTrigger", dead = 0.19f, type = 2, axis = 9, joyNum = 0 });
+//			BindAxis(new Axis() { name = "Oculus_CrossPlatform_PrimaryHandTrigger", dead = 0.19f, type = 2, axis = 10, joyNum = 0 });
+//			BindAxis(new Axis() { name = "Oculus_CrossPlatform_SecondaryHandTrigger", dead = 0.19f, type = 2, axis = 11, joyNum = 0 });
+//			BindAxis(new Axis() { name = "Oculus_CrossPlatform_PrimaryThumbstickHorizontal", dead = 0.19f, type = 2, axis = 0, joyNum = 0 });
+//			BindAxis(new Axis() { name = "Oculus_CrossPlatform_PrimaryThumbstickVertical", dead = 0.19f, type = 2, axis = 1, joyNum = 0, invert = true });
+//			BindAxis(new Axis() { name = "Oculus_CrossPlatform_SecondaryThumbstickHorizontal", dead = 0.19f, type = 2, axis = 3, joyNum = 0 });
+//			BindAxis(new Axis() { name = "Oculus_CrossPlatform_SecondaryThumbstickVertical", dead = 0.19f, type = 2, axis = 4, joyNum = 0, invert = true });
 		}
 		catch
 		{
