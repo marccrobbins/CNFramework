@@ -386,22 +386,22 @@ namespace CNFramework
             switch (input)
             {
                 case ControllerInput.GripAxis:
-                    axisName = hand == Handedness.Left ? "LeftGrip" : "RightGrip";
+                    axisName = hand == Handedness.Left ? "CNFramework_LeftGrip" : "CNFramework_RightGrip";
                     break;
                 case ControllerInput.TriggerAxis:
-                    axisName = hand == Handedness.Left ? "LeftTrigger" : "RightTrigger";
+                    axisName = hand == Handedness.Left ? "CNFramework_LeftTrigger" : "CNFramework_RightTrigger";
                     break;
                 case ControllerInput.IndexFingerCapacitance:
-                    axisName = hand == Handedness.Left ? "LeftIndexCapacitance" : "RightIndexCapacitance";
+                    axisName = hand == Handedness.Left ? "CNFramework_LeftIndexCapacitance" : "CNFramework_RightIndexCapacitance";
                     break;
                 case ControllerInput.MiddleFingerCapacitance:
-                    axisName = hand == Handedness.Left ? "LeftMiddleCapacitance" : "RightMiddleCapacitance";
+                    axisName = hand == Handedness.Left ? "CNFramework_LeftMiddleCapacitance" : "CNFramework_RightMiddleCapacitance";
                     break;
                 case ControllerInput.RingFingerCapacitance:
-                    axisName = hand == Handedness.Left ? "LeftRingCapacitance" : "RightRingCapacitance";
+                    axisName = hand == Handedness.Left ? "CNFramework_LeftRingCapacitance" : "CNFramework_RightRingCapacitance";
                     break;
                 case ControllerInput.PinkyFingerCapacitance:
-                    axisName = hand == Handedness.Left ? "LeftPinkyCapacitance" : "RightPinkyCapacitance";
+                    axisName = hand == Handedness.Left ? "CNFramework_LeftPinkyCapacitance" : "CNFramework_RightPinkyCapacitance";
                     break;
             }
 
@@ -431,8 +431,8 @@ namespace CNFramework
 
         private void ProcessAxis2D(Handedness hand)
         {
-            var xAxisName = hand == Handedness.Left ? "LeftHorizontal" : "RightHorizontal";
-            var yAxisName = hand == Handedness.Left ? "LeftVertical" : "RightVertical";
+            var xAxisName = hand == Handedness.Left ? "CNFramework_LeftHorizontal" : "CNFramework_RightHorizontal";
+            var yAxisName = hand == Handedness.Left ? "CNFramework_LeftVertical" : "CNFramework_RightVertical";
 
             var delegation = RetrieveDelegation(hand, ControllerInput.ThumbStickAxis);
             var action = delegation.OnActivated as Action<Vector2>;
