@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcec98b2-565d-4642-90a9-d59d571ed2de" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Scripts/Input/CNInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Scripts/Input/CNInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CNFrameworkAndroid/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CNFrameworkAndroid/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CNFrameworkAndroid/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CNFrameworkAndroid/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/OVRBuildConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/OVRBuildConfig.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -1027,12 +1028,12 @@
       <option name="presentableId" value="Default" />
       <updated>1569174321717</updated>
       <workItem from="1569174327452" duration="5238000" />
-      <workItem from="1572022534233" duration="8982000" />
+      <workItem from="1572022534233" duration="9581000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14220000" />
+    <option name="totallyTimeSpent" value="14819000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1045,7 +1046,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1263" y="0" width="1304" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893162" visible="true" weight="0.25643086" />
       <window_info id="Structure" order="1" sideWeight="0.50106835" side_tool="true" visible="true" weight="0.25643086" />
