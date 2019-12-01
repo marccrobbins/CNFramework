@@ -4,8 +4,10 @@ namespace CNFramework
 {
     public class Hand : MonoBehaviour
     {
-        [SerializeField] private Handedness hand;
-        [SerializeField] private Transform attachPoint;
+        [SerializeField] private Handedness handedness;
+        public Handedness Handedness => handedness;
+
+        private Transform attachPoint;
         [SerializeField] private VelocityEstimator velocityEstimator;
 
         private Interactable hoveredInteractable;
@@ -14,12 +16,12 @@ namespace CNFramework
         
         private void Start()
         {
-            CNInput.Register(hand, ControllerInput.GripAxis, Grab, UnGrab);
+            CNInput.Register(handedness, ControllerInput.GripAxis, Grab, UnGrab);
         }
 
         private void OnDisable()
         {
-            CNInput.Unregister(hand, ControllerInput.GripAxis, UnGrab, UnGrab);
+            CNInput.Unregister(handedness, ControllerInput.GripAxis, UnGrab, UnGrab);
         }
 
         private void Grab(float result)
