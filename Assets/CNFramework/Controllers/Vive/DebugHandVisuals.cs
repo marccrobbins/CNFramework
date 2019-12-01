@@ -14,6 +14,8 @@ namespace CNFramework
         [SerializeField] private GameObject gripSpheres;
         [SerializeField] private GameObject menuSphere;
         [SerializeField] private GameObject triggerSphere;
+
+#if CNFRAMEWORK_DEBUG
         
         private void Start()
         {
@@ -53,5 +55,7 @@ namespace CNFramework
             CNInput.Unregister(hand, ControllerInput.GripAxis, changedMethod: (res) => ShowDebug(gripSpheres, res > 0));
             CNInput.Unregister(hand, ControllerInput.InnerFace, changedMethod: (res) => ShowDebug(menuSphere, res));
         }
+#endif
+
     }
 }

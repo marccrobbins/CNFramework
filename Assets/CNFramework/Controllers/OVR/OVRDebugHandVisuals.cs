@@ -1,18 +1,21 @@
 ﻿using CNFramework;
 using UnityEngine;
 
-public class OVRDebugHandVisuals : MonoBehaviour
+namespace CNFramework
 {
-    [SerializeField] private Handedness hand;
+    public class OVRDebugHandVisuals : MonoBehaviour
+    {
+        [SerializeField] private Handedness hand;
 
-    [SerializeField] private GameObject menuButton;
-    [SerializeField] private GameObject innerButton;
-    [SerializeField] private GameObject outerButton;
-    [SerializeField] private GameObject gripButton;
-    [SerializeField] private GameObject triggerButton;
-    [SerializeField] private GameObject joystickPress;
-    [SerializeField] private GameObject joystickTouch;
-     
+        [SerializeField] private GameObject menuButton;
+        [SerializeField] private GameObject innerButton;
+        [SerializeField] private GameObject outerButton;
+        [SerializeField] private GameObject gripButton;
+        [SerializeField] private GameObject triggerButton;
+        [SerializeField] private GameObject joystickPress;
+        [SerializeField] private GameObject joystickTouch;
+
+#if CNFRAMEWORK_DEBUG
     private void Start()
     {
         if (menuButton)
@@ -53,5 +56,7 @@ public class OVRDebugHandVisuals : MonoBehaviour
         CNInput.Unregister(hand, ControllerInput.TriggerAxis, changedMethod: res => ShowDebug(triggerButton, res > 0));
         CNInput.Unregister(hand, ControllerInput.ThumbStickTouch, changedMethod: res => ShowDebug(joystickTouch, res));
         CNInput.Unregister(hand, ControllerInput.ThumbStickPress, changedMethod: res => ShowDebug(joystickPress, res));
+    }
+#endif
     }
 }

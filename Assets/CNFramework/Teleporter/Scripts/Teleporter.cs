@@ -1,5 +1,4 @@
-﻿using System;
-using CNFramework;
+﻿using CNFramework;
 using CNFramework.Utility;
 using UnityEngine;
 

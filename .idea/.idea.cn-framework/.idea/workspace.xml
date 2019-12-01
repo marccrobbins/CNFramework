@@ -13,11 +13,13 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Controllers/Vive/DebugHandVisuals.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Hand/Hand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/Teleporter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Utility/Bindings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/ParabolicPointer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Utility/Fader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Controllers/OVR/OVRDebugHandVisuals.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/TeleportVive.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -29,6 +31,8 @@
         <option value="$PROJECT_DIR$/Assets/CNFramework/Utility/Bindings.cs" />
         <option value="$PROJECT_DIR$/Assets/CNFramework/Hand/Hand.cs" />
         <option value="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/Teleport.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Controllers/Vive/DebugHandVisuals.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Controllers/OVR/OVRDebugHandVisuals.cs" />
         <option value="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/Teleporter.cs" />
       </list>
     </option>
@@ -80,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575222486100</updated>
-      <workItem from="1575222490262" duration="3383000" />
+      <workItem from="1575222490262" duration="3958000" />
     </task>
     <servers />
   </component>
