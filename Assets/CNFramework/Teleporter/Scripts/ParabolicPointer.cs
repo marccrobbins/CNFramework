@@ -202,25 +202,14 @@ public class ParabolicPointer : MonoBehaviour {
         ParabolaMesh.vertices = new Vector3[0];
         ParabolaMesh.triangles = new int[0];
 
-        if(SelectionPadPrefab != null)
-        {
-            SelectionPadObject = Instantiate<GameObject>(SelectionPadPrefab);
-            SelectionPadObject.SetActive(false);
-        }
-
-        if (InvalidPadPrefab != null)
-        {
-            InvalidPadObject = Instantiate<GameObject>(InvalidPadPrefab);
-            InvalidPadObject.SetActive(false);
-        }
+        SelectionPadObject?.SetActive(false);
+        InvalidPadObject?.SetActive(false);
     }
 
     void OnDisable()
     {
-        if(SelectionPadObject != null)
-            SelectionPadObject.SetActive(false);
-        if(InvalidPadObject != null)
-            InvalidPadObject.SetActive(false);
+        SelectionPadObject?.SetActive(false);
+        InvalidPadObject?.SetActive(false);
     }
 
     private List<Vector3> ParabolaPoints;
