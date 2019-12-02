@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="303b5260-bab3-448d-92de-cbab80ab0c25" name="Default Changelist" comment="" />
@@ -18,7 +18,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/Teleporter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Utility/Bindings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/ParabolicPointer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Utility/Fader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Utility/Fader/Fader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Controllers/OVR/OVRDebugHandVisuals.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/TeleportVive.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -31,8 +31,10 @@
         <option value="$PROJECT_DIR$/Assets/CNFramework/Utility/Bindings.cs" />
         <option value="$PROJECT_DIR$/Assets/CNFramework/Hand/Hand.cs" />
         <option value="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/Teleport.cs" />
-        <option value="$PROJECT_DIR$/Assets/CNFramework/Controllers/Vive/DebugHandVisuals.cs" />
         <option value="$PROJECT_DIR$/Assets/CNFramework/Controllers/OVR/OVRDebugHandVisuals.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Utility/Fader/Fader.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Controllers/Vive/DebugHandVisuals.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/ParabolicPointer.cs" />
         <option value="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/Teleporter.cs" />
       </list>
     </option>
@@ -66,10 +68,10 @@
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="8240">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="8240" />
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
@@ -84,7 +86,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575222486100</updated>
-      <workItem from="1575222490262" duration="3958000" />
+      <workItem from="1575222490262" duration="5033000" />
+      <workItem from="1575227959351" duration="6000" />
+      <workItem from="1575227988396" duration="3847000" />
     </task>
     <servers />
   </component>
@@ -98,7 +102,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

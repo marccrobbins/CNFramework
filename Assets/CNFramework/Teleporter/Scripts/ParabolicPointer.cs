@@ -27,7 +27,7 @@ public class ParabolicPointer : MonoBehaviour {
     [Tooltip("Prefab to use as the selection pad when the player is pointing at an invalid teleportable surface.")]
     private GameObject InvalidPadPrefab;
 
-    
+    public Transform Origin { get; set; }
     public Vector3 SelectedPoint { get; private set; }
     public bool PointOnNavMesh { get; private set; }
     public float CurrentParabolaAngleY { get; private set; }
@@ -205,14 +205,15 @@ public class ParabolicPointer : MonoBehaviour {
     void Update()
     {
         // 1. Calculate Parabola Points
-        Vector3 velocity = transform.TransformDirection(InitialVelocity);
+        var start = Origin ? Origin : transform;
+        Vector3 velocity = start.TransformDirection(InitialVelocity);
         Vector3 velocity_normalized;
         CurrentParabolaAngleY = ClampInitialVelocity(ref velocity, out velocity_normalized);
         CurrentPointVector = velocity_normalized;
 
         Vector3 normal;
         PointOnNavMesh = CalculateParabolicCurve(
-            transform.position,
+            start.position,
             velocity,
             Acceleration, PointSpacing, PointCount,
             NavMesh,
@@ -252,7 +253,8 @@ public class ParabolicPointer : MonoBehaviour {
     // (for example, directly after enabling the component)
     public void ForceUpdateCurrentAngle()
     {
-        Vector3 velocity = transform.TransformDirection(InitialVelocity);
+        var start = Origin ? Origin : transform;
+        Vector3 velocity = start.TransformDirection(InitialVelocity);
         Vector3 d;
         CurrentParabolaAngleY = ClampInitialVelocity(ref velocity, out d);
         CurrentPointVector = d;
@@ -289,24 +291,27 @@ public class ParabolicPointer : MonoBehaviour {
         return angle;
     }
 
+    #region Gizmos
+
 #if UNITY_EDITOR
     private List<Vector3> ParabolaPoints_Gizmo;
 
     void OnDrawGizmos()
     {
-        if (Application.isPlaying) // Otherwise the parabola can show in the game view
+        if (Application.isPlaying || NavMesh == null) // Otherwise the parabola can show in the game view
             return;
-
+        
         if (ParabolaPoints_Gizmo == null)
             ParabolaPoints_Gizmo = new List<Vector3>(PointCount);
 
-        Vector3 velocity = transform.TransformDirection(InitialVelocity);
+        var start = Origin ? Origin : transform;
+        Vector3 velocity = start.TransformDirection(InitialVelocity);
         Vector3 velocity_normalized;
         CurrentParabolaAngleY = ClampInitialVelocity(ref velocity, out velocity_normalized);
 
         Vector3 normal;
         bool didHit = CalculateParabolicCurve(
-            transform.position, 
+            start.position, 
             velocity, 
             Acceleration, PointSpacing, PointCount, 
             NavMesh,
@@ -321,4 +326,8 @@ public class ParabolicPointer : MonoBehaviour {
             Gizmos.DrawSphere(ParabolaPoints_Gizmo[ParabolaPoints_Gizmo.Count-1], 0.2f);
     }
 #endif
+
+    #endregion Gizmos
+
+
 }

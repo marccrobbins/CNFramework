@@ -11,9 +11,10 @@ namespace CNFramework.Utility
         [SerializeField] private float _fadeDuration;
         [SerializeField] private bool _startClear;
 
-        private FadeState _currentState;
+        public FadeState _currentState;
         public static FadeState CurrentState => _instance._currentState;
 
+        private Material _instancedFadeMat;
         private float _fadeValue;
         private FadeState _nextState;
         private FadeState _prevState;
@@ -23,18 +24,21 @@ namespace CNFramework.Utility
 
         void Start()
         {
-            if (!_instance) _instance = this;
-            else return;
+            if (!_instance)
+            {
+                _instance = this;
+                _instancedFadeMat = Instantiate(_fadeMat);
+            }
 
             if (_startClear)
             {
-                _currentState = FadeState.Clear;
-                _fadeValue = 1;
+                _currentState = FadeState.Filled;
+                FadeIn();
             }
             else
             {
-                _currentState = FadeState.Filled;
-                _fadeValue = 0;
+                _currentState = FadeState.Clear;
+                FadeOut();
             }
         }
 
@@ -63,15 +67,29 @@ namespace CNFramework.Utility
                 }
             }
 
-            Material mat = Instantiate(_fadeMat);
+            SetColor(_fadeValue);
+            Graphics.Blit(src, dest, null);
+        }
 
-            Color updatedColor = mat.color;
-            updatedColor.r = _fadeValue;
-            updatedColor.g = _fadeValue;
-            updatedColor.b = _fadeValue;
-            mat.color = updatedColor;
+        private void SetColor(float value)
+        {
+            Color updatedColor = _instancedFadeMat.color;
+            updatedColor.r = value;
+            updatedColor.g = value;
+            updatedColor.b = value;
+            _instancedFadeMat.color = updatedColor;
+        }
 
-            Graphics.Blit(src, dest, mat);
+        [ContextMenu("FadeOut")]
+        private void TestFadeOut()
+        {
+            FadeOut();
+        }
+        
+        [ContextMenu("FadeIn")]
+        private void TestFadeIn()
+        {
+            FadeIn();
         }
 
         public static void FadeOut(Action onComplete = null)

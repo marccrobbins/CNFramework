@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\marcr\.Rider2019.2\system\extResources" t="IncludeRecursive" />
@@ -33,8 +33,6 @@
             <e p="RigManager.cs" t="Include" />
           </e>
           <e p="Teleporter" t="Include">
-            <e p="LICENSE.txt" t="Include" />
-            <e p="README.txt" t="Include" />
             <e p="Scripts" t="Include">
               <e p="BorderRenderer.cs" t="Include" />
               <e p="ParabolicPointer.cs" t="Include" />
@@ -44,16 +42,24 @@
               <e p="ViveNavMesh.cs" t="Include" />
               <e p="ViveNavMeshEditor.cs" t="Include" />
             </e>
+            <e p="SelectionPads" t="Include">
+              <e p="Invalid" t="Include">
+                <e p="TransparentNoOverlap.shader" t="Include" />
+              </e>
+              <e p="Valid" t="Include">
+                <e p="ViveMovementBorder.shader" t="Include" />
+              </e>
+            </e>
             <e p="Shader" t="Include">
               <e p="FadeBlack.shader" t="Include" />
-              <e p="TransparentNoOverlap.shader" t="Include" />
-              <e p="ViveMovementBorder.shader" t="Include" />
               <e p="ViveMovementGrid.shader" t="Include" />
             </e>
           </e>
           <e p="Utility" t="Include">
             <e p="Bindings.cs" t="Include" />
-            <e p="Fader.cs" t="Include" />
+            <e p="Fader" t="Include">
+              <e p="Fader.cs" t="Include" />
+            </e>
           </e>
         </e>
         <e p="Oculus" t="Include">

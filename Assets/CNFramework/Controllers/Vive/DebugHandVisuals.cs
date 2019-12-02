@@ -31,7 +31,7 @@ namespace CNFramework
         {
             if (!touchSphere.activeInHierarchy) return;
             
-            touchSphere.transform.localPosition = new Vector3(position.x, 0, -position.y);
+            touchSphere.transform.localPosition = new Vector3(position.x, 0, position.y);
         }
         
         private void ShowDebug(GameObject debugObject, bool isActive)

@@ -4,23 +4,27 @@ using UnityEngine;
 
 public class Teleporter : MonoBehaviour
 {
-    [SerializeField] private Hand _hand;
-    [SerializeField] private ParabolicPointer _pointer;
+    [SerializeField] private Transform origin;
+    [SerializeField] private Transform head;
+    [SerializeField] private Transform hand;
+    [SerializeField] private ParabolicPointer pointer;
     
     private TeleportState _state;
     public TeleportState State => _state;
 
     private void Start()
     {
-        CNInput.Register(_hand.Handedness, ControllerInput.ThumbStickTouch, changedMethod: SetVisibility);
-        CNInput.Register(_hand.Handedness, ControllerInput.ThumbStickAxis, SetAxis);
-        CNInput.Register(_hand.Handedness, ControllerInput.ThumbStickPress, Teleport);
+        CNInput.Register(Handedness.Right, ControllerInput.ThumbStickTouch, changedMethod: SetVisibility);
+        CNInput.Register(Handedness.Right, ControllerInput.ThumbStickAxis, SetAxis);
+        CNInput.Register(Handedness.Right, ControllerInput.ThumbStickPress, Teleport);
+
+        pointer.Origin = hand;
     }
 
     private void SetVisibility(bool isOn)
     {
         _state = isOn ? TeleportState.Selecting : TeleportState.None;
-        _pointer.enabled = isOn;
+        pointer.enabled = isOn;
     }
 
     private void SetAxis(Vector2 axis)
@@ -31,24 +35,20 @@ public class Teleporter : MonoBehaviour
 
     private void Teleport(bool shouldTeleport)
     {
+        if(!pointer.PointOnNavMesh) return;
+
         _state = TeleportState.Teleporting;
-        //Do fade out
-        Fader.FadeOut(() =>
-        {
-            //Change positions
-            //Then fade back in
-            Fader.FadeIn(() =>
-            {
-                Debug.Log("TeleportComplete");
-            });
-        });
+        
+        Vector3 offset = origin.position - head.position;
+        offset.y = 0;
+        origin.position = pointer.SelectedPoint + offset;
     }
 
     private void OnDisable()
     {
-        CNInput.Unregister(_hand.Handedness, ControllerInput.ThumbStickTouch, changedMethod: SetVisibility);
-        CNInput.Unregister(_hand.Handedness, ControllerInput.ThumbStickAxis, SetAxis);
-        CNInput.Unregister(_hand.Handedness, ControllerInput.ThumbStickPress, Teleport);
+        CNInput.Unregister(Handedness.Right, ControllerInput.ThumbStickTouch, changedMethod: SetVisibility);
+        CNInput.Unregister(Handedness.Right, ControllerInput.ThumbStickAxis, SetAxis);
+        CNInput.Unregister(Handedness.Right, ControllerInput.ThumbStickPress, Teleport);
     }
 }
 
