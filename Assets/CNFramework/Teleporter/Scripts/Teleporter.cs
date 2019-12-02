@@ -6,34 +6,44 @@ public class Teleporter : MonoBehaviour
 {
     [SerializeField] private Transform origin;
     [SerializeField] private Transform head;
-    [SerializeField] private Transform hand;
+    [SerializeField] private Transform leftHand, rightHand;
     [SerializeField] private ParabolicPointer pointer;
     
     private TeleportState _state;
     public TeleportState State => _state;
+
+    private Handedness _currentHand;
 
     private void Start()
     {
         CNInput.Register(Handedness.Right, ControllerInput.ThumbStickTouch, changedMethod: SetVisibility);
         CNInput.Register(Handedness.Right, ControllerInput.ThumbStickAxis, SetAxis);
         CNInput.Register(Handedness.Right, ControllerInput.ThumbStickPress, Teleport);
-
-        pointer.Origin = hand;
+        
+        CNInput.Register(Handedness.Left, ControllerInput.ThumbStickTouch, changedMethod: SetVisibility);
+        CNInput.Register(Handedness.Left, ControllerInput.ThumbStickAxis, SetAxis);
+        CNInput.Register(Handedness.Left, ControllerInput.ThumbStickPress, Teleport);
     }
 
-    private void SetVisibility(bool isOn)
+    private void SetVisibility(bool isOn, Handedness handedness)
     {
-        _state = isOn ? TeleportState.Selecting : TeleportState.None;
+        if (_state == TeleportState.Selecting && 
+            _currentHand != handedness) return;
+        
+        _currentHand = handedness;
+
         pointer.enabled = isOn;
+        pointer.Origin = handedness == Handedness.Left ? leftHand : rightHand;
+        _state = isOn ? TeleportState.Selecting : TeleportState.None;
     }
 
-    private void SetAxis(Vector2 axis)
+    private void SetAxis(Vector2 axis, Handedness handedness)
     {
         //This will control which direction the player is facing when teleport happens
         if(_state != TeleportState.Selecting) return;
     }
 
-    private void Teleport(bool shouldTeleport)
+    private void Teleport(bool shouldTeleport, Handedness handedness)
     {
         if(!pointer.PointOnNavMesh) return;
 
@@ -49,6 +59,10 @@ public class Teleporter : MonoBehaviour
         CNInput.Unregister(Handedness.Right, ControllerInput.ThumbStickTouch, changedMethod: SetVisibility);
         CNInput.Unregister(Handedness.Right, ControllerInput.ThumbStickAxis, SetAxis);
         CNInput.Unregister(Handedness.Right, ControllerInput.ThumbStickPress, Teleport);
+        
+        CNInput.Unregister(Handedness.Left, ControllerInput.ThumbStickTouch, changedMethod: SetVisibility);
+        CNInput.Unregister(Handedness.Left, ControllerInput.ThumbStickAxis, SetAxis);
+        CNInput.Unregister(Handedness.Left, ControllerInput.ThumbStickPress, Teleport);
     }
 }
 

@@ -24,7 +24,7 @@ namespace CNFramework
             CNInput.Unregister(handedness, ControllerInput.GripAxis, UnGrab, UnGrab);
         }
 
-        private void Grab(float result)
+        private void Grab(float result, Handedness handedness)
         {
             if (!hoveredInteractable) return;
 
@@ -33,7 +33,7 @@ namespace CNFramework
             currentInteractable.Attach(attachPoint ?? transform);
         }
 
-        private void UnGrab(float result)
+        private void UnGrab(float result, Handedness handedness)
         {
             if (!currentInteractable) return;
             

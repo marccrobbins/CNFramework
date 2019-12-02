@@ -1,5 +1,4 @@
-﻿#if UNITY_EDITOR
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEditor;
 using UnityEngine.AI;
 using System;
@@ -7,8 +6,8 @@ using System.Collections.Generic;
 
 /// \brief Custom inspector for ViveNavMesh.  This handles the conversion from Unity NavMesh to Mesh and performs some
 ///        computational geometry to find the borders of the mesh.
-[CustomEditor(typeof(ViveNavMesh))]
-public class ViveNavMeshEditor : Editor {
+[CustomEditor(typeof(VRNavMesh))]
+public class VRNavMeshEditor : Editor {
 
     private SerializedProperty p_area;
     private SerializedProperty p_mesh;
@@ -51,7 +50,7 @@ public class ViveNavMeshEditor : Editor {
             "that the player will see in-game.\n",
             wrap);
 
-        ViveNavMesh mesh = (ViveNavMesh)target;
+        VRNavMesh mesh = (VRNavMesh)target;
 
         serializedObject.Update();
 
@@ -581,4 +580,3 @@ public class ViveNavMeshEditor : Editor {
     }
 
 }
-#endif

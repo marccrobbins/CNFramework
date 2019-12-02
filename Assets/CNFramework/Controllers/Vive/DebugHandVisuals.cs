@@ -19,15 +19,15 @@ namespace CNFramework
         
         private void Start()
         {
-            CNInput.Register(hand, ControllerInput.ThumbStickPress, changedMethod: (res) => ShowDebug(dpad, res));
+            CNInput.Register(hand, ControllerInput.ThumbStickPress, changedMethod: (res, hand) => ShowDebug(dpad, res));
             CNInput.Register(hand, ControllerInput.ThumbStickAxis, SetTouchPosition);
-            CNInput.Register(hand, ControllerInput.ThumbStickTouch, changedMethod: (res) => ShowDebug(touchSphere, res));
-            CNInput.Register(hand,ControllerInput.TriggerTouch, changedMethod: (res) => ShowDebug(triggerSphere, res));
-            CNInput.Register(hand, ControllerInput.GripAxis, changedMethod: (res) => ShowDebug(gripSpheres, res > 0));
-            CNInput.Register(hand, ControllerInput.InnerFace, changedMethod: (res) => ShowDebug(menuSphere, res));
+            CNInput.Register(hand, ControllerInput.ThumbStickTouch, changedMethod: (res, hand) => ShowDebug(touchSphere, res));
+            CNInput.Register(hand,ControllerInput.TriggerTouch, changedMethod: (res, hand) => ShowDebug(triggerSphere, res));
+            CNInput.Register(hand, ControllerInput.GripAxis, changedMethod: (res, hand) => ShowDebug(gripSpheres, res > 0));
+            CNInput.Register(hand, ControllerInput.InnerFace, changedMethod: (res, hand) => ShowDebug(menuSphere, res));
         }
         
-        private void SetTouchPosition(Vector2 position)
+        private void SetTouchPosition(Vector2 position, Handedness handedness)
         {
             if (!touchSphere.activeInHierarchy) return;
             
@@ -48,12 +48,12 @@ namespace CNFramework
 
         private void OnDisable()
         {
-            CNInput.Unregister(hand, ControllerInput.ThumbStickPress, changedMethod: (res) => ShowDebug(dpad, res));
+            CNInput.Unregister(hand, ControllerInput.ThumbStickPress, changedMethod: (res, hand) => ShowDebug(dpad, res));
             CNInput.Unregister(hand, ControllerInput.ThumbStickAxis, SetTouchPosition);
-            CNInput.Unregister(hand, ControllerInput.ThumbStickTouch, changedMethod: (res) => ShowDebug(touchSphere, res));
-            CNInput.Unregister(hand, ControllerInput.TriggerTouch, changedMethod: (res) => ShowDebug(triggerSphere, res));
-            CNInput.Unregister(hand, ControllerInput.GripAxis, changedMethod: (res) => ShowDebug(gripSpheres, res > 0));
-            CNInput.Unregister(hand, ControllerInput.InnerFace, changedMethod: (res) => ShowDebug(menuSphere, res));
+            CNInput.Unregister(hand, ControllerInput.ThumbStickTouch, changedMethod: (res, hand) => ShowDebug(touchSphere, res));
+            CNInput.Unregister(hand, ControllerInput.TriggerTouch, changedMethod: (res, hand) => ShowDebug(triggerSphere, res));
+            CNInput.Unregister(hand, ControllerInput.GripAxis, changedMethod: (res, hand) => ShowDebug(gripSpheres, res > 0));
+            CNInput.Unregister(hand, ControllerInput.InnerFace, changedMethod: (res, hand) => ShowDebug(menuSphere, res));
         }
 #endif
 

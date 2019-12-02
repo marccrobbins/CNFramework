@@ -33,36 +33,6 @@ Transform:
   m_Father: {fileID: 987383876971975589}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1687986503238967381
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5515165814616149054}
-  m_Layer: 0
-  m_Name: DebugInput
-  m_TagString: EditorOnly
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5515165814616149054
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1687986503238967381}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 7249790480001706472}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3100979715688833223
 GameObject:
   m_ObjectHideFlags: 0
@@ -123,7 +93,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 987383876971975589}
-  - {fileID: 5515165814616149054}
   - {fileID: 68721251530738960}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -408,6 +377,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7249790480001706472}
     m_Modifications:
+    - target: {fileID: 1026261617689649463, guid: cba3197adac078b418928caceb2b3c4a,
+        type: 3}
+      propertyPath: origin
+      value: 
+      objectReference: {fileID: 7249790480001706472}
+    - target: {fileID: 1026261617689649463, guid: cba3197adac078b418928caceb2b3c4a,
+        type: 3}
+      propertyPath: head
+      value: 
+      objectReference: {fileID: 3261550730936588874}
+    - target: {fileID: 1026261617689649463, guid: cba3197adac078b418928caceb2b3c4a,
+        type: 3}
+      propertyPath: leftHand
+      value: 
+      objectReference: {fileID: 5168041417535725733}
+    - target: {fileID: 1026261617689649463, guid: cba3197adac078b418928caceb2b3c4a,
+        type: 3}
+      propertyPath: rightHand
+      value: 
+      objectReference: {fileID: 5565112194433887166}
     - target: {fileID: 3961059963887934695, guid: cba3197adac078b418928caceb2b3c4a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -446,7 +435,7 @@ PrefabInstance:
     - target: {fileID: 3961059963887934695, guid: cba3197adac078b418928caceb2b3c4a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3961059963887934695, guid: cba3197adac078b418928caceb2b3c4a,
         type: 3}

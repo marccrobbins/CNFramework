@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="303b5260-bab3-448d-92de-cbab80ab0c25" name="Default Changelist" comment="" />
+    <list default="true" id="303b5260-bab3-448d-92de-cbab80ab0c25" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.cn-framework/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cn-framework/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.cn-framework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cn-framework/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Controllers/OVR/OVRDebugHandVisuals.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Controllers/OVR/OVRDebugHandVisuals.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Controllers/Vive/DebugHandVisuals.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Controllers/Vive/DebugHandVisuals.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Hand/Hand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Hand/Hand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Input/CNInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Input/CNInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Pointer/Pointer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Pointer/Pointer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Rig/Player/PFB_PlayerRig_OpenVR.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Rig/Player/PFB_PlayerRig_OpenVR.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Example Scenes/testbed_vive.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Example Scenes/testbed_vive.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Example Scenes/testbed_vive/NavMesh.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Example Scenes/testbed_vive/NavMesh.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Example Scenes/testbed_vive/NavMesh.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Example Scenes/testbed_vive/NavMesh.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Prefabs/Navmesh.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Prefabs/Navmesh.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/ParabolicPointer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/ParabolicPointer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/TeleportTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/TeleportTest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/TeleportVive.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/TeleportVive.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/Teleporter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/Teleporter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/ViveNavMesh.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/VRNavMesh.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/ViveNavMesh.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/VRNavMesh.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/ViveNavMeshEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/ViveNavMeshEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,13 +38,16 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Controllers/Vive/DebugHandVisuals.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Hand/Hand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Pointer/Pointer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/Teleporter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/VRNavMesh.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Utility/Bindings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/ParabolicPointer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Utility/Fader/Fader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Input/CNInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Hand/Hand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Teleporter/Example Scenes/testbed_vive/NavMesh.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Controllers/OVR/OVRDebugHandVisuals.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/TeleportVive.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -29,18 +56,23 @@
         <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Fader.cs" />
         <option value="$PROJECT_DIR$/Assets/CNFramework/Utility/Fader.cs" />
         <option value="$PROJECT_DIR$/Assets/CNFramework/Utility/Bindings.cs" />
-        <option value="$PROJECT_DIR$/Assets/CNFramework/Hand/Hand.cs" />
         <option value="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/Teleport.cs" />
-        <option value="$PROJECT_DIR$/Assets/CNFramework/Controllers/OVR/OVRDebugHandVisuals.cs" />
         <option value="$PROJECT_DIR$/Assets/CNFramework/Utility/Fader/Fader.cs" />
-        <option value="$PROJECT_DIR$/Assets/CNFramework/Controllers/Vive/DebugHandVisuals.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/VRNavMesh.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/VRNavMeshEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/ParabolicPointer.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Pointer/Pointer.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Hand/Hand.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Controllers/Vive/DebugHandVisuals.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Controllers/OVR/OVRDebugHandVisuals.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Input/CNInput.cs" />
         <option value="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/Teleporter.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1UOL23Za6aWdGRmgdqzMHUhQEbK" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
@@ -88,7 +120,7 @@
       <updated>1575222486100</updated>
       <workItem from="1575222490262" duration="5033000" />
       <workItem from="1575227959351" duration="6000" />
-      <workItem from="1575227988396" duration="3847000" />
+      <workItem from="1575227988396" duration="7656000" />
     </task>
     <servers />
   </component>

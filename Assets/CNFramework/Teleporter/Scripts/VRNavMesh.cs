@@ -10,7 +10,7 @@ using System.Collections.Generic;
 [AddComponentMenu("Vive Teleporter/Vive Nav Mesh")]
 [RequireComponent(typeof(BorderRenderer))]
 [ExecuteInEditMode]
-public class ViveNavMesh : MonoBehaviour
+public class VRNavMesh : MonoBehaviour
 {
     /// Material used for the floor mesh when the user is selecting a point to teleport to
     public Material GroundMaterial

@@ -35,12 +35,12 @@
           <e p="Teleporter" t="Include">
             <e p="Scripts" t="Include">
               <e p="BorderRenderer.cs" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="VRNavMeshEditor.cs" t="Include" />
+              </e>
               <e p="ParabolicPointer.cs" t="Include" />
               <e p="Teleporter.cs" t="Include" />
-              <e p="TeleportTest.cs" t="Include" />
-              <e p="TeleportVive.cs" t="Include" />
-              <e p="ViveNavMesh.cs" t="Include" />
-              <e p="ViveNavMeshEditor.cs" t="Include" />
+              <e p="VRNavMesh.cs" t="Include" />
             </e>
             <e p="SelectionPads" t="Include">
               <e p="Invalid" t="Include">

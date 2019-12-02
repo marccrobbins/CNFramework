@@ -4,7 +4,7 @@ using System.Collections.Generic;
 [AddComponentMenu("Vive Teleporter/Parabolic Pointer")]
 public class ParabolicPointer : MonoBehaviour {
 
-    public ViveNavMesh NavMesh;
+    public VRNavMesh NavMesh;
     [Header("Parabola Trajectory")]
     [Tooltip("Initial velocity of the parabola, in local space.")]
     public Vector3 InitialVelocity = Vector3.forward * 10f;
@@ -51,12 +51,22 @@ public class ParabolicPointer : MonoBehaviour {
         return v0 + a * t;
     }
 
-    // Parabolic motion equation applied to 3 dimensions
+    /// <summary>
+    /// Parabolic motion equation applied to 3 dimensions
+    /// </summary>
+    /// <param name="p0">Origin point</param>
+    /// <param name="v0">Initial velocity</param>
+    /// <param name="a">Acceleration on the y axis</param>
+    /// <param name="t">Time of flight</param>
+    /// <returns></returns>
     private static Vector3 ParabolicCurve(Vector3 p0, Vector3 v0, Vector3 a, float t)
     {
         Vector3 ret = new Vector3();
         for (int x = 0; x < 3; x++)
+        {
             ret[x] = ParabolicCurve(p0[x], v0[x], a[x], t);
+        }
+
         return ret;
     }
 
@@ -78,7 +88,20 @@ public class ParabolicPointer : MonoBehaviour {
     // gnd: height of the ground, in meters above y=0
     // outPts: List that will be populated by new points
     // normal: normal of hit point
-    private static bool CalculateParabolicCurve(Vector3 p0, Vector3 v0, Vector3 a, float dist, int points, ViveNavMesh nav, List<Vector3> outPts, out Vector3 normal)
+    
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="p0">Origin point</param>
+    /// <param name="v0">Initial velocity</param>
+    /// <param name="a">Initial acceleration</param>
+    /// <param name="dist">Distance between points</param>
+    /// <param name="points">Number of points</param>
+    /// <param name="nav">Navigation surface</param>
+    /// <param name="outPts"></param>
+    /// <param name="normal"></param>
+    /// <returns></returns>
+    private static bool CalculateParabolicCurve(Vector3 p0, Vector3 v0, Vector3 a, float dist, int points, VRNavMesh nav, List<Vector3> outPts, out Vector3 normal)
     {
         outPts.Clear();
         outPts.Add(p0);
