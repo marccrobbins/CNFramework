@@ -856,6 +856,21 @@ PrefabInstance:
       propertyPath: NavMesh
       value: 
       objectReference: {fileID: 2064051119}
+    - target: {fileID: 8376071487803518991, guid: c8e40331a85c6974cb720d71cbaa895c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8376071487803518991, guid: c8e40331a85c6974cb720d71cbaa895c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8376071487803518991, guid: c8e40331a85c6974cb720d71cbaa895c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9070735652760229768, guid: c8e40331a85c6974cb720d71cbaa895c,
         type: 3}
       propertyPath: m_LocalPosition.z

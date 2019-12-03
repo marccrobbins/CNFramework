@@ -66,9 +66,15 @@ public class Teleporter : MonoBehaviour
             }
             else
             {
+                //Apply position
                 Vector3 offset = origin.position - head.position;
                 offset.y = 0;
                 origin.position = pointer.SelectedPoint + offset;
+                
+                //Apply rotation
+                var rot = origin.localEulerAngles;
+                rot.y = angle + 90;
+                origin.localEulerAngles = rot;
             }
 
             _teleportTimeMarker = Time.time;
@@ -86,7 +92,7 @@ public class Teleporter : MonoBehaviour
             alpha = 1 - alpha;
         }
 
-        var localMatrix = Matrix4x4.TRS(Vector3.forward * 0.3f, Quaternion.identity, Vector3.one);
+        var localMatrix = Matrix4x4.TRS(head.forward * 0.3f, Quaternion.identity, Vector3.one);
         _instancedFadeMaterial.SetPass(0);
         _instancedFadeMaterial.SetFloat(_fadeID, alpha);
         Graphics.DrawMeshNow(_planeMesh, transform.localToWorldMatrix * localMatrix);
@@ -118,10 +124,13 @@ public class Teleporter : MonoBehaviour
         _state = isOn ? TeleportState.Selecting : TeleportState.None;
     }
 
+    private float angle;
     private void SetAxis(Vector2 axis, Handedness handedness)
     {
-        //This will control which direction the player is facing when teleport happens
         if(_state != TeleportState.Selecting) return;
+
+        angle = Mathf.Atan2(axis.x, axis.y) * Mathf.Rad2Deg;
+        pointer.SelectionAngle = angle + 90;
     }
 
     private void Teleport(bool shouldTeleport, Handedness handedness)
@@ -130,6 +139,7 @@ public class Teleporter : MonoBehaviour
            !pointer.PointOnNavMesh) return;
 
         _state = TeleportState.Teleporting;
+        Debug.Log(angle);
         
 //        Vector3 offset = origin.position - head.position;
 //        offset.y = 0;

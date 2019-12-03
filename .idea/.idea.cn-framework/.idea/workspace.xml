@@ -11,6 +11,7 @@
       <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Pointer/Pointer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Pointer/Pointer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Rig/Player/PFB_PlayerRig_OpenVR.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Rig/Player/PFB_PlayerRig_OpenVR.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Art/Prefabs/PFB_Teleporter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Art/Prefabs/PFB_Teleporter.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Example Scenes/testbed_vive.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Example Scenes/testbed_vive.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Example Scenes/testbed_vive/NavMesh.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Example Scenes/testbed_vive/NavMesh.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Example Scenes/testbed_vive/NavMesh.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Example Scenes/testbed_vive/NavMesh.asset.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Prefabs/Navmesh.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Prefabs/Navmesh.prefab" afterDir="false" />
@@ -24,6 +25,7 @@
       <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/ViveNavMesh.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/VRNavMesh.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/ViveNavMeshEditor.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/ViveNavMeshEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Teleporter/SelectionPads/Valid/PFB_Valid_Selection.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Teleporter/SelectionPads/Valid/PFB_Valid_Selection.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,8 +68,8 @@
         <option value="$PROJECT_DIR$/Assets/CNFramework/Controllers/Vive/DebugHandVisuals.cs" />
         <option value="$PROJECT_DIR$/Assets/CNFramework/Controllers/OVR/OVRDebugHandVisuals.cs" />
         <option value="$PROJECT_DIR$/Assets/CNFramework/Input/CNInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/Teleporter.cs" />
         <option value="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/ParabolicPointer.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/Teleporter.cs" />
       </list>
     </option>
   </component>
@@ -121,7 +123,7 @@
       <updated>1575222486100</updated>
       <workItem from="1575222490262" duration="5033000" />
       <workItem from="1575227959351" duration="6000" />
-      <workItem from="1575227988396" duration="9740000" />
+      <workItem from="1575227988396" duration="13774000" />
     </task>
     <servers />
   </component>

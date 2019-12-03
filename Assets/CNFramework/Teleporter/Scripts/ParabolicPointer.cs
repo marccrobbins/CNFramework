@@ -32,10 +32,7 @@ public class ParabolicPointer : MonoBehaviour {
     public bool PointOnNavMesh { get; private set; }
     public float CurrentParabolaAngleY { get; private set; }
     public Vector3 CurrentPointVector { get; private set; }
-
-    private GameObject SelectionPadObject;
-    private GameObject InvalidPadObject;
-
+    public float SelectionAngle { get; set; }
 
     private Mesh ParabolaMesh;
 
@@ -202,14 +199,14 @@ public class ParabolicPointer : MonoBehaviour {
         ParabolaMesh.vertices = new Vector3[0];
         ParabolaMesh.triangles = new int[0];
 
-        SelectionPadObject?.SetActive(false);
-        InvalidPadObject?.SetActive(false);
+        SelectionPadPrefab?.SetActive(false);
+        InvalidPadPrefab?.SetActive(false);
     }
 
     void OnDisable()
     {
-        SelectionPadObject?.SetActive(false);
-        InvalidPadObject?.SetActive(false);
+        SelectionPadPrefab?.SetActive(false);
+        InvalidPadPrefab?.SetActive(false);
     }
 
     private List<Vector3> ParabolaPoints;
@@ -235,24 +232,27 @@ public class ParabolicPointer : MonoBehaviour {
         SelectedPoint = ParabolaPoints[ParabolaPoints.Count-1];
 
         // 2. Render Parabola graphics
-        if(SelectionPadObject != null)
+        if(SelectionPadPrefab != null)
         {
-            SelectionPadObject.SetActive(PointOnNavMesh);
-            SelectionPadObject.transform.position = SelectedPoint + Vector3.one * 0.005f;
+            SelectionPadPrefab.SetActive(PointOnNavMesh);
+            SelectionPadPrefab.transform.position = SelectedPoint + Vector3.one * 0.005f;
             if(PointOnNavMesh)
             {
-                SelectionPadObject.transform.rotation = Quaternion.LookRotation(normal);
-                SelectionPadObject.transform.Rotate(90, 0, 0);
+                //SelectionPadPrefab.transform.rotation = Quaternion.LookRotation(normal);
+                //SelectionPadPrefab.transform.Rotate(90, SelectionAngle, 90);
+                var selectionRot = SelectionPadPrefab.transform.localEulerAngles;
+                selectionRot.y = SelectionAngle;
+                SelectionPadPrefab.transform.localEulerAngles = selectionRot;
             }
         }
-        if(InvalidPadObject != null)
+        if(InvalidPadPrefab != null)
         {
-            InvalidPadObject.SetActive(!PointOnNavMesh);
-            InvalidPadObject.transform.position = SelectedPoint + Vector3.one * 0.005f;
+            InvalidPadPrefab.SetActive(!PointOnNavMesh);
+            InvalidPadPrefab.transform.position = SelectedPoint + Vector3.one * 0.005f;
             if (!PointOnNavMesh)
             {
-                InvalidPadObject.transform.rotation = Quaternion.LookRotation(normal);
-                InvalidPadObject.transform.Rotate(90, 0, 0);
+                InvalidPadPrefab.transform.rotation = Quaternion.LookRotation(normal);
+                InvalidPadPrefab.transform.Rotate(90, 0, 0);
             }
         }
 
