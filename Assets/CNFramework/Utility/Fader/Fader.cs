@@ -39,24 +39,6 @@ namespace CNFramework.Utility
             }
         }
 
-        [ContextMenu("Blink")]
-        private void Blink()
-        {
-            Blink(null, null);
-        }
-
-        [ContextMenu("FadeIn")]
-        private void FadeIn()
-        {
-            FadeIn(null);
-        }
-        
-        [ContextMenu("FadeOut")]
-        private void FadeOut()
-        {
-            FadeOut(null);
-        }
-
         public static void Blink(Action onCompleteBlinkCallback = null, Action onCompleteCallback = null)
         {
             FadeOut(_instance.blinkDuration, () =>
