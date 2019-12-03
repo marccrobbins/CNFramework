@@ -8,18 +8,11 @@ public class Teleporter : MonoBehaviour
     [SerializeField] private Transform origin;
     [SerializeField] private Transform head;
     [SerializeField] private Transform leftHand, rightHand;
-    [SerializeField] private Material fadeMaterial;
-    [SerializeField] private float teleportFadeDuration;
     
     public TeleportState _state;
     public TeleportState State => _state;
 
     private Handedness _currentHand;
-    private Material _instancedFadeMaterial;
-    private float _teleportTimeMarker;
-    private Mesh _planeMesh;
-    private bool _isFadeIn;
-    private int _fadeID;
 
     #region MonoHehaviour
 
@@ -32,70 +25,6 @@ public class Teleporter : MonoBehaviour
         CNInput.Register(Handedness.Left, ControllerInput.ThumbStickTouch, changedMethod: SetVisibility);
         CNInput.Register(Handedness.Left, ControllerInput.ThumbStickAxis, SetAxis);
         CNInput.Register(Handedness.Left, ControllerInput.ThumbStickPress, Teleport);
-
-        if (fadeMaterial != null)
-        {
-            _instancedFadeMaterial = Instantiate(fadeMaterial);
-        }
-        
-        _planeMesh = new Mesh();
-        var vertices = new []
-        {
-            new Vector3(-1, -1, 0),
-            new Vector3(-1, 1, 0),
-            new Vector3(1, 1, 0),
-            new Vector3(1, -1, 0)
-        };
-        var triangles = new [] { 0, 1, 2, 0, 2, 3 };
-        _planeMesh.vertices = vertices;
-        _planeMesh.triangles = triangles;
-        _planeMesh.RecalculateBounds();
-
-        _fadeID = Shader.PropertyToID("_Fade");
-    }
-
-    private void Update()
-    {
-        if (_state != TeleportState.Teleporting) return;
-
-        if (Time.time - _teleportTimeMarker >= teleportFadeDuration * 0.5f)
-        {
-            if (_isFadeIn)
-            {
-                _state = TeleportState.None;
-            }
-            else
-            {
-                //Apply position
-                Vector3 offset = origin.position - head.position;
-                offset.y = 0;
-                origin.position = pointer.SelectedPoint + offset;
-                
-                //Apply rotation
-                var rot = origin.localEulerAngles;
-                rot.y = angle + 90;
-                origin.localEulerAngles = rot;
-            }
-
-            _teleportTimeMarker = Time.time;
-            _isFadeIn = !_isFadeIn;
-        }
-    }
-
-    private void OnPostRender()
-    {
-        if (_state != TeleportState.Teleporting) return;
-
-        var alpha = Mathf.Clamp01((Time.time - _teleportTimeMarker) / (teleportFadeDuration * 0.5f));
-        if (_isFadeIn)
-        {
-            alpha = 1 - alpha;
-        }
-
-        var localMatrix = Matrix4x4.TRS(head.forward * 0.3f, Quaternion.identity, Vector3.one);
-        _instancedFadeMaterial.SetPass(0);
-        _instancedFadeMaterial.SetFloat(_fadeID, alpha);
-        Graphics.DrawMeshNow(_planeMesh, transform.localToWorldMatrix * localMatrix);
     }
 
     private void OnDisable()
@@ -139,11 +68,21 @@ public class Teleporter : MonoBehaviour
            !pointer.PointOnNavMesh) return;
 
         _state = TeleportState.Teleporting;
-        Debug.Log(angle);
         
-//        Vector3 offset = origin.position - head.position;
-//        offset.y = 0;
-//        origin.position = pointer.SelectedPoint + offset;
+        Fader.Blink((() =>
+        {
+            //Apply position
+            Vector3 offset = origin.position - head.position;
+            offset.y = 0;
+            origin.position = pointer.SelectedPoint + offset;
+                
+            //Apply rotation
+            var rot = origin.localEulerAngles;
+            rot.y = angle + 90;
+            origin.localEulerAngles = rot;
+
+            _state = TeleportState.None;
+        }));
     }
 }
 
