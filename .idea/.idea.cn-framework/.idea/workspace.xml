@@ -132,11 +132,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/ParabolicPointer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/IA-unity-VR-toolkit-vive-teleporter-master/IA-unity-VR-toolkit-vive-teleporter-master/Teleporter/Scripts/TeleportVive.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Utility/Fader/Fader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Vortex Game Studios/FilterBehavior/FilterBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Input/CNInput.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Scripts/EasyFader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Hand/Hand.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Scripts/Editor/EASYFaderEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Teleporter/Example Scenes/testbed_vive/NavMesh.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Controllers/OVR/OVRDebugHandVisuals.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -158,9 +155,9 @@
         <option value="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/ParabolicPointer.cs" />
         <option value="$PROJECT_DIR$/Assets/CNFramework/Utility/Fader/FaderV2.cs" />
         <option value="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Scripts/Fader.cs" />
-        <option value="$PROJECT_DIR$/Assets/CNFramework/Utility/Fader/Fader.cs" />
-        <option value="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/Teleporter.cs" />
         <option value="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Scripts/EasyFader.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/Teleporter.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Utility/Fader/Fader.cs" />
       </list>
     </option>
   </component>
@@ -214,7 +211,7 @@
       <updated>1575222486100</updated>
       <workItem from="1575222490262" duration="5033000" />
       <workItem from="1575227959351" duration="6000" />
-      <workItem from="1575227988396" duration="23312000" />
+      <workItem from="1575227988396" duration="24170000" />
     </task>
     <servers />
   </component>
