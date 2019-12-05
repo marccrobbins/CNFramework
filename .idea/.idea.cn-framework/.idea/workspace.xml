@@ -155,7 +155,11 @@
       <updated>1575222486100</updated>
       <workItem from="1575222490262" duration="5033000" />
       <workItem from="1575227959351" duration="6000" />
+<<<<<<< HEAD
       <workItem from="1575227988396" duration="24775000" />
+=======
+      <workItem from="1575227988396" duration="24170000" />
+>>>>>>> teleport
     </task>
     <servers />
   </component>

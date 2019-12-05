@@ -728,6 +728,33 @@
             </e>
           </e>
         </e>
+<<<<<<< HEAD
+=======
+        <e p="Vortex Game Studios" t="Include">
+          <e p="Common" t="Include">
+            <e p="Editor" t="Include">
+              <e p="VortexMenu.cs" t="Include" />
+            </e>
+          </e>
+          <e p="EASY Fader" t="Include">
+            <e p="Samples" t="Include">
+              <e p="EASYFadeSample.cs" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="EASYFader.cs" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="EASYFaderEditor.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="EASYFader.shader" t="Include" />
+            </e>
+          </e>
+          <e p="FilterBehavior" t="Include">
+            <e p="FilterBehaviour.cs" t="Include" />
+          </e>
+        </e>
+>>>>>>> teleport
       </e>
       <e p="cn-framework.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
