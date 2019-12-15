@@ -53,7 +53,7 @@ namespace CNFramework
             lineTransform.localPosition = linePosition;
         }
 
-        private void Select(float result)
+        private void Select(float result, Handedness handedness)
         {
             Debug.LogFormat("{0} pointer selecting something", hand);
         }

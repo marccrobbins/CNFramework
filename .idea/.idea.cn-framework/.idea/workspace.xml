@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="303b5260-bab3-448d-92de-cbab80ab0c25" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.cn-framework/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cn-framework/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.cn-framework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cn-framework/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Utility/Fader/Fader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Utility/Fader/Fader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/Common.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/Common/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/Common/Editor/VortexMenu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/Common/Editor/VortexMenu.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Samples.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Samples/1-Simple Screen Fade.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Samples/1-Simple Screen Fade.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Samples/2-Texture Screen Fade.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Samples/2-Texture Screen Fade.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Samples/3-Tiled Texture Screen Fade.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Samples/3-Tiled Texture Screen Fade.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Samples/4-Screen Fade Alpha.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Samples/4-Screen Fade Alpha.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Samples/EASYFadeSample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Samples/EASYFadeSample.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Scripts/EasyFader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Scripts/EasyFader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Scripts/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Scripts/Editor/EASYFaderEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Scripts/Editor/EASYFaderEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Scripts/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Scripts/Textures/angle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Scripts/Textures/angle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Scripts/Textures/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Scripts/Textures/close.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Scripts/Textures/diagonal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Scripts/Textures/diagonal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Scripts/Textures/diamond.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Scripts/Textures/diamond.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Scripts/Textures/dither_2x2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Scripts/Textures/dither_2x2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Scripts/Textures/dither_4x4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Scripts/Textures/dither_4x4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Scripts/Textures/dither_8x8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Scripts/Textures/dither_8x8.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Scripts/Textures/linear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Scripts/Textures/linear.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Scripts/Textures/radial.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Scripts/Textures/radial.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Scripts/Textures/refleted.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Scripts/Textures/refleted.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Shaders/EASYFader.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Shaders/EASYFader.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/FilterBehavior.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/FilterBehavior/FilterBehaviour.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Vortex Game Studios/FilterBehavior/FilterBehaviour.cs.meta" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Controllers/Vive/DebugHandVisuals.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp/Compiled-Custom-Depth Modulated (No Transparent Overlap).shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Pointer/Pointer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/Teleporter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/VRNavMesh.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Utility/Bindings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/ParabolicPointer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/IA-unity-VR-toolkit-vive-teleporter-master/IA-unity-VR-toolkit-vive-teleporter-master/Teleporter/Scripts/TeleportVive.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Utility/Fader/Fader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Input/CNInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Hand/Hand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Teleporter/Example Scenes/testbed_vive/NavMesh.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Controllers/OVR/OVRDebugHandVisuals.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/TeleportVive.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Fader.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Utility/Fader.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Utility/Bindings.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/Teleport.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/VRNavMesh.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/VRNavMeshEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Pointer/Pointer.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Hand/Hand.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Controllers/Vive/DebugHandVisuals.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Controllers/OVR/OVRDebugHandVisuals.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Input/CNInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/ParabolicPointer.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Utility/Fader/FaderV2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Scripts/Fader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Vortex Game Studios/EASY Fader/Scripts/EasyFader.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Teleporter/Scripts/Teleporter.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Utility/Fader/Fader.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UOL23Za6aWdGRmgdqzMHUhQEbK" />
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="27300">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" value="27300" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="303b5260-bab3-448d-92de-cbab80ab0c25" name="Default Changelist" comment="" />
+      <created>1575222486100</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575222486100</updated>
+      <workItem from="1575222490262" duration="5033000" />
+      <workItem from="1575227959351" duration="6000" />
+<<<<<<< HEAD
+      <workItem from="1575227988396" duration="24775000" />
+=======
+      <workItem from="1575227988396" duration="24170000" />
+>>>>>>> teleport
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
