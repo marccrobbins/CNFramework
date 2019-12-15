@@ -42,16 +42,10 @@
               <e p="Teleporter.cs" t="Include" />
               <e p="VRNavMesh.cs" t="Include" />
             </e>
-            <e p="SelectionPads" t="Include">
-              <e p="Invalid" t="Include">
-                <e p="TransparentNoOverlap.shader" t="Include" />
-              </e>
-              <e p="Valid" t="Include">
-                <e p="ViveMovementBorder.shader" t="Include" />
-              </e>
-            </e>
             <e p="Shader" t="Include">
               <e p="FadeBlack.shader" t="Include" />
+              <e p="TransparentNoOverlap.shader" t="Include" />
+              <e p="ViveMovementBorder.shader" t="Include" />
               <e p="ViveMovementGrid.shader" t="Include" />
             </e>
           </e>
@@ -519,7 +513,7 @@
               <e p="BuildAssetPackages.cs" t="Include" />
               <e p="OculusSampleFrameworkUtil.cs" t="Include" />
             </e>
-            <e p="LICENSE.txt" t="Include" />
+            <e p="license.txt" t="Include" />
             <e p="Usage" t="Include">
               <e p="DebugUI" t="Include">
                 <e p="DebugUISample.cs" t="Include" />
@@ -633,7 +627,7 @@
               <e p="OVRSystemProfilerPanel.cs" t="Include" />
               <e p="PathHelper.cs" t="Include" />
             </e>
-            <e p="LICENSE.txt" t="Include" />
+            <e p="license.txt" t="Include" />
             <e p="NOTICE.txt" t="Include" />
             <e p="Oculus.VR.asmdef" t="Include" />
             <e p="Plugins" t="Include">
@@ -728,33 +722,6 @@
             </e>
           </e>
         </e>
-<<<<<<< HEAD
-=======
-        <e p="Vortex Game Studios" t="Include">
-          <e p="Common" t="Include">
-            <e p="Editor" t="Include">
-              <e p="VortexMenu.cs" t="Include" />
-            </e>
-          </e>
-          <e p="EASY Fader" t="Include">
-            <e p="Samples" t="Include">
-              <e p="EASYFadeSample.cs" t="Include" />
-            </e>
-            <e p="Scripts" t="Include">
-              <e p="EASYFader.cs" t="Include" />
-              <e p="Editor" t="Include">
-                <e p="EASYFaderEditor.cs" t="Include" />
-              </e>
-            </e>
-            <e p="Shaders" t="Include">
-              <e p="EASYFader.shader" t="Include" />
-            </e>
-          </e>
-          <e p="FilterBehavior" t="Include">
-            <e p="FilterBehaviour.cs" t="Include" />
-          </e>
-        </e>
->>>>>>> teleport
       </e>
       <e p="cn-framework.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />

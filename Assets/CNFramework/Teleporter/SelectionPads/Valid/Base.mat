@@ -7,10 +7,10 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Ground
-  m_Shader: {fileID: 4800000, guid: 650dd9526735d5b46b79224bc6e94025, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
+  m_Name: Base
+  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  m_ShaderKeywords: _EMISSION _RECEIVE_SHADOWS_OFF
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 1
   m_CustomRenderQueue: 3050
@@ -22,7 +22,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: d9a18ccb199c5e74fb3ab9fe906afabc, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8d229bee78a4c3e4a8ef189d4ce1ded1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -46,7 +46,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: d9a18ccb199c5e74fb3ab9fe906afabc, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8d229bee78a4c3e4a8ef189d4ce1ded1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -61,33 +61,44 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Alpha: 1
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
-    - _Cull: 1
+    - _Cull: 0
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 10
+    - _EnvironmentReflections: 1
+    - _GlossMapScale: 0
     - _Glossiness: 0.5
+    - _GlossyReflections: 0
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _QueueOffset: 0
-    - _SampleGI: 0
+    - _ReceiveShadows: 0
+    - _Smoothness: 0.17
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
     - _SrcBlend: 5
     - _Surface: 1
-    - _TexScale: 0.31
     - _UVSec: 0
+    - _WorkflowMode: 1
     - _ZWrite: 0
     m_Colors:
-    - _BackColor: {r: 0.7681661, g: 0.90513265, b: 0.9411765, a: 0.184}
-    - _BaseColor: {r: 0.5363322, g: 0.8340889, b: 0.9117647, a: 0.791}
-    - _Color: {r: 0.5363322, g: 0.8340889, b: 0.9117647, a: 0.791}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
---- !u!114 &2714024886029247873
+    - _BackColor: {r: 0.22745098, g: 0.22745098, b: 0.22745098, a: 0.347}
+    - _BaseColor: {r: 0.16862744, g: 0.46964946, b: 0.9098039, a: 0.57254905}
+    - _Color: {r: 0.22794116, g: 0.22794116, b: 0.22794116, a: 0.653}
+    - _EmissionColor: {r: 0.050754547, g: 0.8764316, b: 1.6156863, a: 1}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+--- !u!114 &3742524298976078085
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

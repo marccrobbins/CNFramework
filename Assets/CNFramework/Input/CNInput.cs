@@ -408,6 +408,8 @@ namespace CNFramework
             var result = Input.GetAxis(axisName);
             var delegation = RetrieveDelegation(hand, input);
 
+            if (result - delegation.last1DAxis < Mathf.Epsilon) return;
+
             var changedAction = delegation.OnChanged as Action<float, Handedness>;
             changedAction?.Invoke(result, hand);
 
@@ -427,6 +429,8 @@ namespace CNFramework
                 
                 deactivatedAction(result, hand);
             }
+
+            delegation.last1DAxis = result;
         }
 
         private void ProcessAxis2D(Handedness hand)
@@ -438,10 +442,12 @@ namespace CNFramework
             var action = delegation.OnActivated as Action<Vector2, Handedness>;
             if (action == null) return;
 
-            var xResult = Input.GetAxis(xAxisName);
-            var yResult = Input.GetAxis(yAxisName);
+            var axis2d = new Vector2(Input.GetAxis(xAxisName), Input.GetAxis(yAxisName));
+            if (axis2d == delegation.last2DAxis) return;
+            
+            action(axis2d, hand);
 
-            action(new Vector2(xResult, yResult), hand);
+            delegation.last2DAxis = axis2d;
         }
         
         #endregion Processing
@@ -471,6 +477,8 @@ namespace CNFramework
         public Delegate OnChanged;
 
         public bool WasActivated;
+        public float last1DAxis;
+        public Vector2 last2DAxis;
     }
 
     #region Enumeration

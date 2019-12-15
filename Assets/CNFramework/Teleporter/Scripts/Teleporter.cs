@@ -44,7 +44,7 @@ public class Teleporter : MonoBehaviour
     {
         if (_state == TeleportState.Teleporting || 
             _state == TeleportState.Selecting && 
-            _currentHand != handedness) return;
+            handedness != _currentHand) return;
         
         _currentHand = handedness;
 
@@ -54,12 +54,18 @@ public class Teleporter : MonoBehaviour
     }
 
     private float angle;
+    public float adjustment;
     private void SetAxis(Vector2 axis, Handedness handedness)
     {
-        if(_state != TeleportState.Selecting) return;
+        if(_state != TeleportState.Selecting ||
+           handedness != _currentHand) return;
 
-        angle = Mathf.Atan2(axis.x, axis.y) * Mathf.Rad2Deg;
-        pointer.SelectionAngle = angle + 90;
+        var atan = Mathf.Atan2(axis.x, axis.y);
+        var deg = atan * Mathf.Rad2Deg;
+        
+        pointer.SelectionAngle = deg + origin.localEulerAngles.y;
+        
+        Debug.LogFormat("axis : {0} | atan : {1} | deg : {2} | hand : {3}", axis, atan, deg, handedness);
     }
 
     private void Teleport(bool shouldTeleport, Handedness handedness)
@@ -69,20 +75,26 @@ public class Teleporter : MonoBehaviour
 
         _state = TeleportState.Teleporting;
         
-        Fader.Blink((() =>
+        //Store Values
+        var newPosition = pointer.SelectedPoint;
+        var newAngle = pointer.SelectionAngle;
+        
+        Debug.Log(newAngle);
+        
+        Fader.Blink(() =>
         {
             //Apply position
             Vector3 offset = origin.position - head.position;
             offset.y = 0;
-            origin.position = pointer.SelectedPoint + offset;
+            origin.position = newPosition + offset;
                 
-            //Apply rotation
-            var rot = origin.localEulerAngles;
-            rot.y = angle + 90;
-            origin.localEulerAngles = rot;
+//            //Apply rotation
+//            var rot = origin.localEulerAngles;
+//            rot.y = newAngle;
+//            origin.localEulerAngles = rot;
 
             _state = TeleportState.None;
-        }));
+        });
     }
 }
 
