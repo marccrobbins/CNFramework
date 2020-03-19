@@ -7,9 +7,11 @@ namespace CNFramework
 {
     public class ArtificialLocomotion : MonoBehaviour
     {
+        public Transform forwardDirection;
         public Transform rigTransform;
         public Axis2D leftAxisInput;
         public Axis2D rightAxisInput;
+        public float inputThreshold = 0.2f;
 
         public float moveSpeed = 2;
         public float turnSpeed = 2;
@@ -23,10 +25,14 @@ namespace CNFramework
         private void MoveRig()
         {
             var leftAxisValue = leftAxisInput.value;
-            
-            if (leftAxisValue == Vector2.zero) return;
-            
-            var heading = new Vector3(leftAxisValue.x, 0, leftAxisValue.y);
+            if (Mathf.Abs(leftAxisValue.x) <= inputThreshold && 
+                Mathf.Abs(leftAxisValue.y) <= inputThreshold) return;
+
+            var right = forwardDirection.right * leftAxisValue.x;
+            var forward = forwardDirection.forward * leftAxisValue.y;
+
+            var heading = right + forward;
+            heading.y = 0;
             heading *= moveSpeed;
             
             rigTransform.Translate(heading * Time.deltaTime);
@@ -38,12 +44,9 @@ namespace CNFramework
 
             if (rightAxisValue != Vector2.zero)
             {
-                var radians = Mathf.Atan2(rightAxisValue.x, rightAxisValue.y);
-                var degrees = radians * Mathf.Rad2Deg;
-
-                var rigEuler = rigTransform.eulerAngles;
-                rigEuler.y += degrees * Time.deltaTime * turnSpeed;
-                rigTransform.eulerAngles = rigEuler;
+                var vector = new Vector3(0,rightAxisValue.x, 0);
+                vector *= turnSpeed;
+                rigTransform.localRotation = Quaternion.Euler(rigTransform.localEulerAngles + vector);
             }
         }
     }

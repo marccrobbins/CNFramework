@@ -623,6 +623,7 @@ MonoBehaviour:
   rigTransform: {fileID: 4723893039613791216}
   leftAxisInput: {fileID: 4514569574888159502}
   rightAxisInput: {fileID: 3772041552472287091}
+  inputThreshold: 0.2
   moveSpeed: 2
   turnSpeed: 1.5
 --- !u!1 &7749702220641376528
