@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd4bb4de-8281-4694-b209-72c70dc7b1df" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CNFramework/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CNFramework/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CNFramework/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CNFramework/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CNFramework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CNFramework/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CNFramework/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CNFramework/riderModule.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Examples/Scenes/ExampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Examples/Scenes/ExampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Input/CNInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Input/CNInput.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Rig/Player/PFB_PlayerRig_OVR.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Rig/Player/PFB_PlayerRig_OVR.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Utility/Bindings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Utility/Bindings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,11 +25,13 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Input/Axis2D.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../dash-territory-game/Assets/Scripts/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Examples/Scenes/ExampleScene.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Input/InputAction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Locomotion/ArtificialLocomotion.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Hand/Hand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Input/Button.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Utility/Bindings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Interactions/Interactable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/DebugUI/Scripts/DebugUIBuilder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Input/InputManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -76,6 +74,7 @@
         <option value="$PROJECT_DIR$/Assets/CNFramework/Input/InputManager.cs" />
         <option value="$PROJECT_DIR$/Assets/CNFramework/Locomotion/ArtificialLocomation.cs" />
         <option value="$PROJECT_DIR$/Assets/CNFramework/Locomotion/ArtificialLocomotion.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Utility/Bindings.cs" />
       </list>
     </option>
   </component>
@@ -142,7 +141,7 @@
       <workItem from="1571317563521" duration="21416000" />
       <workItem from="1571709209877" duration="38613000" />
       <workItem from="1572054086325" duration="406000" />
-      <workItem from="1584569726722" duration="5952000" />
+      <workItem from="1584569726722" duration="7306000" />
     </task>
     <servers />
   </component>
