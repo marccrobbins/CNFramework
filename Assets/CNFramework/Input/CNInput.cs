@@ -525,33 +525,7 @@ namespace CNFramework
         /// Mapped to 26th axis(Left) and 27th axis(Right)</summary>
         PinkyFingerCapacitance
     }
-    
-    public enum Process
-    {
-        /// <summary>Input is processed in the Update unity event</summary>
-        Update = 0,
-        /// <summary>Input is processed in the LateUpdate unity event</summary>
-        LateUpdate,
-        /// <summary>Input is processed in the FixedUpdate unity event</summary>
-        FixedUpdate,
-        /// <summary>Input is processed in the OnPreRender unity event</summary>
-        PreRender,
-        /// <summary>Input is processed in the OnPostRender unity event</summary>
-        PostRender,
-        /// <summary>Input is processed in the OnPreCull unity event</summary>
-        PreCull
-    }
-    
-    public enum ButtonCondition
-    {
-        /// <summary>Button inputs only listen for up presses</summary>
-        UpPress = 0,
-        /// <summary>Button inputs only listen for down presses</summary>
-        DownPress,
-        /// <summary>Button inputs listen for any press</summary>
-        Constant
-    }
-    
+
     public enum Handedness
     {
         /// <summary>Selection representing the left hand</summary>

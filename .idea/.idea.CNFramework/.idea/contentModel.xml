@@ -1,34 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\marcr\.Rider2019.1\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\marcr\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_CNFramework.1737038773.00" t="ExcludeRecursive" />
-    <e p="D:\CrowsNestGames\CNFramework" t="IncludeRecursive">
+    <e p="C:\Users\marcr\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\marcr\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_CNFramework.2070017487.00" t="ExcludeRecursive" />
+    <e p="J:\marcr\Documents\Development\CrowsNestGames\CNFramework" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="CNFramework" t="Include">
+          <e p="Controllers" t="Include">
+            <e p="OVR" t="Include">
+              <e p="OVRDebugHandVisuals.cs" t="Include" />
+            </e>
+            <e p="Vive" t="Include">
+              <e p="DebugHandVisuals.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Examples" t="Include">
+            <e p="Prototype" t="Include">
+              <e p="Shaders" t="Include">
+                <e p="Prototype_Glass_Global.shader" t="Include" />
+                <e p="Prototype_Glass_Object.shader" t="Include" />
+                <e p="Prototype_Global.shader" t="Include" />
+                <e p="Prototype_Object.shader" t="Include" />
+              </e>
+            </e>
+          </e>
           <e p="Hand" t="Include">
             <e p="Hand.cs" t="Include" />
+            <e p="VelocityEstimator.cs" t="Include" />
+          </e>
+          <e p="Input" t="Include">
+            <e p="Axis1D.cs" t="Include" />
+            <e p="Axis2D.cs" t="Include" />
+            <e p="Button.cs" t="Include" />
+            <e p="CNInput.cs" t="Include" />
+            <e p="InputAction.cs" t="Include" />
+            <e p="InputManager.cs" t="Include" />
           </e>
           <e p="Interactions" t="Include">
             <e p="Interactable.cs" t="Include" />
           </e>
+          <e p="Locomotion" t="Include">
+            <e p="ArtificialLocomotion.cs" t="Include" />
+          </e>
           <e p="Pointer" t="Include">
             <e p="Pointer.cs" t="Include" />
           </e>
-          <e p="Scripts" t="Include">
-            <e p="Input" t="Include">
-              <e p="CNInput.cs" t="Include" />
-              <e p="Debug" t="Include">
-                <e p="DebugHandVisuals.cs" t="Include" />
-                <e p="OVRDebugHandVisuals.cs" t="Include" />
+          <e p="Rig" t="Include">
+            <e p="RigManager.cs" t="Include" />
+          </e>
+          <e p="Teleporter" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="BorderRenderer.cs" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="VRNavMeshEditor.cs" t="Include" />
               </e>
+              <e p="ParabolicPointer.cs" t="Include" />
+              <e p="Teleporter.cs" t="Include" />
+              <e p="VRNavMesh.cs" t="Include" />
             </e>
-            <e p="RigManager" t="Include">
-              <e p="RigManager.cs" t="Include" />
+            <e p="Shader" t="Include">
+              <e p="FadeBlack.shader" t="Include" />
+              <e p="TransparentNoOverlap.shader" t="Include" />
+              <e p="ViveMovementBorder.shader" t="Include" />
+              <e p="ViveMovementGrid.shader" t="Include" />
             </e>
-            <e p="VelocityEstimator.cs" t="Include" />
+          </e>
+          <e p="Utility" t="Include">
+            <e p="Bindings.cs" t="Include" />
+            <e p="Fader" t="Include">
+              <e p="Fader.cs" t="Include" />
+            </e>
           </e>
         </e>
         <e p="Oculus" t="Include">
