@@ -34,20 +34,17 @@ namespace CNFramework
             var heading = right + forward;
             heading.y = 0;
             heading *= moveSpeed;
-            
-            rigTransform.Translate(heading * Time.deltaTime);
+
+            rigTransform.position += heading * Time.deltaTime;
         }
 
         private void RotateRig()
         {
             var rightAxisValue = rightAxisInput.value;
 
-            if (rightAxisValue != Vector2.zero)
-            {
-                var vector = new Vector3(0,rightAxisValue.x, 0);
-                vector *= turnSpeed;
-                rigTransform.localRotation = Quaternion.Euler(rigTransform.localEulerAngles + vector);
-            }
+            var vector = new Vector3(0, rightAxisValue.x, 0);
+            vector *= turnSpeed;
+            rigTransform.localRotation = Quaternion.Euler(rigTransform.localEulerAngles + vector);
         }
     }
 }

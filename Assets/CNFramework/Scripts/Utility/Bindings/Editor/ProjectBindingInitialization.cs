@@ -6,11 +6,17 @@ namespace CNFramework.Utility
     [InitializeOnLoad]
     public class ProjectBindingInitialization
     {
+        private static bool _isInitialized;
+        
         static ProjectBindingInitialization()
         {
+            if (_isInitialized) return;
+            
             SetupTagBindings();
             SetupLayerBindings();
             SetupInputBindings();
+
+            _isInitialized = true;
         }
 
         private static void SetupTagBindings()

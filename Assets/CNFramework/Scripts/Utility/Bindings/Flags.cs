@@ -5,17 +5,17 @@ namespace CNFramework
     [Flags]
     public enum AxisFlags
     {
-        X,
-        Y,
-        Z
+        X = 0,
+        Y = 2,
+        Z = 4
     }
 
     [Flags]
     public enum QuaternionAxisFlags
     {
-        X,
-        Y,
-        Z,
-        W
+        X = 0,
+        Y = 2,
+        Z = 4,
+        W = 8
     }
 }

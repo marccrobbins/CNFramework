@@ -3,8 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="cd4bb4de-8281-4694-b209-72c70dc7b1df" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CNFramework/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CNFramework/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CNFramework/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CNFramework/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CNFramework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CNFramework/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Examples/Scenes/ExampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Examples/Scenes/ExampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Prefabs/Player/PFB_PlayerRig_OVR.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Prefabs/Player/PFB_PlayerRig_OVR.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Scripts/Locomotion/ArtificialLocomotion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Scripts/Locomotion/ArtificialLocomotion.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Scripts/Rig/Follower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Scripts/Rig/Follower.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Bindings/Editor/ProjectBindingInitialization.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Bindings/Editor/ProjectBindingInitialization.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Bindings/Flags.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Bindings/Flags.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRManager.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,18 +28,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../dash-territory-game/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Examples/Scenes/ExampleScene.unity" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../dark-clone/Assets/Scripts/Character/CharacterController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Editor/ProjectBindingInitialization.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/ScriptWriter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Tags.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Rig/Follower.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Enums.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Bindings/Editor/ProjectBindingInitialization.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRPlugin.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/DebugUI/Scripts/DebugUIBuilder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/ThirdParty/openvr_api.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Flags.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Bindings/Flags.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Input/CNInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../dash-territory-game/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../dark-clone/Assets/Scripts/Character/CharacterController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/58A34B0A-618D-424B-B5FC-18BB9BCDAC20/33/684198e4/Transform.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRDisplay.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Attributes/EnumFlagsAttribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Locomotion/ArtificialLocomotion.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/440D1D09-336D-46EE-B6BA-2229A55AC755/2a/ef272ff5/Environment.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -71,13 +80,18 @@
         <option value="$PROJECT_DIR$/Assets/CNFramework/Locomotion/ArtificialLocomation.cs" />
         <option value="$PROJECT_DIR$/Assets/CNFramework/Utility/Bindings.cs" />
         <option value="$PROJECT_DIR$/Assets/CNFramework/Locomotion/ArtificialLocomotion.cs" />
-        <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/Rig/Follower.cs" />
         <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Flags.cs" />
         <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Enums.cs" />
-        <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Tags.cs" />
         <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/ScriptWriter.cs" />
         <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Editor/EnumInitialization.cs" />
         <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Editor/ProjectBindingInitialization.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Tags.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Bindings/Editor/ProjectBindingInitialization.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Bindings/Flags.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Attributes/EnumFlagsAttribute.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/Rig/Follower.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/Locomotion/ArtificialLocomotion.cs" />
+        <option value="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRManager.cs" />
       </list>
     </option>
   </component>
@@ -147,7 +161,7 @@
       <workItem from="1572054086325" duration="406000" />
       <workItem from="1584569726722" duration="7306000" />
       <workItem from="1584620190326" duration="5511000" />
-      <workItem from="1584799573893" duration="2641000" />
+      <workItem from="1584799573893" duration="6563000" />
     </task>
     <servers />
   </component>
