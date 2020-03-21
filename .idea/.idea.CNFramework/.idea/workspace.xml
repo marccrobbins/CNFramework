@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd4bb4de-8281-4694-b209-72c70dc7b1df" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CNFramework/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CNFramework/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CNFramework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CNFramework/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Examples/Scenes/ExampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Examples/Scenes/ExampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Prefabs/Player/PFB_PlayerRig_OVR.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Prefabs/Player/PFB_PlayerRig_OVR.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Scripts/Locomotion/ArtificialLocomotion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Scripts/Locomotion/ArtificialLocomotion.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Scripts/Rig/Follower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Scripts/Rig/Follower.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Bindings/Editor/ProjectBindingInitialization.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Bindings/Editor/ProjectBindingInitialization.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Bindings/Flags.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Bindings/Flags.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRManager.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -161,7 +154,7 @@
       <workItem from="1572054086325" duration="406000" />
       <workItem from="1584569726722" duration="7306000" />
       <workItem from="1584620190326" duration="5511000" />
-      <workItem from="1584799573893" duration="6563000" />
+      <workItem from="1584799573893" duration="7184000" />
     </task>
     <servers />
   </component>

@@ -71,6 +71,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1566752928280646743}
   - component: {fileID: 1520475239654330451}
+  - component: {fileID: 1243305123}
   m_Layer: 0
   m_Name: LeftEyeAnchor
   m_TagString: MainCamera
@@ -135,6 +136,37 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &1243305123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1610006078509376632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_CameraOutput: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
 --- !u!1 &2038148370027415807
 GameObject:
   m_ObjectHideFlags: 0
@@ -326,7 +358,7 @@ MonoBehaviour:
   rightAxisInput: {fileID: 7610711025062541404}
   inputThreshold: 0.1
   moveSpeed: 2
-  turnSpeed: 1.5
+  turnSpeed: 10
 --- !u!1 &2333958536293641149
 GameObject:
   m_ObjectHideFlags: 0
@@ -420,7 +452,7 @@ MonoBehaviour:
   source: {fileID: 8263959900363403440}
   target: {fileID: 7023602216828425396}
   transformAxis: -1
-  rotationAxis: -1
+  eulerAxis: -1
 --- !u!1 &2688106009361983868
 GameObject:
   m_ObjectHideFlags: 0
@@ -464,11 +496,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08f38c81accabd34fa7dd945875d8ead, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isLocal: 0
+  isLocal: 1
   source: {fileID: 20800657330571352}
   target: {fileID: 5110180220362137820}
-  transformAxis: 0
-  rotationAxis: 0
+  transformAxis: -1
+  eulerAxis: 2
 --- !u!1 &2770857984912307706
 GameObject:
   m_ObjectHideFlags: 0
@@ -610,7 +642,7 @@ MonoBehaviour:
   source: {fileID: 422029104592791778}
   target: {fileID: 2744244414642854532}
   transformAxis: -1
-  rotationAxis: -1
+  eulerAxis: -1
 --- !u!1 &4867557380255678693
 GameObject:
   m_ObjectHideFlags: 0
@@ -742,7 +774,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: 0.01
   far clip plane: 1000
   field of view: 60
   orthographic: 0
@@ -915,7 +947,7 @@ MonoBehaviour:
   source: {fileID: 2405433768201183178}
   target: {fileID: 2302916446268862331}
   transformAxis: -1
-  rotationAxis: -1
+  eulerAxis: -1
 --- !u!1 &8448408933427661560
 GameObject:
   m_ObjectHideFlags: 0
