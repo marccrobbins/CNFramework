@@ -3,14 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cd4bb4de-8281-4694-b209-72c70dc7b1df" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CNFramework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CNFramework/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Examples/Prototype/URP_ExtractMe.unitypackage.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Examples/Scenes/ExampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Examples/Scenes/ExampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Input/Assignment.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Locomotion/ArtificialLocomotion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Locomotion/ArtificialLocomotion.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Rig/Controllers.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Rig/Player/PFB_PlayerRig_OVR.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Rig/Player/PFB_PlayerRig_OVR.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.progrids/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.progrids/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +23,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Input/Axis2D.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../dash-territory-game/Assets/Scripts/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../dash-territory-game/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Examples/Scenes/ExampleScene.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../dark-clone/Assets/Scripts/Character/CharacterController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Input/InputAction.cs" root0="FORCE_HIGHLIGHTING" />
@@ -148,7 +142,8 @@
       <workItem from="1571709209877" duration="38613000" />
       <workItem from="1572054086325" duration="406000" />
       <workItem from="1584569726722" duration="7306000" />
-      <workItem from="1584620190326" duration="4917000" />
+      <workItem from="1584620190326" duration="5511000" />
+      <workItem from="1584799573893" duration="599000" />
     </task>
     <servers />
   </component>
