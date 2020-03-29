@@ -7,6 +7,7 @@ namespace CNFramework
         public bool isLocal;
         public Transform source;
         public Transform target;
+        public float damping = 1;
 
         [EnumFlags] public AxisFlags transformAxis;
         [EnumFlags] public AxisFlags eulerAxis;
@@ -24,12 +25,15 @@ namespace CNFramework
             }
         }
 
-        private void Update()
+        private void FixedUpdate()
         {
             if (!source || !target) return;
 
             if (isLocal)
             {
+                var targetPosition = LockAxis(source.localPosition, transformAxis);
+                var targetRotation = LockAxis(source.localEulerAngles, eulerAxis);
+                
                 target.localPosition = LockAxis(source.localPosition, transformAxis);
                 target.localEulerAngles = LockAxis(source.localEulerAngles, eulerAxis);
             }
