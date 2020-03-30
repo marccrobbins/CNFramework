@@ -7,7 +7,6 @@ namespace CNFramework
         public bool isLocal;
         public Transform source;
         public Transform target;
-        public float damping = 1;
 
         [EnumFlags] public AxisFlags transformAxis;
         [EnumFlags] public AxisFlags eulerAxis;
@@ -25,32 +24,54 @@ namespace CNFramework
             }
         }
 
-        private void FixedUpdate()
+        private void LateUpdate()
         {
             if (!source || !target) return;
 
             if (isLocal)
             {
-                var targetPosition = LockAxis(source.localPosition, transformAxis);
-                var targetRotation = LockAxis(source.localEulerAngles, eulerAxis);
-                
-                target.localPosition = LockAxis(source.localPosition, transformAxis);
-                target.localEulerAngles = LockAxis(source.localEulerAngles, eulerAxis);
+                target.localPosition = LockAxis(target.localPosition, source.localPosition, transformAxis);
+                target.localEulerAngles = LockAxis(target.localEulerAngles, source.localEulerAngles, eulerAxis);
             }
             else
             {
-                target.position = LockAxis(source.position, transformAxis);
-                target.eulerAngles = LockAxis(source.eulerAngles, eulerAxis);
+                target.position = LockAxis(target.position, source.position, transformAxis);
+                target.eulerAngles = LockAxis(target.eulerAngles, source.eulerAngles, eulerAxis);
             }
         }
 
-        private Vector3 LockAxis(Vector3 original, AxisFlags axis)
+        private Vector3 LockAxis(Vector3 original, Vector3 changed, AxisFlags axis)
         {
             var result = original;
-            
-            if (!axis.HasFlag(AxisFlags.X)) result.x = 0;
-            if (!axis.HasFlag(AxisFlags.Y)) result.y = 0;
-            if (!axis.HasFlag(AxisFlags.Z)) result.z = 0;
+            var axisIndex = (int) axis;
+
+            switch (axisIndex)
+            {
+                case -1 :
+                    result = changed;
+                    break;
+                case 1:
+                    result.x = changed.x;
+                    break;
+                case 2:
+                    result.y = changed.y;
+                    break;
+                case 3:
+                    result.x = changed.x;
+                    result.y = changed.y;
+                    break;
+                case 4:
+                    result.z = changed.z;
+                    break;
+                case 5:
+                    result.x = changed.x;
+                    result.z = changed.z;
+                    break;
+                case 6:
+                    result.y = changed.y;
+                    result.z = changed.z;
+                    break;
+            }
 
             return result;
         }

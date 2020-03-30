@@ -51,7 +51,7 @@ MonoBehaviour:
   length: 20
   validity:
     serializedVersion: 2
-    m_Bits: 288
+    m_Bits: 1024
 --- !u!1 &2717260685447991961
 GameObject:
   m_ObjectHideFlags: 0
@@ -106,6 +106,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -184,6 +185,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:

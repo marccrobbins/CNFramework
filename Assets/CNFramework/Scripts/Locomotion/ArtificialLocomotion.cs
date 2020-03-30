@@ -23,6 +23,17 @@ namespace CNFramework
         public bool isGrounded;
         public float checkDistance = 0.1f;
 
+        private Rigidbody _focusRigidBody;
+        private Transform _focusTransform;
+        private Transform _forwardTransform;
+
+        private void Start()
+        {
+            _focusTransform = rigTransform ? rigTransform : transform;
+            _focusRigidBody = _focusTransform.GetComponent<Rigidbody>();
+            _forwardTransform = forwardDirection ? forwardDirection : transform;
+        }
+
         private void Update()
         {
             MoveRig();
@@ -31,7 +42,7 @@ namespace CNFramework
 
         private void LateUpdate()
         {
-            //UpdateGrounding();
+            UpdateGrounding();
         }
 
         private void MoveRig()
@@ -40,14 +51,17 @@ namespace CNFramework
             if (Mathf.Abs(leftAxisValue.x) <= inputThreshold && 
                 Mathf.Abs(leftAxisValue.y) <= inputThreshold) return;
 
-            var right = forwardDirection.right * leftAxisValue.x;
-            var forward = forwardDirection.forward * leftAxisValue.y;
+            var right = _forwardTransform.right;
+            var forward = _forwardTransform.forward;
+
+            right *= leftAxisValue.x;
+            forward *= leftAxisValue.y;
 
             var heading = right + forward;
             heading.y = 0;
             heading *= moveSpeed;
-
-            rigTransform.position += heading * Time.deltaTime;
+            
+            _focusRigidBody.position += heading * Time.deltaTime;
         }
 
         private void RotateRig()
@@ -56,27 +70,20 @@ namespace CNFramework
 
             var vector = new Vector3(0, rightAxisValue.x, 0);
             vector *= turnSpeed;
-            rigTransform.localRotation = Quaternion.Euler(rigTransform.localEulerAngles + vector);
+            _focusTransform.localRotation = Quaternion.Euler(_focusTransform.localEulerAngles + vector);
         }
 
         private void UpdateGrounding()
         {
-            var position = rigTransform.position;
+            var position = _focusTransform.position;
             position.y += checkDistance * 0.5f;
-            var ray = new Ray(position, -rigTransform.up);
-            Debug.DrawRay(position, -rigTransform.up, Color.red, checkDistance);
+            var ray = new Ray(position, -_focusTransform.up);
             isGrounded = Physics.Raycast(ray, out RaycastHit hit, checkDistance, validGroundLayers);
 
-            if (isGrounded)
-            {
-                var rigPosition = rigTransform.position;
-                rigPosition.y = hit.point.y;
-                rigTransform.position = rigPosition;
-            }
-            else
+            if (!isGrounded)
             {
                 //fall
-                rigTransform.position -= new Vector3(0, Time.deltaTime * gravity, 0);
+                _focusTransform.position -= new Vector3(0, Time.deltaTime * gravity, 0);
             }
         }
     }

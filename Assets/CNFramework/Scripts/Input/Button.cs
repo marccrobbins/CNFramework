@@ -1,17 +1,14 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace CNFramework
 {
-    public class Button : MonoBehaviour
+    public class Button : InputAction<bool>
     {
+        [FilteredKeycode("JoystickButton")] 
         public KeyCode buttonCode;
-        public bool isPressed;
+        public ButtonActivation buttonActivation;
 
-        public bool IsValid { get; private set; }
-        
-        void Start()
+       private void Start()
         {
             if (buttonCode == KeyCode.None)
             {
@@ -22,11 +19,24 @@ namespace CNFramework
             IsValid = true;
         }
 
-        void Update()
+        private void Update()
         {
             if (!IsValid) return;
 
-            isPressed = Input.GetKey(buttonCode);
+            switch (buttonActivation)
+            {
+                case ButtonActivation.OnUp:
+                    value = Input.GetKeyUp(buttonCode);
+                    break;
+                case ButtonActivation.OnDown:
+                    value = Input.GetKeyDown(buttonCode);
+                    break;
+                default:
+                    value = Input.GetKey(buttonCode);
+                    break;
+            }
+            
+            ProcessValue(value);
         }
     }
 }

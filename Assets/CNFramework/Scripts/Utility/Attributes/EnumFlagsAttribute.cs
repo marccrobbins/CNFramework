@@ -1,5 +1,4 @@
-﻿using UnityEditor;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace CNFramework
 {
@@ -8,12 +7,12 @@ namespace CNFramework
         public EnumFlagsAttribute() { }
     }
 
-    [CustomPropertyDrawer(typeof(EnumFlagsAttribute))]
-    public class EnumFlagsAttributeDrawer : PropertyDrawer
+    [UnityEditor.CustomPropertyDrawer(typeof(EnumFlagsAttribute))]
+    public class EnumFlagsAttributeDrawer : UnityEditor.PropertyDrawer
     {
-        public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
+        public override void OnGUI(Rect position, UnityEditor.SerializedProperty property, GUIContent label)
         {
-            property.intValue = EditorGUI.MaskField(position, label, property.intValue, property.enumNames);
+            property.intValue = UnityEditor.EditorGUI.MaskField(position, label, property.intValue, property.enumNames);
         }
     }
 }

@@ -13,10 +13,10 @@ TagManager:
   - UI
   - 
   - 
-  - ValidPointerInteraction
+  - Player
   - Ground
-  - 
-  - 
+  - ValidPointerInteraction
+  - Environment
   - 
   - 
   - 
