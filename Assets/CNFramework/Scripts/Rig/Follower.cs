@@ -7,10 +7,15 @@ namespace CNFramework
         public bool isLocal;
         public Transform source;
         public Transform target;
+        public Vector3 positionOffset;
+        public Vector3 eulerOffset;
 
         [EnumFlags] public AxisFlags transformAxis;
         [EnumFlags] public AxisFlags eulerAxis;
 
+        private Vector3 _startingPosition;
+        private Vector3 _startingEuler;
+        
         private void Awake()
         {
             if (!source)
@@ -30,13 +35,13 @@ namespace CNFramework
 
             if (isLocal)
             {
-                target.localPosition = LockAxis(target.localPosition, source.localPosition, transformAxis);
-                target.localEulerAngles = LockAxis(target.localEulerAngles, source.localEulerAngles, eulerAxis);
+                target.localPosition = LockAxis(target.localPosition, source.localPosition, transformAxis) + positionOffset;
+                target.localEulerAngles = LockAxis(target.localEulerAngles, source.localEulerAngles, eulerAxis) + eulerOffset;
             }
             else
             {
-                target.position = LockAxis(target.position, source.position, transformAxis);
-                target.eulerAngles = LockAxis(target.eulerAngles, source.eulerAngles, eulerAxis);
+                target.position = LockAxis(target.position, source.position, transformAxis) + positionOffset;
+                target.eulerAngles = LockAxis(target.eulerAngles, source.eulerAngles, eulerAxis) + eulerOffset;
             }
         }
 
@@ -75,17 +80,5 @@ namespace CNFramework
 
             return result;
         }
-        
-//        private Quaternion LockQuaternionAxis(Quaternion original)
-//        {
-//            var result = original;
-//            
-//            if (!eulerAxis.HasFlag(QuaternionAxisFlags.X)) result.x = 0;
-//            if (!eulerAxis.HasFlag(QuaternionAxisFlags.Y)) result.y = 0;
-//            if (!eulerAxis.HasFlag(QuaternionAxisFlags.Z)) result.z = 0;
-//            if (!eulerAxis.HasFlag(QuaternionAxisFlags.W)) result.w = 0;
-//
-//            return result;
-//        }
     }
 }

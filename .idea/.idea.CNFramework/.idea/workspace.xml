@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd4bb4de-8281-4694-b209-72c70dc7b1df" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CNFramework/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CNFramework/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CNFramework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CNFramework/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Examples/Scenes/ExampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Examples/Scenes/ExampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Prefabs/Player/PFB_PlayerRig_OVR.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Prefabs/Player/PFB_PlayerRig_OVR.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Prefabs/Pointer/Pointer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Prefabs/Pointer/Pointer.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Scripts/Input/Button.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Scripts/Input/Button.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Scripts/Locomotion/ArtificialLocomotion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Scripts/Locomotion/ArtificialLocomotion.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Rendering/LightweightRenderPipelineAsset.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Rendering/LightweightRenderPipelineAsset.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Scripts/Rig/Follower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Scripts/Rig/Follower.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Attributes/EnumFlagsAttribute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Attributes/EnumFlagsAttribute.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Bindings/Bindings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Bindings/Bindings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Bindings/Enums.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Bindings/Enums.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +26,6 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../../../../wkspaces/blasters_freeroam_unity/Assets/_BOTUFR/Scripts/Weapons/WeaponFrame.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Examples/Scenes/ExampleScene.unity" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D0FFE769-B7A3-4B4C-AC3A-7CDC5C696293/d7/ea42089c/MaskFieldGUI.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Rig/Follower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Bindings/Editor/ProjectBindingInitialization.cs" root0="FORCE_HIGHLIGHTING" />
@@ -53,7 +43,6 @@
     <setting file="file://$PROJECT_DIR$/../dash-territory-game/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Input/Axis2D.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../dark-clone/Assets/Scripts/Character/CharacterController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/58A34B0A-618D-424B-B5FC-18BB9BCDAC20/33/684198e4/Transform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRDisplay.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -116,9 +105,9 @@
         <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Bindings/Enums.cs" />
         <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Bindings/Bindings.cs" />
         <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Attributes/EnumFlagsAttribute.cs" />
-        <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/Rig/Follower.cs" />
         <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/Locomotion/ArtificialLocomotion.cs" />
         <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/Locomotion/VelocityLimiter.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/Rig/Follower.cs" />
       </list>
     </option>
   </component>
@@ -190,6 +179,7 @@
       <workItem from="1584620190326" duration="5511000" />
       <workItem from="1584799573893" duration="7784000" />
       <workItem from="1585454441150" duration="18671000" />
+      <workItem from="1585575553089" duration="261000" />
     </task>
     <servers />
   </component>
