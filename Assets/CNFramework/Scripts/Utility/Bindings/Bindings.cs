@@ -80,26 +80,22 @@ namespace CNFramework.Utility
 
 		private static void BindAxis(Axis axis)
 		{
-			SerializedObject serializedObject =
-				new SerializedObject(AssetDatabase.LoadAllAssetsAtPath("ProjectSettings/InputManager.asset")[0]);
-			SerializedProperty axesProperty = serializedObject.FindProperty("m_Axes");
-
-			SerializedProperty axisIter = axesProperty.Copy();
+			var serializedObject = new SerializedObject(AssetDatabase.LoadAllAssetsAtPath("ProjectSettings/InputManager.asset")[0]);
+			var axesProperty = serializedObject.FindProperty("m_Axes");
+			var axisIter = axesProperty.Copy();
+			
 			axisIter.Next(true);
 			axisIter.Next(true);
+			
 			while (axisIter.Next(false))
 			{
-				if (axisIter.FindPropertyRelative("m_Name").stringValue == axis.name)
-				{
-					// Axis already exists. Don't create binding.
-					return;
-				}
+				if (axisIter.FindPropertyRelative("m_Name").stringValue == axis.name) return;
 			}
 
 			axesProperty.arraySize++;
 			serializedObject.ApplyModifiedProperties();
 
-			SerializedProperty axisProperty = axesProperty.GetArrayElementAtIndex(axesProperty.arraySize - 1);
+			var axisProperty = axesProperty.GetArrayElementAtIndex(axesProperty.arraySize - 1);
 			axisProperty.FindPropertyRelative("m_Name").stringValue = axis.name;
 			axisProperty.FindPropertyRelative("descriptiveName").stringValue = axis.descriptiveName;
 			axisProperty.FindPropertyRelative("descriptiveNegativeName").stringValue = axis.descriptiveNegativeName;

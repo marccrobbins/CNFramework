@@ -23,6 +23,8 @@ namespace CNFramework
             }
 
             IsValid = true;
+            
+            value = Vector2.zero;
         }
 
         private void Update()
@@ -31,9 +33,9 @@ namespace CNFramework
 
             var xValue = Input.GetAxis(axisNameX);
             var yValue = Input.GetAxis(axisNameY);
-            
+
             value = new Vector2(xValue, yValue);
-            
+
             ProcessValue(value);
         }
     }

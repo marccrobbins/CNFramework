@@ -7,10 +7,15 @@ namespace CNFramework
         public bool isLocal;
         public Transform source;
         public Transform target;
+        public Vector3 positionOffset;
+        public Vector3 eulerOffset;
 
         [EnumFlags] public AxisFlags transformAxis;
         [EnumFlags] public AxisFlags eulerAxis;
 
+        private Vector3 _startingPosition;
+        private Vector3 _startingEuler;
+        
         private void Awake()
         {
             if (!source)
@@ -24,43 +29,56 @@ namespace CNFramework
             }
         }
 
-        private void Update()
+        private void LateUpdate()
         {
             if (!source || !target) return;
 
             if (isLocal)
             {
-                target.localPosition = LockAxis(source.localPosition, transformAxis);
-                target.localEulerAngles = LockAxis(source.localEulerAngles, eulerAxis);
+                target.localPosition = LockAxis(target.localPosition, source.localPosition, transformAxis) + positionOffset;
+                target.localEulerAngles = LockAxis(target.localEulerAngles, source.localEulerAngles, eulerAxis) + eulerOffset;
             }
             else
             {
-                target.position = LockAxis(source.position, transformAxis);
-                target.eulerAngles = LockAxis(source.eulerAngles, eulerAxis);
+                target.position = LockAxis(target.position, source.position, transformAxis) + positionOffset;
+                target.eulerAngles = LockAxis(target.eulerAngles, source.eulerAngles, eulerAxis) + eulerOffset;
             }
         }
 
-        private Vector3 LockAxis(Vector3 original, AxisFlags axis)
+        private Vector3 LockAxis(Vector3 original, Vector3 changed, AxisFlags axis)
         {
             var result = original;
-            
-            if (!axis.HasFlag(AxisFlags.X)) result.x = 0;
-            if (!axis.HasFlag(AxisFlags.Y)) result.y = 0;
-            if (!axis.HasFlag(AxisFlags.Z)) result.z = 0;
+            var axisIndex = (int) axis;
+
+            switch (axisIndex)
+            {
+                case -1 :
+                    result = changed;
+                    break;
+                case 1:
+                    result.x = changed.x;
+                    break;
+                case 2:
+                    result.y = changed.y;
+                    break;
+                case 3:
+                    result.x = changed.x;
+                    result.y = changed.y;
+                    break;
+                case 4:
+                    result.z = changed.z;
+                    break;
+                case 5:
+                    result.x = changed.x;
+                    result.z = changed.z;
+                    break;
+                case 6:
+                    result.y = changed.y;
+                    result.z = changed.z;
+                    break;
+            }
 
             return result;
         }
-        
-//        private Quaternion LockQuaternionAxis(Quaternion original)
-//        {
-//            var result = original;
-//            
-//            if (!eulerAxis.HasFlag(QuaternionAxisFlags.X)) result.x = 0;
-//            if (!eulerAxis.HasFlag(QuaternionAxisFlags.Y)) result.y = 0;
-//            if (!eulerAxis.HasFlag(QuaternionAxisFlags.Z)) result.z = 0;
-//            if (!eulerAxis.HasFlag(QuaternionAxisFlags.W)) result.w = 0;
-//
-//            return result;
-//        }
     }
 }

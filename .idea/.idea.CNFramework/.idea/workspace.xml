@@ -4,6 +4,9 @@
     <list default="true" id="cd4bb4de-8281-4694-b209-72c70dc7b1df" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Examples/Scenes/ExampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Examples/Scenes/ExampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Prefabs/Player/PFB_PlayerRig_OVR.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Prefabs/Player/PFB_PlayerRig_OVR.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Rendering/LightweightRenderPipelineAsset.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Rendering/LightweightRenderPipelineAsset.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CNFramework/Scripts/Rig/Follower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CNFramework/Scripts/Rig/Follower.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,22 +24,36 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../../../wkspaces/blasters_freeroam_unity/Assets/_BOTUFR/Scripts/Weapons/WeaponFrame.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Examples/Scenes/ExampleScene.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D0FFE769-B7A3-4B4C-AC3A-7CDC5C696293/d7/ea42089c/MaskFieldGUI.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Rig/Follower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Bindings/Editor/ProjectBindingInitialization.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRPlugin.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Locomotion/VelocityLimiter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/DebugUI/Scripts/DebugUIBuilder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/ThirdParty/openvr_api.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/440D1D09-336D-46EE-B6BA-2229A55AC755/63/c1dd3bb2/Enum.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Bindings/Flags.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Input/Button.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Bindings/Enums.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Bindings/Bindings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Input/InputAction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Input/CNInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../dash-territory-game/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Input/Axis2D.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../dark-clone/Assets/Scripts/Character/CharacterController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/58A34B0A-618D-424B-B5FC-18BB9BCDAC20/33/684198e4/Transform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRDisplay.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Attributes/EnumFlagsAttribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/58A34B0A-618D-424B-B5FC-18BB9BCDAC20/89/cc5bc61a/KeyCode.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Locomotion/ArtificialLocomotion.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/440D1D09-336D-46EE-B6BA-2229A55AC755/2a/ef272ff5/Environment.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D0FFE769-B7A3-4B4C-AC3A-7CDC5C696293/1e/b77fb216/EditorGUI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../wkspaces/blasters_freeroam_unity/Assets/_BOTUFR/Scripts/Weapons/HitScanBullet.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../wkspaces/blasters_freeroam_unity/Assets/_BOTUFR/Scripts/Weapons/ProjectileBullet.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Attributes/FilteredKeycodeAttribute.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -81,10 +98,16 @@
         <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Tags.cs" />
         <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Bindings/Editor/ProjectBindingInitialization.cs" />
         <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Bindings/Flags.cs" />
-        <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Attributes/EnumFlagsAttribute.cs" />
-        <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/Rig/Follower.cs" />
-        <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/Locomotion/ArtificialLocomotion.cs" />
         <option value="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/Input/Axis2D.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Attributes/FilteredKeycodeAttribute.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/Input/Button.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Bindings/Enums.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Bindings/Bindings.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/Utility/Attributes/EnumFlagsAttribute.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/Locomotion/ArtificialLocomotion.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/Locomotion/VelocityLimiter.cs" />
+        <option value="$PROJECT_DIR$/Assets/CNFramework/Scripts/Rig/Follower.cs" />
       </list>
     </option>
   </component>
@@ -127,10 +150,10 @@
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="15872">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="4312">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="15872" />
+      <option name="pid" value="4312" />
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
@@ -154,7 +177,9 @@
       <workItem from="1572054086325" duration="406000" />
       <workItem from="1584569726722" duration="7306000" />
       <workItem from="1584620190326" duration="5511000" />
-      <workItem from="1584799573893" duration="7184000" />
+      <workItem from="1584799573893" duration="7784000" />
+      <workItem from="1585454441150" duration="18671000" />
+      <workItem from="1585575553089" duration="261000" />
     </task>
     <servers />
   </component>
@@ -188,27 +213,5 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="breakpointCondition">
-      <expression>
-        <expression-string>debugObject.name == &quot;Grip&quot;</expression-string>
-        <language-id>C#</language-id>
-        <custom-info>RiderImportsList:</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>changedAction != null</expression-string>
-        <language-id>C#</language-id>
-        <custom-info>RiderImportsList:</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>axisName.Contains(&quot;Grip&quot;)</expression-string>
-        <language-id>C#</language-id>
-        <custom-info>RiderImportsList:</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
   </component>
 </project>
