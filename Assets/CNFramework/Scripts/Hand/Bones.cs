@@ -45,6 +45,7 @@ public class Bones : MonoBehaviour
 
             var follower = _boneFollowers[i];
             follower.transform.position = _bones[i].Transform.position;
+            follower.transform.rotation = _bones[i].Transform.rotation;
         }
     }
 }

@@ -27,6 +27,7 @@
               <e p="Bones.cs" t="Include" />
               <e p="FingerTipFollow.cs" t="Include" />
               <e p="Hand.cs" t="Include" />
+              <e p="HandVisualization.cs" t="Include" />
               <e p="VelocityEstimator.cs" t="Include" />
             </e>
             <e p="Input" t="Include">
@@ -42,6 +43,7 @@
             </e>
             <e p="Locomotion" t="Include">
               <e p="ArtificialLocomotion.cs" t="Include" />
+              <e p="VelocityLimiter.cs" t="Include" />
             </e>
             <e p="Pointer" t="Include">
               <e p="Pointer.cs" t="Include" />
@@ -62,6 +64,7 @@
             <e p="Utility" t="Include">
               <e p="Attributes" t="Include">
                 <e p="EnumFlagsAttribute.cs" t="Include" />
+                <e p="FilteredKeycodeAttribute.cs" t="Include" />
               </e>
               <e p="Bindings" t="Include">
                 <e p="Bindings.cs" t="Include" />
