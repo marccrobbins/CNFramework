@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/CNFramework/Scenes/QuestHands.unity
+    guid: 9cc3c652ead3a8a45a0a545ae1815986
+  - enabled: 0
+    path: Assets/Oculus/SampleFramework/Usage/HandsInteractionTrainScene.unity
+    guid: a9c41884ef0c347628dfd8a4af4a022e
+  - enabled: 0
     path: Assets/CNFramework/Examples/Scenes/ExampleScene.unity
     guid: aa64acbe13b8af94580b5819082a2dcd
   - enabled: 0

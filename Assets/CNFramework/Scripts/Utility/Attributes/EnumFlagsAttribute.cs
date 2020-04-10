@@ -6,7 +6,8 @@ namespace CNFramework
     {
         public EnumFlagsAttribute() { }
     }
-
+    
+#if UNITY_EDITOR
     [UnityEditor.CustomPropertyDrawer(typeof(EnumFlagsAttribute))]
     public class EnumFlagsAttributeDrawer : UnityEditor.PropertyDrawer
     {
@@ -15,4 +16,5 @@ namespace CNFramework
             property.intValue = UnityEditor.EditorGUI.MaskField(position, label, property.intValue, property.enumNames);
         }
     }
+#endif
 }

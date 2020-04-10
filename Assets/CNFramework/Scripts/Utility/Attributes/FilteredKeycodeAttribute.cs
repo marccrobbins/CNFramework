@@ -19,7 +19,7 @@ namespace CNFramework
             this.filter = filter;
         }
     }
-    
+#if UNITY_EDITOR
     [UnityEditor.CustomPropertyDrawer(typeof(FilteredKeycodeAttribute))]
     public class FilteredKeycodeAttributeDrawer : UnityEditor.PropertyDrawer
     {
@@ -61,4 +61,5 @@ namespace CNFramework
             property.intValue = codeInt;
         }
     }
+#endif
 }
