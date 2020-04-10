@@ -14,16 +14,6 @@ namespace CNFramework
         [SerializeField] private float length = 20;
         [SerializeField] private LayerMask validity;
 
-        private void Start()
-        {
-            CNInput.Register(hand, ControllerInput.TriggerAxis, Select);
-        }
-
-        private void OnDisable()
-        {
-            CNInput.Unregister(hand, ControllerInput.TriggerAxis, Select);
-        }
-
         private void LateUpdate()
         {
             Vector3 originPosition = transform.position;
