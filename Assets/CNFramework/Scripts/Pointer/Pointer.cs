@@ -7,8 +7,6 @@ namespace CNFramework
 {
     public class Pointer : MonoBehaviour
     {
-        [SerializeField] private Handedness hand;
-        
         [SerializeField] private Renderer line;
         [SerializeField] private Renderer dot;
         [SerializeField] private float length = 20;
@@ -41,11 +39,6 @@ namespace CNFramework
             var linePosition = lineTransform.localPosition;
             linePosition.z = lineScale.z * 0.5f;
             lineTransform.localPosition = linePosition;
-        }
-
-        private void Select(float result, Handedness handedness)
-        {
-            Debug.LogFormat("{0} pointer selecting something", hand);
         }
     }
 }

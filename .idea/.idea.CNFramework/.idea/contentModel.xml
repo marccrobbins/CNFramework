@@ -19,19 +19,17 @@
             </e>
           </e>
           <e p="Scripts" t="Include">
-            <e p="Debug" t="Include">
-              <e p="DebugHandVisuals.cs" t="Include" />
-              <e p="OVRDebugHandVisuals.cs" t="Include" />
-            </e>
             <e p="Hand" t="Include">
+              <e p="Bones.cs" t="Include" />
+              <e p="FingerTipFollow.cs" t="Include" />
               <e p="Hand.cs" t="Include" />
+              <e p="HandVisualization.cs" t="Include" />
               <e p="VelocityEstimator.cs" t="Include" />
             </e>
             <e p="Input" t="Include">
               <e p="Axis1D.cs" t="Include" />
               <e p="Axis2D.cs" t="Include" />
               <e p="Button.cs" t="Include" />
-              <e p="CNInput.cs" t="Include" />
               <e p="InputAction.cs" t="Include" />
               <e p="InputManager.cs" t="Include" />
             </e>
@@ -253,6 +251,11 @@
               <e p="NetChat" t="Include">
                 <e p="DataEntry.cs" t="Include" />
               </e>
+              <e p="RichPresenceSample" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="RichPresenceSample.cs" t="Include" />
+                </e>
+              </e>
               <e p="SimplePlatformSample" t="Include">
                 <e p="DataEntry.cs" t="Include" />
               </e>
@@ -373,6 +376,11 @@
                 <e p="MatchmakingEnqueueResult.cs" t="Include" />
                 <e p="MatchmakingEnqueueResultAndRoom.cs" t="Include" />
                 <e p="MatchmakingStats.cs" t="Include" />
+                <e p="NetSyncConnection.cs" t="Include" />
+                <e p="NetSyncSession.cs" t="Include" />
+                <e p="NetSyncSessionsChangedNotification.cs" t="Include" />
+                <e p="NetSyncSetSessionPropertyResult.cs" t="Include" />
+                <e p="NetSyncVoipAttenuationValue.cs" t="Include" />
                 <e p="NetworkingPeer.cs" t="Include" />
                 <e p="OrgScopedID.cs" t="Include" />
                 <e p="Party.cs" t="Include" />
@@ -395,6 +403,11 @@
                 <e p="UserProof.cs" t="Include" />
                 <e p="UserReportID.cs" t="Include" />
               </e>
+              <e p="NetSyncConnectionStatus.cs" t="Include" />
+              <e p="NetSyncDisconnectReason.cs" t="Include" />
+              <e p="NetSyncOptions.cs" t="Include" />
+              <e p="NetSyncVoipMicSource.cs" t="Include" />
+              <e p="NetSyncVoipStreamMode.cs" t="Include" />
               <e p="Packet.cs" t="Include" />
               <e p="PartyUpdateAction.cs" t="Include" />
               <e p="PeerConnectionState.cs" t="Include" />
@@ -478,6 +491,31 @@
                 <e p="GuardianBoundaryDisplay.cs" t="Include" />
                 <e p="GuardianBoundaryEnforcer.cs" t="Include" />
               </e>
+              <e p="HandsInteraction" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="BoneCapsuleTriggerLogic.cs" t="Include" />
+                  <e p="ButtonController.cs" t="Include" />
+                  <e p="ButtonTriggerZone.cs" t="Include" />
+                  <e p="ColliderZone.cs" t="Include" />
+                  <e p="HandsManager.cs" t="Include" />
+                  <e p="Interactable.cs" t="Include" />
+                  <e p="InteractableRegistry.cs" t="Include" />
+                  <e p="InteractableToolsCreator.cs" t="Include" />
+                  <e p="InteractableToolsInputRouter.cs" t="Include" />
+                  <e p="Tools" t="Include">
+                    <e p="FingerTipPokeTool.cs" t="Include" />
+                    <e p="FingerTipPokeToolView.cs" t="Include" />
+                    <e p="InteractableTool.cs" t="Include" />
+                    <e p="InteractableToolView.cs" t="Include" />
+                    <e p="PinchStateModule.cs" t="Include" />
+                    <e p="RayTool.cs" t="Include" />
+                    <e p="RayToolView.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="Shaders" t="Include">
+                  <e p="OculusSampleAlphaHandOutline.shader" t="Include" />
+                </e>
+              </e>
               <e p="Locomotion" t="Include">
                 <e p="Materials" t="Include">
                   <e p="ColumnGlow.shader" t="Include" />
@@ -489,6 +527,7 @@
                   </e>
                   <e p="LocomotionController.cs" t="Include" />
                   <e p="LocomotionTeleport.cs" t="Include" />
+                  <e p="SimpleCapsuleWithStickMovement.cs" t="Include" />
                   <e p="TeleportAimHandler.cs" t="Include" />
                   <e p="TeleportAimHandlerLaser.cs" t="Include" />
                   <e p="TeleportAimHandlerParabolic.cs" t="Include" />
@@ -497,6 +536,7 @@
                   <e p="TeleportInputHandler.cs" t="Include" />
                   <e p="TeleportInputHandlerAvatarTouch.cs" t="Include" />
                   <e p="TeleportInputHandlerHMD.cs" t="Include" />
+                  <e p="TeleportInputHandlerTouch.cs" t="Include" />
                   <e p="TeleportOrientationHandler.cs" t="Include" />
                   <e p="TeleportOrientationHandler360.cs" t="Include" />
                   <e p="TeleportOrientationHandlerHMD.cs" t="Include" />
@@ -523,6 +563,7 @@
                 <e p="Plugins" t="Include">
                   <e p="Android" t="Include">
                     <e p="Audio360" t="Include">
+                      <e p="NOTICE.txt" t="Include" />
                       <e p="ThirdPartyNotices.txt" t="Include" />
                     </e>
                     <e p="NativeVideoPlayer.cs" t="Include" />
@@ -554,6 +595,34 @@
                 </e>
                 <e p="Scripts" t="Include">
                   <e p="DistanceGrabberSample.cs" t="Include" />
+                </e>
+              </e>
+              <e p="HandsTrainExample" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="ControllerBoxController.cs" t="Include" />
+                  <e p="CowController.cs" t="Include" />
+                  <e p="HandsActiveChecker.cs" t="Include" />
+                  <e p="PanelHMDFollower.cs" t="Include" />
+                  <e p="SelectionCylinder.cs" t="Include" />
+                  <e p="TrackSegment.cs" t="Include" />
+                  <e p="TrainButtonVisualController.cs" t="Include" />
+                  <e p="TrainCar.cs" t="Include" />
+                  <e p="TrainCarBase.cs" t="Include" />
+                  <e p="TrainCrossingController.cs" t="Include" />
+                  <e p="TrainLocomotive.cs" t="Include" />
+                  <e p="TrainTrack.cs" t="Include" />
+                  <e p="Utils" t="Include">
+                    <e p="Pose.cs" t="Include" />
+                  </e>
+                  <e p="WindmillBladesController.cs" t="Include" />
+                  <e p="WindmillController.cs" t="Include" />
+                </e>
+                <e p="Shaders" t="Include">
+                  <e p="ButtonGlow.shader" t="Include" />
+                  <e p="GradientSkybox.shader" t="Include" />
+                  <e p="OculusSampleTrainPropsShader.shader" t="Include" />
+                  <e p="OculusSampleTrainSmokeShader.shader" t="Include" />
+                  <e p="XingLightShader.shader" t="Include" />
                 </e>
               </e>
               <e p="Locomotion" t="Include">
@@ -638,6 +707,8 @@
               <e p="Oculus.VR.Editor.asmdef" t="Include" />
               <e p="OVRADBTool.cs" t="Include" />
               <e p="OVRBuild.cs" t="Include" />
+              <e p="OVRBundleManager.cs" t="Include" />
+              <e p="OVRBundleTool.cs" t="Include" />
               <e p="OVRConfig.cs" t="Include" />
               <e p="OVRDeviceSelector.cs" t="Include" />
               <e p="OVRDirectorySyncer.cs" t="Include" />
@@ -686,10 +757,13 @@
               </e>
               <e p="Editor" t="Include">
                 <e p="Oculus.VR.Scripts.Editor.asmdef" t="Include" />
+                <e p="OVRCustomSkeletonEditor.cs" t="Include" />
+                <e p="OVREditorUtil.cs" t="Include" />
                 <e p="OVRManagerEditor.cs" t="Include" />
                 <e p="OVROverlayDestRectEditor.shader" t="Include" />
                 <e p="OVROverlayEditor.cs" t="Include" />
                 <e p="OVROverlaySrcRectEditor.shader" t="Include" />
+                <e p="OVRProjectConfigEditor.cs" t="Include" />
               </e>
               <e p="OVRBoundary.cs" t="Include" />
               <e p="OVRCameraRig.cs" t="Include" />
@@ -708,21 +782,31 @@
               <e p="OVRPlatformMenu.cs" t="Include" />
               <e p="OVRPlugin.cs" t="Include" />
               <e p="OVRProfile.cs" t="Include" />
+              <e p="OVRResources.cs" t="Include" />
+              <e p="OVRSceneLoader.cs" t="Include" />
               <e p="OVRTracker.cs" t="Include" />
+              <e p="OVRXRSDKNative.cs" t="Include" />
               <e p="Util" t="Include">
                 <e p="OVRAudioSourceTest.cs" t="Include" />
+                <e p="OVRAutoDestroyInMRC.cs" t="Include" />
                 <e p="OVRChromaticAberration.cs" t="Include" />
                 <e p="OVRControllerHelper.cs" t="Include" />
                 <e p="OVRCubemapCapture.cs" t="Include" />
                 <e p="OVRCursor.cs" t="Include" />
+                <e p="OVRCustomSkeleton.cs" t="Include" />
                 <e p="OVRDebugInfo.cs" t="Include" />
                 <e p="OVRGazePointer.cs" t="Include" />
                 <e p="OVRGearVrControllerTest.cs" t="Include" />
                 <e p="OVRGrabbable.cs" t="Include" />
                 <e p="OVRGrabber.cs" t="Include" />
                 <e p="OVRGridCube.cs" t="Include" />
+                <e p="OVRHand.cs" t="Include" />
+                <e p="OVRHandTest.cs" t="Include" />
                 <e p="OVRInputModule.cs" t="Include" />
+                <e p="OVRMesh.cs" t="Include" />
+                <e p="OVRMeshRenderer.cs" t="Include" />
                 <e p="OVRMixedRealityCaptureSettings.cs" t="Include" />
+                <e p="OVRMixedRealityCaptureTest.cs" t="Include" />
                 <e p="OVRModeParms.cs" t="Include" />
                 <e p="OVRMonoscopic.cs" t="Include" />
                 <e p="OVRNetwork.cs" t="Include" />
@@ -736,6 +820,8 @@
                 <e p="OVRResetOrientation.cs" t="Include" />
                 <e p="OVRSceneSampleController.cs" t="Include" />
                 <e p="OVRScreenFade.cs" t="Include" />
+                <e p="OVRSkeleton.cs" t="Include" />
+                <e p="OVRSkeletonRenderer.cs" t="Include" />
                 <e p="OVRSystemPerfMetrics.cs" t="Include" />
                 <e p="OVRWaitCursor.cs" t="Include" />
               </e>
@@ -749,6 +835,34 @@
               <e p="SimpleJSON.cs" t="Include" />
               <e p="SimpleJSONUnity.cs" t="Include" />
             </e>
+          </e>
+        </e>
+        <e p="TextMesh Pro" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="LiberationSans - OFL.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+            <e p="Shaders" t="Include">
+              <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+              <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+              <e p="TMP_Bitmap.shader" t="Include" />
+              <e p="TMP_SDF Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface.shader" t="Include" />
+              <e p="TMP_SDF.shader" t="Include" />
+              <e p="TMP_Sprite.shader" t="Include" />
+              <e p="TMPro.cginc" t="Include" />
+              <e p="TMPro_Properties.cginc" t="Include" />
+              <e p="TMPro_Surface.cginc" t="Include" />
+            </e>
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
       </e>

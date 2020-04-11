@@ -1,6 +1,8 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SpatialTracking;
 
 namespace CNFramework
 {
@@ -38,9 +40,20 @@ namespace CNFramework
         public Vector3 LocalLeftHandScale  => leftHand.localScale;
         public Vector3 LocalRightHandScale => rightHand.localScale;
 
+        public TrackedPoseDriver driver;
+        public Vector3 poseOffset;
+
         private void Awake()
         {
             if (!Instance) Instance = this;
+        }
+
+        private void Update()
+        {
+            var pose = new Pose();
+            pose.position = poseOffset;
+            
+            driver.originPose = pose;
         }
     }
 }
